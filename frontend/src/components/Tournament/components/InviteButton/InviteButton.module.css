@@ -1,0 +1,134 @@
+/* .inviteButton {
+  background: #f8c25c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.inviteButton:hover {
+  background: #e8aa38;
+} */
+
+.inviteButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #f8c25c, #f8a630);
+  color: white;
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 500; /* Medium font weight */
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.inviteButton:hover {
+  background: linear-gradient(to right, #f8a630, #e8921c);
+  box-shadow: 0 6px 10px rgba(248, 194, 92, 0.25);
+  transform: scale(1.05);
+}
+
+.inviteButton:active {
+  transform: scale(0.95);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #384B6C 0%, #2B374D 63%, #1E2533 100%);;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 90%;
+  max-width: 400px;
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modelTitle {
+  display: flex;
+
+}
+
+.modalTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.closeButton:hover {
+  color: white;
+}
+
+.friendsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  /* background: #374151; */
+  border: 1px solid #374151;
+  border-radius: 0.5rem;
+}
+
+.friend:last-child {
+  /* border-bottom: 1px solid #374151; */
+}
+
+.friendInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #f8c25c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

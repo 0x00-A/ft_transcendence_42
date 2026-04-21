@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: var(--color-game-screen-bg);
+  height:  calc(100vh - var(--header-height) - var(--footer-height));
+  border-radius: 10px;
+  min-height: 700px;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset;
+  padding: 30px;
+  position: relative;
+}
+
+.gameArea {
+    position: relative;
+    box-sizing: content-box;
+    background-color: var(--main-surface-tertiary);
+    width: 650px;
+    height: 480px;
+    color: var(--game-screen-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    margin: 0 auto;
+    border: 6px solid var(--text-color);
+}
+
+.gameArea * {
+    font-family: "Courier New",Courier,monospace
+}

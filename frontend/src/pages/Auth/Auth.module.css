@@ -1,0 +1,204 @@
+.authContainer {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.authFormBox {
+    background-color: var(--main-surface-tertiary);
+    width: 450px;
+    height: 650px;
+    padding: 5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+    perspective: 100px;
+    transition: 1s;
+}
+
+.authFormSwitch {
+    transition: 1s;
+    transform-origin: right center;
+    transform-style: preserve-3d;
+    transform: translateX(102%);
+    perspective: 100px;
+    /* position: relative; */
+    z-index: 3;
+}
+
+@media (max-width: 1024px) {
+    /* .authContainer {
+        flex-direction: column;
+    } */
+    .authFormSwitch {
+        transform: none !important;
+    }
+}
+    /* margin: 5px; */
+    /* backface-visibility: initial; */
+    /* transform: translateX(-100%); */
+    /* margin-left: 5px; */
+    /* transition: 2s;
+    transform-style: preserve-3d; */
+    /* transform-box: ; */
+    /* transition-duration:  */
+    /* transform-origin: left center;
+    transform: translate3d(-500px, 0, 0); */
+    /* border: none;
+    border-right: 1px solid aliceblue; */
+
+.authFormHeader {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.authFormHeader h1 {
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+}
+
+.authFormHeader p {
+    font-size: small;
+}
+
+
+/* .switchImgBox {
+    transition: 2s;
+    transform-style: preserve-3d;
+    transform-origin: right center;
+    /* perspective: 100px; */
+    /* transform: translateX(102%); */
+    /* margin: 5px; */
+    /* margin-right: 0; */
+    /* border: none;
+    border-left: 1px solid aliceblue; */
+    /* margin: 0; */
+    /* margin-right: 5px; */
+    /* transform: rotate3d(0, 1, 0, 180deg);
+} */
+
+/*
+    transition-property;                    3lamen ghaytebe9haa wach border wela background wela transform
+    transition-duration: 1s;                mch7aal ghaydir dlwe9t fhad lanimation
+    transition-delay: 1s;                   mch7al ghaytssena 3ad bach yebda had lanimation
+    transition-timing-function  ease;       kifach ghayt3amel m3a lanimation mn lewel 7ta lekher
+    short hand
+    transition: property duration delay timing-function
+*/
+
+/*
+    transform-origin: tbdele lposition dyal lelement
+    transform-style: kifach lelement ghatrendraa
+    perspective: kifach lelement ghayballiik
+    perspective-origin
+    backface-visibility
+*/
+
+
+.authBtn {
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* width: 60%; */
+    /* height: 35px; */
+    border-radius: 20px;
+    background-color: #07689f;
+    color: var(--text-color);
+    font-size: large;
+    margin-top: 5px;
+    padding: 10px 25px;
+    outline: none;
+    /* border: none;
+    background-color: var(--color-brand--1); */
+}
+
+.authBtn:hover {
+    background-color: var(--color-active);
+    cursor: pointer;
+}
+
+.authError {
+    position: absolute;
+    width: 100%;
+    border-radius: inherit;
+    height: 30px;
+    padding: 15px;
+    color: #a94442;
+    background-color: #BF7877;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 0;
+    right: 0;
+    animation-name: disapear;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.authSuccess {
+    position: absolute;
+    width: 100%;
+    border-radius: inherit;
+    height: 30px;
+    padding: 15px;
+    color: #09640f;
+    background-color: #8bf574;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 0;
+    right: 0;
+    animation-name: disapear;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* .authStat {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+} */
+
+.authFooter {
+    /* border: 1px solid white; */
+    /* margin-top: 300px; */
+    /* position: absolute; */
+    /* bottom: calc(0px + 7rem); */
+    display: flex;
+
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* box-sizing: border-box; */
+}
+
+.authFooter p {
+    font-size: small;
+    color: aliceblue;
+}
+
+.authFooter button {
+    border: none;
+    background: none;
+    color: rgb(0, 132, 247);
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: underline;
+}

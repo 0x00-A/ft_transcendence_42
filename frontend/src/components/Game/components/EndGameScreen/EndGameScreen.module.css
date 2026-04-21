@@ -1,0 +1,24 @@
+.endGameScreen {
+    position: absolute;
+    top: 0;
+    /* width: 50%; */
+    height: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.endGameScreen>button {
+    width: 300px
+}
+
+.endGameScreen>* {
+    margin-bottom: 10px
+}
+
+.winMessage {
+    font-weight: 700;
+    font-size: 60px
+}

@@ -1,0 +1,46 @@
+.mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid white;
+  background-color: var(--color-game-screen-bg);
+  cursor: pointer;
+
+  width: 200px;
+  max-width: 200px;
+  min-width: 100px;
+  height: 150px;
+  padding: 0 10px;
+  transform: skewX(-5deg);
+  color: white;
+  font-size: 20px;
+
+  &:hover {
+    border: 3px solid var(--color-brand--2);
+    /* scale: 1.05; */
+    transform: skewX(-5deg) scaleY(1.1);
+    .title {
+      font-weight: 700;
+      text-transform: capitalize;
+      font-size: 20px;
+    }
+  }
+}
+
+.mode .title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.mode .info {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.info::first-letter {
+  text-transform: uppercase;
+  /* font-size: 120%; */
+  /* font-weight: bold; */
+}

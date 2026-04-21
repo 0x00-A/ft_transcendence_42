@@ -1,0 +1,771 @@
+{
+    "showMyProfile": "Mi Perfil",
+  "WaitingPlayers": "¡A la espera de más jugadores!",
+  "onlyPlayers": "¡Eres el único jugador!",
+  "editEmail": {
+      "btnEdit": "Editar",
+      "editEmail": "Editar su correo electrónico",
+      "description": "Le enviaremos un enlace de verificación a su nuevo correo electrónico. (verificación requerida para guardar el nuevo correo electrónico).",
+      "label": "Nuevo correo electrónico",
+      "btnCancel": "Cancelar",
+      "btnSubmit": "Entregar"
+  },
+  "deleteAccount": {
+      "btnDelete": "Eliminar cuenta",
+      "title": "Solicitud de supresión de cuenta",
+      "description": "Al solicitar la eliminación de su cuenta, todos los datos asociados a ella serán borrados de nuestro sistema.",
+      "warning": "¿Está seguro de que desea eliminar su cuenta?"
+  },
+  "ConfirmationModal": {
+      "message": "¡Confirmar cierre de sesión!",
+      "Confirm": "Confirmar",
+      "Cancel": "Cancelar"
+  },
+  "toast": {
+      "fromRequest": "Solicitud de amistad de",
+      "requestAccepted": "¡ha aceptado tu solicitud de amistad!",
+      "newMessage": "te ha enviado un mensaje.",
+      "gameInvite": "Invitación de juego de",
+      "TournamentInvite": "Invitación al torneo de",
+      "inviteReject": "La invitación ha expirado o ha sido rechazada.",
+      "gameAddress": "Juego creado con éxito"
+  },
+  "backend": {
+  },
+  "errorsFriends": {
+      "unblock": "Error al desbloquear al amigo, inténtalo de nuevo",
+      "block": "Error al bloquear al amigo, inténtalo de nuevo",
+      "request": "Error al aceptar la solicitud de amistad, inténtalo de nuevo",
+      "remove": "Error al eliminar al amigo, inténtalo de nuevo",
+      "cancel": "Error al cancelar la solicitud de amistad, inténtalo de nuevo",
+      "send": "Error al enviar la solicitud de amistad, inténtalo de nuevo",
+      "reject": "Error al rechazar la solicitud de amistad, inténtalo de nuevo",
+      "action": "Error al realizar la acción, inténtalo de nuevo"
+  },
+  "lang": "es",
+  "footer": "ft_transcendence. Todos los derechos reservados.",
+  "welcome": {
+      "title": "FT-PONG",
+      "description": "¿Listo para comenzar tu próximo partido y subir en la clasificación?",
+      "playButton": "Juega ahora"
+  },
+  "noChatSelected": {
+      "title": "¡Bienvenido a tu chat!",
+      "description1": "Por favor selecciona una conversación para comenzar a chatear.",
+      "description2": "Si aún no tienes amigos",
+      "addFriendButton": "Agregar amigo"
+  },
+  "chatHeader": {
+      "typing": "Escribiendo...",
+      "activeNow": "Activo ahora",
+      "lastSeen": "Última vez visto a las"
+  },
+  "messageInput": {
+      "placeholder": "Escribe un mensaje",
+      "block": {
+          "unblockBtn": "Desatascar",
+          "blocker": "Has bloqueado a esta usuario",
+          "blocked": "Estas bloqueada por esta usuario",
+          "description": "No puedes enviar mensajes a este usuario y no recibirás sus mensajes."
+      }
+  },
+  "messageArea": {
+      "showMoreButton": "Mostrar más"
+  },
+  "message": {
+      "sender": "Tú"
+  },
+  "MessageList": {
+      "placeholder": "Buscar amigas",
+      "noUserFound": "No se encontraron usuarios que coincidan",
+      "noConversationFound": "No tienes ninguna conversación actualmente usa la búsqueda arriba para buscar es amigo y agregar conversación.",
+      "menu": {
+          "markAsRead": "Marcar como leído",
+          "closeChat": "Cerrar chat",
+          "viewProfile": "Ver perfil",
+          "block": "Bloquear",
+          "unblock": "Desbloquear"
+      }
+
+  },
+  "optionsButton": "charlar",
+  "settingsSection": {
+      "profileButton": "Perfil",
+      "closeChat": "Cerrar chat",
+      "inviteButton": "Invitar",
+      "privacy": "Privacidad",
+      "mutualFriends": "Amigos en común",
+      "block": "Bloquear",
+      "unblock": "Desbloquear",
+      "noMutualFriends": "No se encontraron amigos en común.",
+      "addUser": "Agregar usuario"
+  },
+  "timeDifference": {
+      "justNow": "Justo ahora",
+      "minute": "Hace 1 minuto",
+      "minutes": "Hace {{count}} minutos",
+      "hour": "Hace 1 hora",
+      "hours": "Hace {{count}} horas",
+      "day": "Hace 1 día",
+      "days": "Hace {{count}} días",
+      "week": "Hace 1 semana",
+      "weeks": "Hace {{count}} semanas",
+      "year": "Hace 1 año",
+      "years": "Hace {{count}} años"
+  },
+  "sidebar": {
+      "dashboard": "Tablero",
+      "game": "Juego",
+      "chat": "charlar",
+      "friends": "Amigos",
+      "leaderboard": "Clasificación",
+      "profile": "Perfil",
+      "logout": "cerrar sesión",
+      "lightMode": "Modo claro",
+      "darkMode": "modo oscuro"
+  },
+  "sidebarFriends": {
+      "allFriends": "Todos los amigos",
+      "onlineFriends": "Amigos en línea",
+      "friendRequests": "Solicitudes de amistad",
+      "sentRequests": "Solicitudes enviadas",
+      "blockedList": "Lista de bloqueados",
+      "addFriend": "Agregar amigo"
+  },
+  "allFriends": {
+      "title": "Todos los amigos",
+      "placeholder": "Buscar amigos...",
+      "online": "En línea",
+      "offline": "Desconectado",
+      "pupMessage": "Mensaje",
+      "pupInvite": "Invitar",
+      "pupBlock": "Bloquear",
+      "pupUnfriend": "Eliminar amigo",
+      "noRequests": "Aún no hay amigas",
+      "description": "Parece que tu lista de amigos está vacía. ¡Empieza a conectarte buscando amigos o enviando invitaciones!"
+  },
+  "onlineFriends": {
+      "title": "Amigas en linea",
+      "online": "en línea",
+      "pupMessage": "Ameqqran",
+      "pupInvite": "Asgaddef",
+      "noRequests": "No hay amigas en linea",
+      "description": "Parece que ninguno de tus amigos está en línea en este momento. ¡Invita a algunos amigos o vuelve a visitarnos más tarde!"
+  },
+  "friendRequests": {
+      "title": "Solicitudes de Amistad",
+      "pupAccept": "Aceptar",
+      "pupReject": "Rechazar",
+      "description": "No tienes solicitudes de amistad pendientes en este momento. ¡Conéctate con más personas para expandir tu red!",
+      "noRequests": "No hay Solicitudes de Amistad"
+  },
+  "sentRequests": {
+      "title": "Solicitudes Enviadas",
+      "pupCancel": "Cancelar",
+      "description": "No tienes solicitudes enviadas en este momento. ¡Conéctate con más personas para expandir tu red!",
+      "noRequests": "No hay Solicitudes Enviadas"
+  },
+  "blockedList": {
+      "title": "Lista de bloqueados",
+      "placeholder": "Buscar usuarios bloqueados...",
+      "pupUnblock": "Desbloquear",
+      "description": "No has bloqueado a ningún usuario. Los usuarios que bloquees aparecerán aquí.",
+      "noRequests": "No hay Usuarios Bloqueados"
+  },
+  "addFriend": {
+      "title": "Buscar y Agregar Amigos",
+      "placeholder": "Encuentra a tu amigo...",
+      "pupViewProfile": "Ver Perfil",
+      "pupFriend": "Amigo",
+      "pupAccept": "Aceptar",
+      "pupReject": "Rechazar",
+      "pupCancel": "Cancelar",
+      "pupPending": "Pendiente",
+      "pupAddFriend": "Agregar amigo",
+      "notFound": "No se encontró ningún usuario",
+      "Suggested": "Conexiones Sugeridas"
+  },
+  "SearchUsers": {
+      "placeholder": "Buscar...",
+      "pupFriend": "Amigo",
+      "pupAccept": "Aceptar",
+      "pupReject": "Rechazar",
+      "pupCancel": "Cancelar",
+      "pupPending": "Pendiente",
+      "pupAddFriend": "Agregar amigo",
+      "pupMessage": "Mensaje",
+      "notFound": "No se encontró ningún usuario",
+      "loadingUsers": "No se pudieron cargar los usuarios. Compruebe su conexión a internet.",
+      "retry": "Rever"
+  },
+  "notifications": {
+      "title": "Notificaciones",
+      "clearAll": "Limpiar todo",
+      "loadMore": "Ver más",
+      "loading": "Cargando...",
+      "empty": "Notificaciones Vacías"
+  },
+  "game": {
+      "toasts": {
+          "GameNotStarted": "Lo siento, el otro jugador no se unió al juego.",
+          "MultiGameNotStarted": "Lo siento, algún jugador no llegó al juego."
+      },
+      "gameArea": "IR!",
+      "localGame": {
+          "title": "Juego Local",
+          "description": "Juega con amigos",
+          "onePlayer": "Una jugadora",
+          "twoPlayer": "Dos jugadoras",
+          "OptionsScreen": {
+              "Sound": "SONIDO",
+              "SetWinningScore": "Establecer puntuación ganadora",
+              "SetControllerType": "Establecer el tipo de controlador",
+              "ControllerOptions": {
+                  "Mouse": "Ratón",
+                  "Keyboard": "Teclado"
+              }
+          },
+          "DifficultyScreen": {
+              "Title": "Elija la dificultad",
+              "DifficultyOptions": {
+                  "Easy": "Fácil",
+                  "Normal": "Normal",
+                  "Hard": "Dura"
+              }
+          },
+          "EndGameScreen": {
+              "Win": "Tú ganas!",
+              "Lose": "Tu pierdes!",
+              "Player1Wins": "¡Jugador 1 Gana!",
+              "Player2Wins": "¡Jugador 2 Gana!",
+              "YouWin": "¡Tú Ganas!",
+              "ComputerWins": "¡La Computadora Gana!",
+              "PlayAgain": "Jugar de nuevo",
+              "GoBack": "Volver"
+          },
+          "paused": "en pausa"
+      },
+      "remoteGame": {
+          "title": "Juego Remoto",
+          "description": "Desafía en línea",
+          "matchmakingScreen": {
+              "matchmakingInProgress": "Emparejamiento en progreso",
+              "searchingForOpponent": "Buscando un oponente digno",
+              "playersOnline": "Jugadores en línea",
+              "skillMatch": "Nivel de habilidad",
+              "highSkillMatch": "Alto",
+              "cancelMatchmaking": "Cancelar emparejamiento"
+          }
+      },
+      "remoteTournament": {
+          "title": "Torneo Remoto",
+          "description": "Crea un torneo en línea",
+          "CreateTournamentModal": {
+              "Label": "Crear torneo",
+              "InputPlaceholder": "Introduzca el nombre del torneo",
+              "SubmitButton": "Entregar",
+              "CancelButton": "Cancelar",
+              "AlertMessage": "Ingrese un nombre para el torneo."
+          },
+          "playerReady": {
+              "Players": "Jugadores",
+              "Format": "Formato",
+              "SingleElimination": "Eliminación Simple",
+              "Status": "Estado",
+              "Created": "Creado"
+          },
+          "leaveTournamentButton": {
+              "leaveTournament": "Salir del Torneo",
+              "leaveConfirmationTitle": "¿Salir del Torneo?",
+              "leaveConfirmationDescription": "¿Estás seguro de que quieres salir del torneo? Esta acción no se puede deshacer y puede resultar en la cancelación del torneo.",
+              "stayButton": "Permanecer",
+              "leaveButton": "Salir del Torneo"
+          },
+          "InviteFriendsButton": {
+                "InviteFriends": "Invitar amigos",
+                "InviteButton": "Invitar",
+                "toasts": {
+                    "InviteSent": "Invitación enviada"
+                }
+          },
+          "sparkleEffect": {
+              "cancel": "Cancelar...",
+              "loading": "Cargando...",
+              "ready": "¡LISTO!",
+              "readyUp": "PREPARARSE"
+          }
+      },
+      "localTournament": {
+          "title": "Torneo Local",
+          "description": "Torneo local",
+          "TournamentForm": {
+              "Title": "Registro del Torneo",
+              "InputPlaceholder": "Ingrese el nombre del jugador",
+              "AddPlayerButton": "Agregar Jugador",
+              "ErrorMessages": {
+                  "EmptyPlayer": "El nombre del jugador no puede estar vacío",
+                  "DuplicatePlayer": "El nombre del jugador debe ser único"
+              },
+              "StartTournamentButton": "Iniciar Torneo"
+          },
+          "TournamentHeader": {
+              "Round1": "ronda 1",
+              "Finals": "Finales"
+          },
+          "pong": {
+              "vs": "CONTRA",
+              "paused": "En pausa",
+              "ClickToStart": "Haga clic para comenzar",
+              "start": "Comenzar"
+          }
+      },
+      "multipleGame": {
+          "title": "Juego Múltiple",
+          "description": "Juega con amigos",
+          "PlayerCard": {
+              "Score": "Puntaje",
+              "Against": "Contra"
+          },
+          "WaitingPJ": "Esperando a que las jugadoras se unan..."
+      },
+      "joinedTournaments": {
+          "title": "Torneos Inscritos",
+          "players": "Jugadores:",
+          "status": "Estado:",
+          "started": "Iniciado:",
+          "noTournament": "¡No te has unido a ningún torneo todavía!",
+          "statusGame": {
+              "waiting": "espera",
+              "ongoing": "en curso",
+              "ended": "terminó",
+              "aborted": "abortada",
+              "unknown": "espera"
+          }
+      },
+      "openTournaments": {
+          "title": "Torneos Abiertos",
+          "header": {
+              "id": "ID",
+              "name": "Nombre",
+              "creator": "Creador",
+              "creationDate": "Fecha de Creación",
+              "players": "Jugadores",
+              "action": "Acción"
+          },
+          "joinButton": "Unirse",
+          "noTournaments": "No hay torneos disponibles en este momento."
+      }
+  },
+  "Profile": {
+      "FriendsOther": {
+          "title": "Amigos",
+          "mutualFriends": "Amigos en común",
+          "allFriends": "Todos los amigos",
+          "noMutualFriends": "Sin amigos en común",
+          "playerLonely": "Este jugador está solo",
+          "Level": "Nivel:"
+      },
+      "informations": "Información",
+      "security": "Seguridad",
+      "errors": {
+          "signup": {
+              "username": {
+                  "required": "¡Nombre de usuario es obligatorio!",
+                  "min": "¡El nombre de usuario debe tener al menos 4 caracteres!",
+                  "max": "¡El nombre de usuario no debe exceder 14 caracteres!"
+              },
+              "email": {
+                  "required": "¡Correo electrónico es obligatorio!",
+                  "invalid": "¡Formato de correo electrónico inválido!"
+              },
+              "password": {
+                  "required": "¡Contraseña es obligatoria!",
+                  "min": "¡La contraseña debe tener al menos 8 caracteres!",
+                  "max": "¡La contraseña no debe exceder 64 caracteres!"
+              },
+              "confirmPassword": {
+                  "required": "¡Confirmación de contraseña es obligatoria!",
+                  "match": "¡Las contraseñas deben coincidir!"
+              }
+          },
+          "login": {
+              "username": {
+                  "required": "¡Nombre de usuario es obligatorio!",
+                  "min": "¡Nombre de usuario inválido!",
+                  "max": "¡Nombre de usuario inválido!"
+              },
+              "password": {
+                  "required": "¡Contraseña es obligatoria!",
+                  "min": "¡Contraseña inválida!",
+                  "max": "¡Contraseña inválida!"
+              }
+          },
+          "changePassword": {
+              "currentPassword": {
+                  "required": "¡Contraseña actual es obligatoria!",
+                  "min": "¡La contraseña debe tener al menos 8 caracteres!",
+                  "max": "¡La contraseña no debe exceder 64 caracteres!"
+              },
+              "newPassword": {
+                  "required": "¡Nueva contraseña es obligatoria!",
+                  "min": "¡La contraseña debe tener al menos 8 caracteres!",
+                  "max": "¡La contraseña no debe exceder 64 caracteres!"
+              },
+              "confirmPassword": {
+                  "required": "¡Confirmación de contraseña es obligatoria!",
+                  "match": "¡Las contraseñas deben coincidir!"
+              }
+          },
+          "resetPassword": {
+              "newPassword": {
+                  "required": "¡Nueva contraseña es obligatoria!",
+                  "min": "¡La contraseña debe tener al menos 8 caracteres!",
+                  "max": "¡La contraseña no debe exceder 64 caracteres!"
+              },
+              "confirmPassword": {
+                  "required": "¡Confirmación de contraseña es obligatoria!",
+                  "match": "¡Las contraseñas deben coincidir!"
+              }
+          },
+          "setPassword": {
+              "password": {
+                  "required": "¡Contraseña es obligatoria!",
+                  "min": "¡La contraseña debe tener al menos 8 caracteres!",
+                  "max": "¡La contraseña no debe exceder 64 caracteres!"
+              },
+              "confirmPassword": {
+                  "required": "¡Confirmación de contraseña es obligatoria!",
+                  "match": "¡Las contraseñas deben coincidir!"
+              }
+          },
+          "setUsername": {
+              "username": {
+                  "required": "¡Nombre de usuario es obligatorio!",
+                  "min": "¡El nombre de usuario debe tener al menos 4 caracteres!",
+                  "max": "¡El nombre de usuario no debe exceder 14 caracteres!"
+              }
+          },
+          "otp": {
+              "otp": {
+                  "required": "¡OTP es obligatorio!",
+                  "length": "¡OTP debe tener 6 dígitos!",
+                  "matches": "¡OTP debe ser un número!"
+              }
+          },
+          "editProfile": {
+              "username": {
+                  "min": "¡El nombre de usuario debe tener al menos 4 caracteres!",
+                  "max": "¡El nombre de usuario no debe exceder 14 caracteres!"
+              },
+              "firstName": {
+                  "min": "¡El nombre debe tener al menos 3 caracteres!",
+                  "max": "¡El nombre no debe exceder 20 caracteres!"
+              },
+              "lastName": {
+                  "min": "¡El apellido debe tener al menos 3 caracteres!",
+                  "max": "¡El apellido no debe exceder 20 caracteres!"
+              },
+              "email": {
+                  "invalid": "¡Formato de correo electrónico inválido!"
+              },
+              "password": {
+                  "required": "¡Contraseña es obligatoria!",
+                  "min": "¡La contraseña debe tener al menos 8 caracteres!",
+                  "max": "¡La contraseña no debe exceder 64 caracteres!"
+              },
+              "avatar": {
+                  "fileSize": "¡El archivo es demasiado grande!",
+                  "fileType": "¡El tipo de archivo no es compatible!"
+              }
+          }
+      },
+      "friends": {
+          "title": "Amigos",
+          "viewMore": "Ver más",
+          "buttons": {
+              "online": "En línea",
+              "offline": "Desconectado"
+          },
+          "errors": {
+              "noFriends": "Estás solo",
+              "noOnlineFriends": "No hay amigos en línea",
+              "noOfflineFriends": "No hay amigos desconectados"
+          },
+          "addFriends": {
+              "button": "Agregar amigos"
+          },
+          "profile": {
+              "level": "Nivel",
+              "status": {
+              "online": "En línea",
+              "offline": "Desconectado"
+              }
+          }
+      },
+      "gameHistory": {
+          "title": "Historial de Juegos",
+          "buttons": {
+              "game": "Juego",
+              "tournament": "Torneo"
+          },
+          "noGames": {
+              "message": "No has jugado ningún juego todavía",
+              "playNow": "Jugar Ahora"
+          },
+          "fields": {
+              "dateTime": "Fecha y Hora",
+              "name": "Nombre",
+              "result": "Resultado",
+              "score": "Puntuación",
+              "duration": "Duración",
+              "XP": "XP"
+          },
+          "results": {
+              "win": "Ganar",
+              "lose": "Perder"
+          },
+          "invite": "Invitar"
+      },
+      "Achievements": {
+          "title": "Logros",
+          "locked": "Bloqueada",
+          "NoAchievementsFound": "No se encontraron logros!",
+          "achievements": {
+              "first_paddle_name": "Primera Paleta",
+              "first_paddle_description": "Gana tu primer partido.",
+              "persistent_player_name": "Jugador Persistente",
+              "persistent_player_description": "¡Inicia sesión 7 días seguidos!",
+              "bronze_champ_name": "Campeón de Bronce",
+              "bronze_champ_description": "Gana 5 partidos.",
+              "silver_smash_name": "Aplastador de Plata",
+              "silver_smash_description": "Gana 10 partidos.",
+              "gold_ace_name": "As de Oro",
+              "gold_ace_description": "Gana 20 partidos.",
+              "marathon_match_name": "Partido de Maratón",
+              "marathon_match_description": "Juega un partido que dure más de 5 minutos.",
+              "ft_pong_legend_name": "Leyenda de FT-PONG",
+              "ft_pong_legend_description": "Gana 50 partidos."
+          }
+      },
+      "profileHeader": {
+          "EditProfileButton": "Editar perfil",
+          "profileStats": {
+              "games": "JUEGOS",
+              "wins": "VICTORIAS",
+              "loses": "PIERDE",
+              "score": "PUNTAJE",
+              "rank": "RANGO"
+          },
+          "badge": {
+              "Bronze": "Bronce",
+              "Silver": "Plata",
+              "Gold": "Oro",
+              "Platinum": "Platino",
+              "Diamond": "Diamante",
+              "Ft-Pong": "Ft-Pong"
+          },
+          "buttons": {
+              "friendsBtn": "Amigas",
+              "cancelBtn": "Cancelar",
+              "acceptBtn": "Aceptar",
+              "addBtn": "Agregar",
+              "moreBtn": "Más",
+              "messageBtn": "Mensaje",
+              "blockBtn": "Bloque",
+              "challengeBtn": "Desafío"
+            }
+      },
+      "setPassword": {
+          "title": "Establecer contraseña",
+          "description": "Tu cuenta no tiene contraseña. Por favor, establece una contraseña para poder iniciar sesión y editar tu perfil.",
+          "fields": {
+              "newPassword": "Nueva contraseña",
+              "confirmPassword": "Confirmar nueva contraseña"
+          },
+          "buttons": {
+              "reset": "Reiniciar",
+              "save": "Guardar"
+          },
+          "successMessage": "Contraseña establecida con éxito."
+      },
+      "EditSecurity": {
+          "changePassword": {
+              "title": "Cambiar Contraseña",
+              "currentPassword": "Contraseña Actual",
+              "newPassword": "Nueva Contraseña",
+              "confirmPassword": "Confirmar Nueva Contraseña",
+              "buttons": {
+                  "reset": "Reiniciar",
+                  "save": "Guardar"
+              }
+          },
+          "twoFactorAuth": {
+              "title": "Autenticación de Dos Factores (2FA)",
+              "description": "Obtenga códigos de verificación de una aplicación de autenticación como Google Authenticator. Funciona incluso sin conexión en su teléfono. Escanee el código QR a continuación.",
+              "mobileMessageLabel": "Introduzca el código de verificación de 6 dígitos generado por su aplicación de autenticación.",
+              "otpPlaceholder": "Introducir OTP",
+              "buttons": {
+                  "downloadApp": "Descargar Aplicación",
+                  "getQrCode": "Obtener Código QR",
+                  "enable2FA": "Habilitar 2FA"
+              },
+              "enabled": {
+                  "status": "La Autenticación de Dos Factores está actualmente habilitada",
+                  "confirmPasswordLabel": "Confirme su Contraseña",
+                  "buttons": {
+                      "disable2FA": "Deshabilitar 2FA"
+                  }
+              },
+               "ask_disable": "Estás seguro de que quieres desactivar 2FA?"
+          },
+          "downloadAppPopup": {
+              "title": "Seleccione su Sistema Operativo",
+              "osButtons": {
+                  "android": "Android",
+                  "ios": "Apple"
+              },
+              "qrCodeInstructions": "Escanee el código QR para descargar la aplicación.",
+              "buttons": {
+                  "close": "Cerrar"
+              }
+          },
+          "errors": {
+              "defaultError": "Ocurrió un error. Inténtelo de nuevo más tarde"
+          },
+          "toasts": {
+              "passwordChanged": "Contraseña cambiada exitosamente",
+              "twoFactorEnabled": "Autenticación de dos factores habilitada",
+              "twoFactorDisabled": "Autenticación de dos factores deshabilitada"
+          }
+      },
+      "EditInfosProfile": {
+          "title": "Editar su Información",
+          "avatar": {
+              "changeButton": "Cambiar Avatar",
+              "removeButton": "Eliminar Avatar"
+          },
+          "fields": {
+              "firstName": {
+                  "label": "Nombre",
+                  "placeholder": "Ingrese su nombre"
+              },
+              "lastName": {
+                  "label": "Apellido",
+                  "placeholder": "Ingrese su apellido"
+              },
+              "username": {
+                  "label": "Nombre de Usuario",
+                  "placeholder": "Ingrese su nombre de usuario"
+              },
+              "email": {
+                  "label": "Correo Electrónico",
+                  "placeholder": "Ingrese un nuevo correo",
+                  "verifyButton": "Verificar"
+              },
+              "password": {
+                  "label": "Ingrese su contraseña",
+                  "placeholder": "Ingrese su contraseña"
+              }
+          },
+          "saveButton": "Guardar",
+          "confirmSave": {
+              "title": "Confirme su Contraseña",
+              "description": "Por favor, ingrese su contraseña para guardar los cambios. ¡Gracias por su tiempo, todo esto es para protegerlo!",
+              "buttons": {
+                  "close": "Cerrar",
+                  "confirm": "Confirmar"
+              }
+          },
+          "errors": {
+              "emptyForm": "Por favor, complete al menos un campo para guardar los cambios",
+              "defaultError": "Ocurrió un error. Por favor, intente nuevamente más tarde"
+          },
+          "toasts": {
+              "successUpdate": "Perfil actualizado exitosamente",
+              "emailVerificationSent": "Correo de verificación enviado exitosamente"
+          }
+      }
+  },
+  "dashboard": {
+      "overview": {
+          "title": "Resumen",
+          "buttons": {
+              "singleBtn": "Juego Individual",
+              "tournamentsBtn": "Torneos"
+          },
+          "fields": {
+              "games": "JUEGOS",
+              "score": "PUNTUACIÓN",
+              "highestScore": "Puntuación Más Alta",
+              "longestStreak": "Racha Más Larga",
+              "bestRank": "Mejor Rango",
+              "winRate": "Tasa de Victorias",
+              "wins": "VICTORIAS",
+              "loses": "DERROTAS"
+          }
+      },
+      "LineChartComponent": {
+          "title": "Duración Semanal de Juego",
+          "totalPlayTime": "Tiempo Total de Juego",
+          "avgDailyTime": "Prom. Diario de Tiempo",
+          "tooltipHours": "hrs",
+          "yAxisLabel": "Horas",
+          "days": {
+              "Mon": "Lun",
+              "Tue": "Mar",
+              "Wed": "Mié",
+              "Thu": "Jue",
+              "Fri": "Vie",
+              "Sat": "Sáb",
+              "Sun": "Dom"
+          }
+      },
+      "Leaderboard": {
+          "headerTitle": "Clasificación",
+          "viewAll": "Ver toda la clasificación",
+          "tableHeaders": {
+              "rank": "Rango",
+              "name": "Nombre",
+              "games": "Juegos",
+              "winRate": "Tasa de victorias",
+              "loseRate": "Tasa de derrotas",
+              "score": "Puntuación"
+          },
+          "noDataFound": "No se encontraron datos"
+      },
+      "FriendsList": {
+          "headerTitle": "Tus Amigos",
+          "viewMore": "Ver Más",
+          "noFriends": {
+              "message": "Aún no tienes amigos.",
+              "addFriendsButton": "Agregar Amigos"
+          },
+          "friendItem": {
+              "levelLabel": "Nivel:",
+              "status": {
+                  "online": "En línea",
+                  "offline": "Desconectado"
+              }
+          }
+      },
+      "LastMatch": {
+        "pts": "pts",
+          "headerTitle": "Últimos Juegos",
+          "viewMore": "Ver Más",
+          "winMessage": "Gran trabajo, ¡sigue jugando para mantener tu racha!",
+          "loseMessage": "No te preocupes, ¡inténtalo de nuevo y mejora tus habilidades!",
+          "defaultMessage": "¡Juega para subir en la clasificación!",
+          "noGames": {
+              "message": "No se encontraron juegos en tu historial.",
+              "playNow": "Jugar Ahora"
+          },
+          "matchItem": {
+              "opponentLabel": "Oponente:",
+              "dateLabel": "Fecha:",
+              "scoreLabel": "Puntuación:",
+              "xpGainedLabel": "XP Ganada:"
+          }
+      }
+  }
+
+}

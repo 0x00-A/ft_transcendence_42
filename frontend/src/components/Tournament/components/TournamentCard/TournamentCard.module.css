@@ -1,0 +1,94 @@
+/* TournamentCard.module.css */
+
+/* Container and layout styling */
+.card {
+  background-color: #222;
+  color: #fff;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Header styling */
+.header {
+  background: url('/path-to-header-image') no-repeat center center;
+  background-size: cover;
+  height: 100px;
+  position: relative;
+  padding: 10px;
+  text-align: left;
+}
+
+.headerTitle {
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Content styling */
+.content {
+  padding: 15px;
+  background-color: #111;
+}
+
+/* Info styling */
+.info {
+  margin: 10px 0;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Icon styling */
+.organizerIcon {
+  background: url('/path-to-organizer-icon') no-repeat center center;
+  background-size: contain;
+}
+
+.trophyIcon {
+  background: url('/path-to-trophy-icon') no-repeat center center;
+  background-size: contain;
+}
+
+.playersIcon {
+  background: url('/path-to-players-icon') no-repeat center center;
+  background-size: contain;
+}
+
+.dateIcon {
+  background: url('/path-to-date-icon') no-repeat center center;
+  background-size: contain;
+}
+
+/* Button styling */
+.viewButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.viewButton:hover {
+  background-color: #555;
+}

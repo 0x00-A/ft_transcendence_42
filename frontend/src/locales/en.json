@@ -1,0 +1,771 @@
+{
+  "showMyProfile": "My Profile",
+  "WaitingPlayers": "Waiting for more players!",
+  "onlyPlayers": "You are the only player!",
+  "editEmail": {
+      "btnEdit": "Edit",
+      "editEmail": "Edit Your Email",
+      "description": "We will send a verification link to your new email. (verification required to save new email).",
+      "label": "New Email",
+      "btnCancel": "Cancel",
+      "btnSubmit": "Submit"
+  },
+  "deleteAccount": {
+      "btnDelete": "Delete Account",
+      "title": "Account Deletion Request",
+      "description": "By requesting to delete your account, all data  associated with your account will be erased from our system.",
+      "warning": "Are you sure, you want to delete your account ?"
+  },
+  "ConfirmationModal": {
+      "message": "Confirm Logout!",
+      "Confirm": "Confirm",
+      "Cancel": "Cancel"
+  },
+  "toast": {
+      "fromRequest": "Friend request from",
+      "requestAccepted": "has accepted your friend request!",
+      "newMessage": " has sent you a message.",
+      "gameInvite": "Game invite from",
+      "TournamentInvite": "Tournament invite from",
+      "inviteReject": "The invitation has expired or rejected.",
+      "gameAddress": "Game successfully created"
+  },
+  "backend": {},
+  "errorsFriends": {
+      "unblock": "Failed to unblock friend try again",
+      "block": "Failed to block friend try again",
+      "request": "Failed to accept friend request try again",
+      "remove": "Failed to remove friend try again",
+      "cancel": "Failed to cancel friend request try again",
+      "send": "Failed to send friend request try again",
+      "reject": "Failed to reject friend request try again",
+      "action": "Failed to perform action try again"
+  },
+  "lang": "en",
+  "footer": "ft_transcendence. All rights reserved.",
+  "welcome": {
+      "title": "FT-PONG",
+      "description": "Ready to start your next match and climb the leaderboard",
+      "playButton": "Play now"
+  },
+  "noChatSelected": {
+      "title": "Welcome to Your Chat!",
+      "description1": "Please select a conversation to start chatting.",
+      "description2": "If you don't have any friends yet",
+      "addFriendButton": "Add Friend"
+  },
+  "chatHeader": {
+      "typing": "Typing...",
+      "activeNow": "Active now",
+      "lastSeen": "Last seen at "
+  },
+  "messageInput": {
+      "placeholder": "Write a message",
+      "block": {
+          "unblockBtn": "Unblock",
+          "blocker": "You have blocked this user",
+          "blocked": "You are blocked by this user",
+          "description": "You can't send messages to this user, and you won't receive their messages."
+      }
+  },
+  "messageArea": {
+      "showMoreButton": "Show More"
+  },
+  "message": {
+      "sender": "YOU"
+  },
+  "MessageList": {
+      "placeholder": "Search Friends",
+      "noUserFound": "No users found matching",
+      "noConversationFound": "You do not have any conversations currently use search above for search is friend and add conversation.",
+      "menu": {
+          "markAsRead": "Mark as read",
+          "closeChat": "Close Chat",
+          "viewProfile": "View Profile",
+          "block": "Block",
+          "unblock": "Unblock"
+      }
+  },
+  "optionsButton": "Chat",
+  "settingsSection": {
+      "profileButton": "Profile",
+      "closeChat": "Close Chat",
+      "inviteButton": "Invite",
+      "privacy": "Privacy",
+      "mutualFriends": "Mutual Friends",
+      "block": "Block",
+      "unblock": "Unblock",
+      "noMutualFriends": "No mutual friends found.",
+      "addUser": "Add User"
+  },
+  "timeDifference": {
+      "justNow": "Just now",
+      "minute": "1 minute ago",
+      "minutes": "{{count}} minutes ago",
+      "hour": "1 hour ago",
+      "hours": "{{count}} hours ago",
+      "day": "1 day ago",
+      "days": "{{count}} days ago",
+      "week": "1 week ago",
+      "weeks": "{{count}} weeks ago",
+      "year": "1 year ago",
+      "years": "{{count}} years ago"
+  },
+  "sidebar": {
+      "dashboard": "Dashboard",
+      "game": "Game",
+      "chat": "Chat",
+      "leaderboard": "Leaderboard",
+      "friends": "Friends",
+      "profile": "Profile",
+      "logout": "logout",
+      "lightMode": "Light mode",
+      "darkMode": "dark mode"
+  },
+  "sidebarFriends": {
+      "allFriends": "All Friends",
+      "onlineFriends": "Online Friends",
+      "friendRequests": "Friend Requests",
+      "sentRequests": "Sent Requests",
+      "blockedList": "Blocked List",
+      "addFriend": "Add Friend"
+  },
+  "allFriends": {
+      "title": "All Friends",
+      "placeholder": "Search friends...",
+      "online": "Online",
+      "offline": "Offline",
+      "pupMessage": "Message",
+      "pupInvite": "Invite",
+      "pupBlock": "Block",
+      "pupUnfriend": "Unfriend",
+      "noRequests": "No Friends Yet",
+      "description": "Looks like your friends list is empty. Start connecting by searching for friends or sending invites!"
+  },
+  "onlineFriends": {
+      "title": "Online Friends",
+      "online": "Online",
+      "pupMessage": "Message",
+      "pupInvite": "Invite",
+      "noRequests": "No Friends Online",
+      "description": "It seems like none of your friends are online right now. Invite some friends or check back later!"
+  },
+  "friendRequests": {
+      "title": "Friend Requests",
+      "pupAccept": "Accept",
+      "pupReject": "Reject",
+      "description": "You don't have any pending friend requests right now. Connect with more people to expand your network!",
+      "noRequests": "No Friend Requests"
+  },
+  "sentRequests": {
+      "title": "Sent Requests",
+      "pupCancel": "Cancel",
+      "description": "You don't have any sent requests right now. Connect with more people to expand your network!",
+      "noRequests": "No Sent Requests"
+  },
+  "blockedList": {
+      "title": "Blocked List",
+      "placeholder": "Search blocked users...",
+      "pupUnblock": "Unblock",
+      "description": "You haven't blocked any users. Users you block will appear here.",
+      "noRequests": "No Blocked Users"
+  },
+  "addFriend": {
+      "title": "Search & Add Friends",
+      "placeholder": "Find your friend...",
+      "pupViewProfile": "View Profile",
+      "pupFriend": "Friend",
+      "pupAccept": "Accept",
+      "pupReject": "Reject",
+      "pupCancel": "Cancel",
+      "pupPending": "Pending",
+      "pupAddFriend": "Add friend",
+      "notFound": "No User Found",
+      "Suggested": "Suggested Connections"
+  },
+  "SearchUsers": {
+      "placeholder": "Search...",
+      "pupViewProfile": "View Profile",
+      "pupFriend": "Friend",
+      "pupAccept": "Accept",
+      "pupReject": "Reject",
+      "pupMessage": "Message",
+      "pupCancel": "Cancel",
+      "pupPending": "Pending",
+      "pupAddFriend": "Add friend",
+      "notFound": "No User Found",
+      "loadingUsers": "Failed to load users. Please check your internet connection.",
+      "retry": "Retry"
+  },
+  "notifications": {
+      "title": "Notifications",
+      "clearAll": "Clear All",
+      "loadMore": "Show More",
+      "loading": "Loading...",
+      "empty": "Notifications Empty"
+  },
+  "game": {
+      "toasts": {
+            "GameNotStarted": "Sorry the other player didn't join the game.",
+            "MultiGameNotStarted": "Sorry some player didn't join the game."
+      },
+      "gameArea": "GO!",
+      "localGame": {
+          "title": "Local Game",
+          "description": "Play with friends",
+          "onePlayer": "One Player",
+          "twoPlayer": "Two Players",
+          "OptionsScreen": {
+              "Sound": "SOUND",
+              "SetWinningScore": "Set Winning Score",
+              "SetControllerType": "Set Controller Type",
+              "ControllerOptions": {
+                  "Mouse": "Mouse",
+                  "Keyboard": "Keyboard"
+              }
+          },
+          "DifficultyScreen": {
+              "Title": "Choose Difficulty",
+              "DifficultyOptions": {
+                  "Easy": "Easy",
+                  "Normal": "Normal",
+                  "Hard": "Hard"
+              }
+          },
+          "EndGameScreen": {
+              "Win": "You Win!",
+              "Lose": "You Lose!",
+              "Player1Wins": "Player 1 Wins!",
+              "Player2Wins": "Player 2 Wins!",
+              "YouWin": "You Win!",
+              "ComputerWins": "Computer Wins!",
+              "PlayAgain": "Play Again",
+              "GoBack": "Go Back"
+          },
+          "paused": "paused"
+      },
+      "remoteGame": {
+          "title": "Remote Game",
+          "description": "Challenge online",
+          "matchmakingScreen": {
+              "matchmakingInProgress": "Matchmaking in Progress",
+              "searchingForOpponent": "Searching for a worthy opponent",
+              "playersOnline": "Players Online",
+              "skillMatch": "Skill Match",
+              "highSkillMatch": "High",
+              "cancelMatchmaking": "Cancel Matchmaking"
+          }
+      },
+      "remoteTournament": {
+          "title": "Remote Tournament",
+          "description": "Create Online tournament",
+          "CreateTournamentModal": {
+              "Label": "Create Tournament",
+              "InputPlaceholder": "Enter tournament name",
+              "SubmitButton": "Submit",
+              "CancelButton": "Cancel",
+              "AlertMessage": "Please enter a tournament name."
+          },
+          "playerReady": {
+              "Players": "Players",
+              "Format": "Format",
+              "SingleElimination": "Single Elimination",
+              "Status": "Status",
+              "Created": "Created"
+          },
+          "leaveTournamentButton": {
+              "leaveTournament": "Leave Tournament",
+              "leaveConfirmationTitle": "Leave Tournament?",
+              "leaveConfirmationDescription": "Are you sure you want to leave the tournament? This action cannot be undone and may result in aborting the tournament.",
+              "stayButton": "Stay",
+              "leaveButton": "Leave Tournament"
+          },
+          "InviteFriendsButton": {
+              "InviteFriends": "Invite Friends",
+              "InviteButton": "Invite",
+              "toasts": {
+                "InviteSent": "Invite sent"
+              }
+          },
+          "sparkleEffect": {
+              "cancel": "Cancel...",
+              "loading": "Loading...",
+              "ready": "READY!",
+              "readyUp": "READY UP"
+          }
+      },
+      "localTournament": {
+          "title": "Local Tournament",
+          "description": "Local tournament",
+          "TournamentForm": {
+              "Title": "Tournament Registration",
+              "InputPlaceholder": "Enter player name",
+              "AddPlayerButton": "Add Player",
+              "ErrorMessages": {
+                  "EmptyPlayer": "Player name cannot be empty",
+                  "DuplicatePlayer": "Player name must be unique"
+              },
+              "StartTournamentButton": "Start Tournament"
+          },
+          "TournamentHeader": {
+              "Round1": "Round 1",
+              "Finals": "Finals"
+          },
+          "pong": {
+              "vs": "VS",
+              "paused": "Paused",
+              "ClickToStart": "Click to Start",
+              "start": "Start"
+          }
+      },
+      "multipleGame": {
+          "title": "Multiple Game",
+          "description": "Play with friends",
+          "PlayerCard": {
+              "Score": "Score",
+              "Against": "Against"
+          },
+          "WaitingPJ": "Initializing game..."
+      },
+      "joinedTournaments": {
+          "title": "Joined Tournaments",
+          "players": "Players:",
+          "status": "Status:",
+          "started": "Started:",
+          "noTournament": "You havn't joined any tournaments yet!.",
+          "statusGame": {
+              "waiting": "waiting",
+              "ongoing": "ongoing",
+              "ended": "ended",
+              "aborted": "aborted",
+              "unknown": "waiting"
+          }
+      },
+      "openTournaments": {
+          "title": "Open Tournaments",
+          "header": {
+              "id": "ID",
+              "name": "name",
+              "creator": "Creator",
+              "creationDate": "Creation Date",
+              "players": "Players",
+              "action": "Action"
+          },
+          "joinButton": "join",
+          "noTournaments": "No tournaments available at the moment."
+      }
+  },
+  "Profile": {
+      "FriendsOther": {
+          "title": "Friends",
+          "mutualFriends": "Mutual Friends",
+          "allFriends": "All Friends",
+          "noMutualFriends": "No Mutual friends",
+          "playerLonely": "This Player is Lonely",
+          "Level": "Level:"
+      },
+      "informations": "Informations",
+      "security": "Security",
+      "errors": {
+          "signup": {
+              "username": {
+                  "required": "Username is required!",
+                  "min": "Username must be at least 4 characters!",
+                  "max": "Username must not exceed 14 characters!"
+              },
+              "email": {
+                  "required": "Email is required!",
+                  "invalid": "Invalid email format!"
+              },
+              "password": {
+                  "required": "Password is required!",
+                  "min": "Password must be at least 8 characters!",
+                  "max": "Password must not exceed 64 characters!"
+              },
+              "confirmPassword": {
+                  "required": "Password confirmation is required!",
+                  "match": "Passwords must match!"
+              }
+          },
+          "login": {
+              "username": {
+                  "required": "Username is required!",
+                  "min": "Invalid username!",
+                  "max": "Invalid username!"
+              },
+              "password": {
+                  "required": "Password is required!",
+                  "min": "Invalid password!",
+                  "max": "Invalid password!"
+              }
+          },
+          "changePassword": {
+              "currentPassword": {
+                  "required": "Current password is required!",
+                  "min": "Password must be at least 8 characters!",
+                  "max": "Password must not exceed 64 characters!"
+              },
+              "newPassword": {
+                  "required": "New password is required!",
+                  "min": "Password must be at least 8 characters!",
+                  "max": "Password must not exceed 64 characters!"
+              },
+              "confirmPassword": {
+                  "required": "Password confirmation is required!",
+                  "match": "Passwords must match!"
+              }
+          },
+          "resetPassword": {
+              "newPassword": {
+                  "required": "New password is required!",
+                  "min": "Password must be at least 8 characters!",
+                  "max": "Password must not exceed 64 characters!"
+              },
+              "confirmPassword": {
+                  "required": "Password confirmation is required!",
+                  "match": "Passwords must match!"
+              }
+          },
+          "setPassword": {
+              "password": {
+                  "required": "Password is required!",
+                  "min": "Password must be at least 8 characters!",
+                  "max": "Password must not exceed 64 characters!"
+              },
+              "confirmPassword": {
+                  "required": "Password confirmation is required!",
+                  "match": "Passwords must match!"
+              }
+          },
+          "setUsername": {
+              "username": {
+                  "required": "Username is required!",
+                  "min": "Username must be at least 4 characters!",
+                  "max": "Username must not exceed 14 characters!"
+              }
+          },
+          "otp": {
+              "otp": {
+                  "required": "OTP is required!",
+                  "length": "OTP must be 6 digits!",
+                  "matches": "OTP must be a number!"
+              }
+          },
+          "editProfile": {
+              "username": {
+                  "required": "Username is required!",
+                  "min": "Username must be at least 4 characters!",
+                  "max": "Username must not exceed 14 characters!"
+              },
+              "firstName": {
+                  "min": "First name must be at least 3 characters!",
+                  "max": "First name must not exceed 20 characters!"
+              },
+              "lastName": {
+                  "min": "Last name must be at least 3 characters!",
+                  "max": "Last name must not exceed 20 characters!"
+              },
+              "email": {
+                  "invalid": "Invalid email format!"
+              },
+              "password": {
+                  "required": "Password is required!",
+                  "min": "Password must be at least 8 characters!",
+                  "max": "Password must not exceed 64 characters!"
+              },
+              "avatar": {
+                  "fileSize": "The file should be less than 5MB !",
+                  "fileType": "The file is not supported!"
+              },
+              "atLeastOneField": "Please fill at least one field to save the changes"
+          }
+      },
+      "friends": {
+          "title": "Friends",
+          "viewMore": "View more",
+          "buttons": {
+              "online": "Online",
+              "offline": "Offline"
+          },
+          "errors": {
+              "noFriends": "You are lonely",
+              "noOnlineFriends": "No Online friends",
+              "noOfflineFriends": "No Offline friends"
+          },
+          "addFriends": {
+              "button": "Add friends"
+          },
+          "profile": {
+              "level": "Level:",
+              "status": {
+              "online": "Online",
+              "offline": "Offline"
+              }
+          }
+      },
+      "gameHistory": {
+          "title": "Game History",
+          "buttons": {
+              "game": "Game",
+              "tournament": "Tournament"
+          },
+          "noGames": {
+              "message": "You don't play any games yet",
+              "playNow": "Play Now"
+          },
+          "fields": {
+              "dateTime": "Date & Time",
+              "name": "Name",
+              "result": "Result",
+              "score": "Score",
+              "duration": "Duration",
+              "XP": "XP"
+          },
+          "results": {
+              "win": "Win",
+              "lose": "Lose"
+          },
+          "invite": "Invite"
+      },
+      "Achievements": {
+          "title": "Achievements",
+          "NoAchievementsFound": "No achievements found!",
+          "locked": "Locked",
+          "achievements": {
+              "first_paddle_name": "First Paddle",
+              "first_paddle_description": "Win your first match.",
+              "persistent_player_name": "Persistent Player",
+              "persistent_player_description": "Log in 7 days in a row!",
+              "bronze_champ_name": "Bronze Champ",
+              "bronze_champ_description": "Win 5 matches.",
+              "silver_smash_name": "Silver Smash",
+              "silver_smash_description": "Win 10 matches.",
+              "gold_ace_name": "Gold Ace",
+              "gold_ace_description": "Win 20 matches.",
+              "marathon_match_name": "Marathon Match",
+              "marathon_match_description": "Play a match lasting more than 5 minutes.",
+              "ft_pong_legend_name": "FT-PONG Legend",
+              "ft_pong_legend_description": "Win 50 matches."
+          }
+      },
+      "profileHeader": {
+          "EditProfileButton": "Edit Profile",
+          "profileStats": {
+              "games": "GAMES",
+              "wins": "WINS",
+              "loses": "LOSES",
+              "score": "SCORE",
+              "rank": "RANK"
+          },
+          "badge": {
+              "Bronze": "Bronze",
+              "Silver": "Silver",
+              "Gold": "Gold",
+              "Platinum": "Platinum",
+              "Diamond": "Diamond",
+              "Ft-Pong": "Ft-Pong"
+          },
+          "buttons": {
+              "friendsBtn": "Friends",
+              "cancelBtn": "Cancel",
+              "acceptBtn": "Accept",
+              "addBtn": "Add Friend",
+              "moreBtn": "More",
+              "messageBtn": "Message",
+              "blockBtn": "Block",
+              "challengeBtn": "Challenge"
+          }
+      },
+      "setPassword": {
+          "title": "Set Password",
+          "description": "Your account has no password. Please set a password so you can login and edit your profile.",
+          "fields": {
+              "newPassword": "New Password",
+              "confirmPassword": "Confirm New Password"
+          },
+          "buttons": {
+              "reset": "Reset",
+              "save": "Save"
+          },
+          "successMessage": "Password set successfully."
+      },
+      "EditSecurity": {
+          "changePassword": {
+              "title": "Change Password",
+              "currentPassword": "Current Password",
+              "newPassword": "New Password",
+              "confirmPassword": "Confirm New Password",
+              "buttons": {
+                  "reset": "Reset",
+                  "save": "Save"
+              }
+          },
+          "twoFactorAuth": {
+              "title": "Two Factor Authentication (2FA)",
+              "description": "Get verification codes from an authenticator app such as Google Authenticator. It works even if your phone is offline. Scan the QR code below.",
+              "mobileMessageLabel": "Enter the 6-digit verification code generated by your authenticator app.",
+              "otpPlaceholder": "Enter OTP",
+              "buttons": {
+                  "downloadApp": "Download App",
+                  "getQrCode": "Get QR Code",
+                  "enable2FA": "Enable 2FA"
+              },
+              "enabled": {
+                  "status": "Two Factor Authentication is currently enabled",
+                  "confirmPasswordLabel": "Confirm your Password",
+                  "buttons": {
+                      "disable2FA": "Disable 2FA"
+                  }
+              },
+              "ask_disable": "Are you sure you want to disable 2FA?"
+          },
+          "downloadAppPopup": {
+              "title": "Select Your OS",
+              "osButtons": {
+                  "android": "Android",
+                  "ios": "Apple"
+              },
+              "qrCodeInstructions": "Scan the QR code to download the app.",
+              "buttons": {
+                  "close": "Close"
+              }
+          },
+          "errors": {
+              "defaultError": "An error occurred. Please try again later"
+          },
+          "toasts": {
+              "passwordChanged": "Password changed successfully",
+              "twoFactorEnabled": "Two-factor authentication enabled",
+              "twoFactorDisabled": "Two-factor authentication disabled"
+          }
+      },
+      "EditInfosProfile": {
+          "title": "Edit your Information",
+          "avatar": {
+              "changeButton": "Change Avatar",
+              "removeButton": "Remove Avatar"
+          },
+          "fields": {
+              "firstName": {
+                  "label": "First Name",
+                  "placeholder": "Enter your first name"
+              },
+              "lastName": {
+                  "label": "Last Name",
+                  "placeholder": "Enter your last name"
+              },
+              "username": {
+                  "label": "Username",
+                  "placeholder": "Enter your username"
+              },
+              "email": {
+                  "label": "Email",
+                  "placeholder": "Enter new email",
+                  "verifyButton": "Verify"
+              },
+              "password": {
+                  "label": "Enter your password",
+                  "placeholder": "Enter your password"
+              }
+          },
+          "saveButton": "Save",
+          "confirmSave": {
+              "title": "Confirm Your Password",
+              "description": "Please enter your password to save the changes. Thank you for your time all this just to protect you!",
+              "buttons": {
+                  "close": "Close",
+                  "confirm": "Confirm"
+              }
+          },
+          "errors": {
+              "emptyForm": "Please fill at least one field to save the changes",
+              "defaultError": "An error occurred. Please try again later"
+          },
+          "toasts": {
+              "successUpdate": "Profile updated successfully",
+              "emailVerificationSent": "Verification email sent successfully"
+          }
+      }
+  },
+  "dashboard": {
+      "overview": {
+          "title": "Overview",
+          "buttons": {
+              "singleBtn": "Single Game",
+              "tournamentsBtn": "Tournaments"
+          },
+          "fields": {
+              "games": "GAMES",
+              "score": "SCORE",
+              "highestScore": "Highest Score",
+              "longestStreak": "Longest Streak",
+              "bestRank": "Best Rank",
+              "winRate": "Win Rate",
+              "wins": "WINS",
+              "loses": "LOSES"
+          }
+      },
+      "LineChartComponent": {
+          "title": "Weekly Gaming Duration",
+          "totalPlayTime": "Total Play Time",
+          "avgDailyTime": "Avg. Daily Time",
+          "tooltipHours": "hrs",
+          "yAxisLabel": "Hours",
+          "days": {
+              "Mon": "Mon",
+              "Tue": "Tue",
+              "Wed": "Wed",
+              "Thu": "Thu",
+              "Fri": "Fri",
+              "Sat": "Sat",
+              "Sun": "Sun"
+          }
+      },
+      "Leaderboard": {
+          "headerTitle": "Leaderboard",
+          "viewAll": "View All Leaderboard",
+          "tableHeaders": {
+              "rank": "Rank",
+              "name": "Name",
+              "games": "Games",
+              "winRate": "Win Rate",
+              "loseRate": "Lose Rate",
+              "score": "Score"
+          },
+          "noDataFound": "No data found"
+      },
+      "FriendsList": {
+          "headerTitle": "Your Friends",
+          "viewMore": "View More",
+          "noFriends": {
+              "message": "You have no friends yet.",
+              "addFriendsButton": "Add Friends"
+          },
+          "friendItem": {
+              "levelLabel": "Level:",
+              "status": {
+                  "online": "Online",
+                  "offline": "Offline"
+              }
+          }
+      },
+      "LastMatch": {
+        "pts": "pts",
+          "headerTitle": "Last Games",
+          "viewMore": "View More",
+          "winMessage": "Great job, Keep playing to maintain your streak!",
+          "loseMessage": "Don't worry, try again and improve your skills!",
+          "defaultMessage": "Play to climb the leaderboard!",
+          "noGames": {
+              "message": "No games found in your history.",
+              "playNow": "Play Now"
+          },
+          "matchItem": {
+              "opponentLabel": "Opponent:",
+              "dateLabel": "Date:",
+              "scoreLabel": "Score:",
+              "xpGainedLabel": "XP Gained:"
+          }
+      }
+  }
+}

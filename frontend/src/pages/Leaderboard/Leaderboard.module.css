@@ -1,0 +1,298 @@
+
+.container {
+  width: 100%;
+  background-color: #1e2533;
+  border-radius: 20px;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #F8F3E3;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.podium {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.podiumPlace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstPlace {
+  margin-top: -2rem;
+}
+
+.podiumAvatar {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 30%;
+  overflow: hidden;
+  border: 3px solid rgb(55, 65, 81);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.firstPlaceAvatar {
+  width: 10rem;
+  height: 10rem;
+  border-color: rgb(250, 204, 21);
+}
+
+.secondPlace {
+  border-color: rgb(156, 163, 175);
+}
+
+.thirdPlace {
+  border-color: rgb(180, 83, 9);
+}
+
+.podiumAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.podiumUsername {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(229, 231, 235);
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.podiumUsername:hover {
+  color: rgb(250, 204, 21);
+  scale: 1.1;
+}
+.firstPlace .podiumUsername {
+  font-size: 1.5rem;
+}
+
+.podiumScore {
+  color: rgb(250, 204, 21);
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+
+.tableContainer {
+  background-color: #283245;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.tablesRows {
+  max-height: 600px;
+  overflow-y: auto;
+}
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  gap: 1rem;
+  background-color: #3D4A68;
+  padding: 1.5rem;
+}
+
+.tableHeaderCell {
+  display: flex;
+  align-items: center;
+  color: rgb(156, 163, 175);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tableHeaderCell.centered {
+  text-align: center;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #1e2533;
+  border-bottom: 2px solid rgb(55, 65, 81);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.tableRow:hover {
+  background-color: rgba(55, 65, 81, 0.5);
+}
+
+.myRank {
+  background-color: #0e1725 !important;
+  border-left: 4px solid rgb(250, 204, 21) !important;
+}
+
+.myRank:hover {
+  background-color: rgba(55, 65, 81, 0.5) !important;
+}
+
+.rankCell {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.trophy {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(250, 204, 21);
+}
+
+.silverMedal {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(156, 163, 175);
+}
+
+.bronzeMedal {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(180, 83, 9);
+}
+
+.rank {
+  color: rgb(156, 163, 175);
+}
+
+.playerCell {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  border: 2px solid rgb(55, 65, 81);
+  transition: border-color 0.2s;
+}
+
+.tableRow:hover .avatar {
+  border-color: rgb(250, 204, 21);
+}
+
+.username {
+  font-weight: 500;
+  color: rgb(229, 231, 235);
+  transition: color 0.2s;
+}
+
+.tableRow:hover .username {
+  color: rgb(250, 204, 21);
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(156, 163, 175);
+}
+
+.scoreDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 600;
+  color: #b0b9d0;
+}
+
+.scoreUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 600;
+  color: rgb(250, 204, 21);
+}
+
+.scoreIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgb(250, 204, 21);
+}
+
+.scoreIconDown {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #b0b9d0;
+}
+
+.error {
+  padding: 1rem;
+  color: rgb(248, 113, 113);
+  background-color: rgba(185, 28, 28, 0.2);
+}
+
+.noData {
+  padding: 1rem;
+  text-align: center;
+  color: rgb(156, 163, 175);
+}
+
+.skeleton {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgba(31, 41, 55, 0.5);
+  border-bottom: 1px solid rgb(55, 65, 81);
+}
+
+.skeletonItem {
+  height: 4rem;
+  background-color: rgb(55, 65, 81);
+  border-radius: 0.25rem;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.skeletonAvatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+  background-color: rgb(55, 65, 81);
+}
+.soloMessage {
+  margin-top: 1rem;
+  color: rgb(250, 204, 21);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.waitingMessage {
+  color: rgb(156, 163, 175);
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.emptyPodium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}

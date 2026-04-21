@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #F8F3E3;
+    margin-bottom: 1rem;
+  }
+  
+  .statsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+
+
+.statCard {
+    background: linear-gradient(90deg, #384B6C 0%, #2B374D 63%, #1E2533 100%);
+    padding: 1.5rem;
+    border-radius: 16px;
+    border-left: 4px solid #517abc;
+    transition: transform 0.2s ease;
+    flex: 1;
+  }
+  
+  .statCard:hover {
+    transform: translateY(-2px);
+  }
+
+  .statTitle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .statText {
+    font-size: 1.125rem;
+    color: rgb(209, 213, 219);
+  }
+  
+  .statValue {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(241, 245, 249);
+  }
+  
+  .longestSessionIcon {
+    color: #f59e0b;
+  }
+  
+  .totalPlayIcon {
+    color: rgb(59, 130, 246);
+  }
+  
+  .avgDailyIcon {
+    color: #f59e0b;
+  }
+  
+  .chartContainer {
+    width: 100%;
+    height: 16rem;
+  }
+  
+  @media (min-width: 768px) {
+    .chartContainer {
+      height: 24rem;
+    }
+  }

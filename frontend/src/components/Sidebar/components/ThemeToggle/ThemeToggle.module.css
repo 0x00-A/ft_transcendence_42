@@ -1,0 +1,31 @@
+/* ThemeToggle.css */
+
+.theme-toggle {
+  background: none;
+  border: none;
+  width: 100%;
+  /* padding: 10px; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* transition: transform 0.3s ease; */
+}
+
+.theme-toggle:hover {
+  /* transform: scale(1.1); */
+}
+
+.theme-toggle > p {
+  position: absolute;
+  opacity: 1;
+  transform: translate(50px, 0);
+  /* transition:
+    opacity 1s ease,
+    transform 0.5s ease; */
+}
+
+@media screen and (max-width: 1264px) {
+  .theme-toggle > p {
+    opacity: 0;
+  }
+}

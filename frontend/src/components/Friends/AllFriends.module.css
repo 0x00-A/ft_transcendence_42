@@ -1,0 +1,188 @@
+.allFriends {
+  padding: 20px;
+  height: 100%;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #6c757d #394056;
+  position: relative;
+  
+}
+
+.friendList {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+  position: relative;
+}
+
+.userInfo {
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #d0d8e7;
+}
+
+.searchContainer {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #72767d;
+  font-size: 20px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px 10px 40px;
+  background-color: #d0d8e7;
+  border: none;
+  border-radius: 10px;
+  color: #283245;
+  font-size: 16px;
+}
+
+.searchInput:focus {
+  background-color: #d0d8e7;
+}
+
+
+.friendCard {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  background-color: #394056;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.friendCard:hover {
+  transform: scale(1.01);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.avatar:hover {
+  border: 2px solid #f8c25c;
+}
+
+.username {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.username:hover {
+  color: #f8c25c;
+  scale: 1;
+}
+
+.Online {
+  display: block;
+  font-size: 13px;
+  color: #b9bbbe;
+  position: relative;
+  margin-left: 15px;
+}
+
+.Online::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: -15px;
+  border-radius: 50%;
+  background-color: green;
+}
+.Offline {
+  display: block;
+  font-size: 13px;
+  color: #b9bbbe;
+  position: relative;
+  margin-left: 15px;
+}
+
+.Offline::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: -15px;
+  border-radius: 50%;
+  background-color: #b9bbbe;
+}
+
+
+.actions {
+  display: flex;
+  gap: 5px;
+  position: relative;
+}
+
+.actionButton {
+  padding: 8px 10px;
+  background-color: #1e2533;
+  color: #f8f3e3;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  position: relative;
+}
+
+.actionButton.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+.cooldownTimer {
+  opacity: 1;
+  position: absolute;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  top: -15px;
+  left: 10px;
+}
+
+.actionButton:hover {
+  background-color: #7892b8;
+}
+
+.blockButton:hover, .removeButton:hover {
+  background-color: #e91c05;
+}
+.messageButton, .inviteButton, .blockButton, .removeButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+

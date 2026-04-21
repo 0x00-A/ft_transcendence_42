@@ -1,0 +1,213 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #F8F3E3;
+}
+
+.viewMore {
+  font-size: 1.5rem;
+  color: #B0B9D0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.viewMore:hover {
+  color: #7e8597;
+}
+
+.friendList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.friendItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1E2A3C;
+  transition: background-color 0.3s;
+}
+
+.friendItem:hover {
+  background-color: #283245;
+  transform: scale(1.01);
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #B0B9D0;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  border: 2px solid #f8c25c;
+}
+
+.friendInfo {
+  flex-grow: 1;
+}
+
+.name {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #F8F3E3;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: #f8c25c;
+}
+
+.level {
+  display: block;
+  font-size: 1rem;
+  color: #B0B9D0;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  color: #F8F3E3;
+  background-color: #384b6c;
+}
+
+.challenge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  color: #F8F3E3;
+  background-color: #384b6c;
+  cursor: pointer;
+}
+
+.challenge:hover {
+  background-color: #1E2A3C;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+.cooldownTimer {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.statusIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.online .statusIndicator {
+  background-color: #17A98C;
+}
+
+.offline .statusIndicator {
+  background-color: #D0D8E7;
+}
+
+.inviteButton {
+  display: block;
+  width: 100%;
+  background-color: #2E3A5A;
+  color: #F8F3E3;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.inviteButton:hover {
+  background-color: #374863;
+  transform: scale(1.03);
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .viewMore {
+    font-size: 1.3rem;
+  }
+
+  .friendItem {
+    padding: 8px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .level {
+    font-size: 0.9rem;
+  }
+
+  .status {
+    font-size: 1rem;
+  }
+
+  .inviteButton {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+@media (max-height: 1060px) {
+  .friendList {
+    gap: 8px;
+  }
+}
+
+.noFriends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    color: #F8F3E3;
+}
+
+.addFriendsBtn {
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: none;
+    background-color: var(--selected-color); ;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1.3rem;
+}

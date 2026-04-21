@@ -1,0 +1,22 @@
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--game-screen-text-color);
+  padding: 5px;
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.closeButton:hover {
+    color: red; /* Change the color on hover for a better user experience */
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,30 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  // "compilerOptions": {
+  //   "esModuleInterop": true,
+  //   "allowSyntheticDefaultImports": true,
+  //   "jsx": "react",
+  //   "baseUrl": ".",
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   }
+  // },
+  "compilerOptions": {
+    // "typeRoots": ["node_modules/@types", "node_modules/@hookform/resolvers"],
+    // "resolveJsonModule": true,
+    // "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

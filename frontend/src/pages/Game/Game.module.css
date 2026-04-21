@@ -1,0 +1,461 @@
+.container {
+  height: calc(100vh - var(--header-height) - var(--footer-height));
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--color-game-screen-bg); */
+  background-color: #1e2533;
+  /* background-color: #252e40; */
+  border-radius: 10px;
+  /* min-height: 600px; */
+  /* box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset; */
+  /* padding: 30px; */
+  color: var(--text-color);
+}
+
+.topContainer {
+  height: calc((100vh - var(--header-height) - var(--footer-height)) / 2);
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 0 0 0;
+  padding: 20px;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 1.2rem;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 10px 0 0;
+  padding: 20px 20px 20px 0;
+}
+
+.bottomContainer {
+  height: calc((100vh - var(--header-height) - var(--footer-height)) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 20px 20px;
+}
+
+.innerContent {
+  padding: 0.5rem 2rem;
+}
+
+/* Card  */
+
+.card {
+  background-color: transparent !important;
+  border: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  /* box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset !important; */
+}
+
+.bottomCard {
+  background-color: transparent !important;
+  border: 0;
+  /* overflow: hidden; */
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid red ; */
+}
+
+.header {
+  background-color: rgba(31, 41, 55, 0.5);
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 1rem;
+  width: 100%;
+  height: calc(100% - 4rem);
+  overflow: auto;
+}
+.bottomCardContent {
+  padding: 1rem;
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow: auto;
+  padding: 0 !important;
+  margin: auto;
+}
+
+.statContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.statItem {
+  background-color: #374151;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.statHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statName {
+  color: #ffffff;
+}
+
+.statValue {
+  color: #3b82f6;
+}
+
+.progressBar {
+  width: 100%;
+  background-color: #4b5563;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.progressFill {
+  background-color: #3b82f6;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+/********* Modes *********/
+
+.cardMode {
+  background-color: transparent !important;
+  border: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  /* box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset !important; */
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  transition:
+    transform 0.3s ease,
+    all 0.3s ease;
+  background: linear-gradient(
+    180deg,
+    rgba(239, 68, 68, 0.1) 0%,
+    rgba(42, 43, 54, 0.5) 100%
+  );
+  border-top: 4px solid #f59e0b !important;
+}
+
+.cardHoveredMode {
+  transform: scale(1.02);
+}
+
+.cardContentMode {
+  height: 100%;
+  padding: 1rem; /* Equivalent to p-4 */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.item {
+  flex: 1 1 46%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 8px;
+  height: 32%;
+}
+
+.iconMode {
+  width: 6rem;
+  height: 6rem;
+
+  color: var(--text-color);
+}
+
+.titleMode {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.descriptionMode {
+  color: #9ca3af;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.arrowIconMode {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.5rem;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  opacity: 0;
+}
+
+.arrowIconHoveredMode {
+  opacity: 1;
+  transform: translateX(0.5rem);
+}
+
+.matchmakingLoader {
+  width: 150px;
+  height: 140px;
+}
+.matchmakingLoaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.tournamentItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #374151;
+  min-width: 400px;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.tournamentItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.tournamentItem span {
+  font-size: 1.2rem;
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+.tournamentDate,
+.tournamentPlayerCount {
+  color: #9ca3af;
+}
+.tournamentStatus {
+  text-transform: capitalize;
+  color: #f87171;
+  font-size: 1.8rem;
+}
+.tournamentName {
+  font-weight: 600;
+  color: black;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.loaderWrapper,
+.errorWrapper {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noTournaments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999999;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Media Query for Laptop Screens */
+@media screen and (max-width: 1366px) {
+  .container {
+    height: calc(100vh - var(--header-height) - var(--footer-height));
+    min-height: 500px;
+  }
+
+  .topContainer {
+    height: 55%;
+    padding: 10px;
+  }
+
+  .bottomContainer {
+    height: 45%;
+    padding: 0 10px 10px 10px;
+  }
+
+  .left,
+  .right {
+    padding: 10px;
+  }
+
+  .innerContent {
+    padding: 0.25rem 1rem;
+  }
+
+  /* Card Adjustments */
+  .header {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    padding: 0.75rem;
+    height: calc(100% - 52.5px);
+  }
+
+  /* Mode Card Adjustments */
+  .iconMode {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .titleMode {
+    font-size: 1.4rem;
+    margin-top: 0.75rem;
+  }
+
+  .descriptionMode {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+  }
+
+  /* Tournament Items */
+  .tournamentItem {
+    min-width: 300px;
+    padding: 0.75rem;
+  }
+
+  .tournamentName {
+    font-size: 1.5rem;
+  }
+
+  .tournamentStatus {
+    font-size: 1.4rem;
+  }
+
+  .tournamentItem span {
+    font-size: 1rem;
+  }
+
+  /* Stats */
+  .statItem {
+    padding: 0.75rem;
+  }
+
+  .statName {
+    font-size: 0.9rem;
+  }
+
+  .statValue {
+    font-size: 0.9rem;
+  }
+
+  /* Matchmaking */
+  .matchmakingLoader {
+    width: 120px;
+    height: 110px;
+  }
+
+  /* Modal */
+  .modalOverlay {
+    padding: 1rem;
+  }
+}
+
+/* Additional Media Query for Smaller Laptops */
+@media screen and (max-width: 1024px) {
+  .container {
+    height: auto;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  }
+  .topContainer {
+    flex-direction: column;
+    height: 65%;
+    min-height: 500px;
+  }
+
+  .bottomContainer {
+    height: 35%;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    height: 50%;
+  }
+
+  .right {
+    padding-top: 0;
+  }
+
+  .tournamentItem {
+    min-width: 250px;
+  }
+
+  .iconMode {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .titleMode {
+    font-size: 1.2rem;
+  }
+
+  .descriptionMode {
+    font-size: 0.9rem;
+  }
+}

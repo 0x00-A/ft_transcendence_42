@@ -1,0 +1,179 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-bg);
+    position: relative;
+}
+
+.entryArea {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.authFormHeader {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.authFormHeader h1 {
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+}
+
+.authTitle {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inputText, .inputPassword {
+    background: #41506b;
+    /* background-color: #2b4450; */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 270px;
+    font-size: medium;
+    color: white;
+    padding: 1.3rem 1.3rem 1.3rem 4rem;
+}
+
+.inputPassword {
+    padding-right: 4rem !important;
+}
+
+.inputIcon {
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1rem;
+}
+
+/* .inputContainer input:focus {
+    background-color: #497285;
+} */
+
+.fieldError {
+    position: absolute;
+    /* right: 100%; */
+    /* top: 4rem; */
+    /* bottom: -50%; */
+    /* transform: translateX(-50%); */
+    /* transform: translateY(-50%); */
+    color: rgb(255, 0, 0);
+    border: none;
+    font-size: 10px;
+    /* height: fit-content; */
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fffbe1;
+    /* width: auto; */
+    z-index: 10;
+    /* right: calc(100% + 1rem); */
+    right: calc(100% + 1rem);
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    /* top: calc(); */
+}
+
+.fieldError::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -9px;
+    transform: translateY(-50%);
+    /* left: 100%; */
+    border: 10px solid transparent;
+    border-bottom-color: #fffbe1;
+}
+
+/* .inputContainer input:focus + .fieldError {
+    visibility: visible;
+    opacity: 1;
+} */
+
+/* .inputContainer input:blank {
+    border: 1px solid red;
+} */
+
+
+
+/* .inputContainer input:not(:focus) + .fieldError {
+    background-color: #497285;
+    visibility: hidden;
+    opacity: 0;
+} */
+
+/* .inputContainer input:valid {
+    border: 1px solid green;
+} */
+
+/* .inputContainer input::after {
+    background-color: red;
+} */
+
+/* .inputContainer input::placeholder {
+    text-align:start;
+    font-size: large;
+} */
+.showPassIcon {
+    position: absolute;
+    /* right: 10px; */
+    left: calc(100% - 3.3rem);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.authBtn {
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* width: 60%; */
+    /* height: 35px; */
+    border-radius: 20px;
+    /* background-color: #07689f; */
+    color: var(--text-color);
+    font-size: large;
+    margin-top: 5px;
+    padding: 1rem 6rem;
+    outline: none;
+    border: none;
+    background-color: var(--color-active);
+}
+
+.authBtn:hover {
+    background-color: var(--color-brand--1);
+    color: white;
+    cursor: pointer;
+}
+
+.forgotPass {
+    cursor: pointer;
+    color: var(--text-color);
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
+.forgotPass:hover {
+    font-size: 1.5rem;
+}
+
+/* .loginError {
+    color: red;
+    border: #fffbe1;
+} */

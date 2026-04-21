@@ -1,0 +1,771 @@
+{
+  "showMyProfile": "Mijn Profiel",
+  "WaitingPlayers": "Wachten op meer spelers!",
+  "onlyPlayers": "Jij bent de enige speler!",
+  "editEmail": {
+    "btnEdit": "Bewerken",
+    "editEmail": "E-mail Bewerken",
+    "description": "We sturen een verificatielink naar je nieuwe e-mail. (verificatie vereist om nieuwe e-mail op te slaan).",
+    "label": "Nieuwe E-mail",
+    "btnCancel": "Annuleren",
+    "btnSubmit": "Verzenden"
+  },
+  "deleteAccount": {
+    "btnDelete": "Account Verwijderen",
+    "title": "Account Verwijderingsverzoek",
+    "description": "Bij het verzoek om je account te verwijderen, worden alle gegevens gekoppeld aan je account uit ons systeem gewist.",
+    "warning": "Weet je zeker dat je je account wilt verwijderen?"
+  },
+  "ConfirmationModal": {
+    "message": "Uitloggen Bevestigen!",
+    "Confirm": "Bevestigen",
+    "Cancel": "Annuleren"
+  },
+  "toast": {
+    "fromRequest": "Vriendschapsverzoek van",
+    "requestAccepted": "heeft je vriendschapsverzoek geaccepteerd!",
+    "newMessage": " heeft je een bericht gestuurd.",
+    "gameInvite": "Speluitnodiging van",
+    "TournamentInvite": "Toernooi-uitnodiging van",
+    "inviteReject": "De uitnodiging is verlopen of afgewezen.",
+    "gameAddress": "Spel succesvol aangemaakt"
+  },
+  "backend": {},
+  "errorsFriends": {
+    "unblock": "Kon vriend niet deblokkeren, probeer opnieuw",
+    "block": "Kon vriend niet blokkeren, probeer opnieuw",
+    "request": "Kon vriendschapsverzoek niet accepteren, probeer opnieuw",
+    "remove": "Kon vriend niet verwijderen, probeer opnieuw",
+    "cancel": "Kon vriendschapsverzoek niet annuleren, probeer opnieuw",
+    "send": "Kon vriendschapsverzoek niet versturen, probeer opnieuw",
+    "reject": "Kon vriendschapsverzoek niet afwijzen, probeer opnieuw",
+    "action": "Kon actie niet uitvoeren, probeer opnieuw"
+  },
+  "lang": "nl",
+  "footer": "ft_transcendence. Alle rechten voorbehouden.",
+  "welcome": {
+    "title": "FT-PONG",
+    "description": "Klaar om je volgende wedstrijd te beginnen en de ranglijst te beklimmen",
+    "playButton": "Nu spelen"
+  },
+  "noChatSelected": {
+    "title": "Welkom bij je Chat!",
+    "description1": "Selecteer een gesprek om te beginnen met chatten.",
+    "description2": "Als je nog geen vrienden hebt",
+    "addFriendButton": "Vriend toevoegen"
+  },
+  "chatHeader": {
+    "typing": "Aan het typen...",
+    "activeNow": "Nu actief",
+    "lastSeen": "Laatst gezien om"
+  },
+  "messageInput": {
+    "placeholder": "Schrijf een bericht",
+    "block": {
+      "unblockBtn": "Deblokkeren",
+      "blocker": "Je hebt deze gebruiker geblokkeerd",
+      "blocked": "Je bent geblokkeerd door deze gebruiker",
+      "description": "Je kunt geen berichten sturen naar deze gebruiker en je ontvangt hun berichten niet."
+    }
+  },
+  "messageArea": {
+    "showMoreButton": "Toon meer"
+  },
+  "message": {
+    "sender": "JIJ"
+  },
+  "MessageList": {
+    "placeholder": "Zoek vrienden",
+    "noUserFound": "Geen gebruikers gevonden die overeenkomen met",
+    "noConversationFound": "Je hebt momenteel geen gesprekken, gebruik de zoekbalk hierboven om vrienden te zoeken en een gesprek te starten.",
+    "menu": {
+      "markAsRead": "Markeer als gelezen",
+      "closeChat": "Chat sluiten",
+      "viewProfile": "Profiel bekijken",
+      "block": "Blokkeren",
+      "unblock": "Deblokkeren"
+    }
+  },
+  "optionsButton": "Chat",
+  "settingsSection": {
+    "profileButton": "Profiel",
+    "closeChat": "Chat sluitent",
+    "inviteButton": "Uitnodigen",
+    "privacy": "Privacy",
+    "mutualFriends": "Gemeenschappelijke vrienden",
+    "block": "Blokkeren",
+    "unblock": "Deblokkeren",
+    "noMutualFriends": "Geen gemeenschappelijke vrienden gevonden.",
+    "addUser": "Gebruiker toevoegen"
+  },
+  "timeDifference": {
+    "justNow": "Net nu",
+    "minute": "1 minuut geleden",
+    "minutes": "{{count}} minuten geleden",
+    "hour": "1 uur geleden",
+    "hours": "{{count}} uur geleden",
+    "day": "1 dag geleden",
+    "days": "{{count}} dagen geleden",
+    "week": "1 week geleden",
+    "weeks": "{{count}} weken geleden",
+    "year": "1 jaar geleden",
+    "years": "{{count}} jaar geleden"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "game": "Spel",
+    "chat": "Chat",
+    "leaderboard": "Ranglijst",
+    "friends": "Vrienden",
+    "profile": "Profiel",
+    "logout": "Uitloggen",
+    "lightMode": "Lichte modus",
+    "darkMode": "Donkere modus"
+  },
+  "sidebarFriends": {
+    "allFriends": "Alle vrienden",
+    "onlineFriends": "Online vrienden",
+    "friendRequests": "Vriendschapsverzoeken",
+    "sentRequests": "Verzonden verzoeken",
+    "blockedList": "Geblokkeerde lijst",
+    "addFriend": "Vriend toevoegen"
+  },
+  "allFriends": {
+    "title": "Alle vrienden",
+    "placeholder": "Zoek vrienden...",
+    "online": "Online",
+    "offline": "Offline",
+    "pupMessage": "Bericht",
+    "pupInvite": "Uitnodigen",
+    "pupBlock": "Blokkeren",
+    "pupUnfriend": "Ontvrienden",
+    "noRequests": "Nog geen vrienden",
+    "description": "Je vriendenlijst is nog leeg. Begin met verbinding maken door vrienden te zoeken of uitnodigingen te sturen!"
+  },
+  "onlineFriends": {
+    "title": "Online vrienden",
+    "online": "Online",
+    "pupMessage": "Bericht",
+    "pupInvite": "Uitnodigen",
+    "noRequests": "Geen vrienden online",
+    "description": "Het lijkt erop dat geen van je vrienden nu online is. Nodig wat vrienden uit of kom later terug!"
+  },
+  "friendRequests": {
+    "title": "Vriendschapsverzoeken",
+    "pupAccept": "Accepteren",
+    "pupReject": "Afwijzen",
+    "description": "Je hebt momenteel geen openstaande vriendschapsverzoeken. Maak contact met meer mensen om je netwerk uit te breiden!",
+    "noRequests": "Geen vriendschapsverzoeken"
+  },
+  "sentRequests": {
+    "title": "Verzonden verzoeken",
+    "pupCancel": "Annuleren",
+    "description": "Je hebt momenteel geen verzonden verzoeken. Maak contact met meer mensen om je netwerk uit te breiden!",
+    "noRequests": "Geen verzonden verzoeken"
+  },
+  "blockedList": {
+    "title": "Geblokkeerde lijst",
+    "placeholder": "Zoek geblokkeerde gebruikers...",
+    "pupUnblock": "Deblokkeren",
+    "description": "Je hebt geen gebruikers geblokkeerd. Geblokkeerde gebruikers verschijnen hier.",
+    "noRequests": "Geen geblokkeerde gebruikers"
+  },
+  "addFriend": {
+    "title": "Zoek & voeg vrienden toe",
+    "placeholder": "Vind je vriend...",
+    "pupViewProfile": "Bekijk profiel",
+    "pupFriend": "Vriend",
+    "pupAccept": "Accepteren",
+    "pupReject": "Afwijzen",
+    "pupCancel": "Annuleren",
+    "pupPending": "In afwachting",
+    "pupAddFriend": "Vriend toevoegen",
+    "notFound": "Geen gebruiker gevonden",
+    "Suggested": "Voorgestelde connecties"
+  },
+  "SearchUsers": {
+    "placeholder": "Zoeken...",
+    "pupViewProfile": "Bekijk profiel",
+    "pupFriend": "Vriend",
+    "pupAccept": "Accepteren",
+    "pupReject": "Afwijzen",
+    "pupMessage": "Bericht",
+    "pupCancel": "Annuleren",
+    "pupPending": "In afwachting",
+    "pupAddFriend": "Vriend toevoegen",
+    "notFound": "Geen gebruiker gevonden",
+    "loadingUsers": "Kon gebruikers niet laden. Controleer je internetverbinding.",
+    "retry": "Opnieuw proberen"
+  },
+  "notifications": {
+    "title": "Meldingen",
+    "clearAll": "Alles wissen",
+    "loadMore": "Meer tonen",
+    "loading": "Laden...",
+    "empty": "Meldingen Leeg"
+  },
+  "game": {
+    "toasts": {
+      "GameNotStarted": "Sorry, de andere speler heeft zich niet bij het spel gevoegd.",
+      "MultiGameNotStarted": "Sorry, een speler heeft het spel niet gehaald."
+    },
+    "gameArea": "GA!",
+    "localGame": {
+      "title": "Lokaal spel",
+      "description": "Speel met vrienden",
+      "onePlayer": "Één speler",
+      "twoPlayer": "Twee spelers",
+      "OptionsScreen": {
+        "Sound": "GELUID",
+        "SetWinningScore": "Stel winnende score in",
+        "SetControllerType": "Stel controller type in",
+        "ControllerOptions": {
+          "Mouse": "Muis",
+          "Keyboard": "Toetsenbord"
+        }
+      },
+      "DifficultyScreen": {
+        "Title": "Kies moeilijkheidsgraad",
+        "DifficultyOptions": {
+          "Easy": "Makkelijk",
+          "Normal": "Normaal",
+          "Hard": "Moeilijk"
+        }
+      },
+      "EndGameScreen": {
+        "Win": "Je wint!",
+        "Lose": "Je verliest!",
+        "Player1Wins": "Speler 1 wint!",
+        "Player2Wins": "Speler 2 wint!",
+        "YouWin": "Je wint!",
+        "ComputerWins": "Computer wint!",
+        "PlayAgain": "Opnieuw spelen",
+        "GoBack": "Ga terug"
+      },
+      "paused": "gepauzeerd"
+    },
+    "remoteGame": {
+      "title": "Online spel",
+      "description": "Daag online uit",
+      "matchmakingScreen": {
+        "matchmakingInProgress": "Matchmaking bezig",
+        "searchingForOpponent": "Zoeken naar een waardige tegenstander",
+        "playersOnline": "Spelers online",
+        "skillMatch": "Vaardigheidsmatch",
+        "highSkillMatch": "Hoog",
+        "cancelMatchmaking": "Matchmaking annuleren"
+      }
+    },
+    "remoteTournament": {
+      "title": "Online toernooi",
+      "description": "Maak online toernooi",
+      "CreateTournamentModal": {
+        "Label": "Maak toernooi",
+        "InputPlaceholder": "Voer toernooinaam in",
+        "SubmitButton": "Versturen",
+        "CancelButton": "Annuleren",
+        "AlertMessage": "Voer een toernooinaam in."
+      },
+      "playerReady": {
+        "Players": "Spelers",
+        "Format": "Format",
+        "SingleElimination": "Enkele eliminatie",
+        "Status": "Status",
+        "Created": "Aangemaakt"
+      },
+      "leaveTournamentButton": {
+        "leaveTournament": "Verlaat toernooi",
+        "leaveConfirmationTitle": "Toernooi verlaten?",
+        "leaveConfirmationDescription": "Weet je zeker dat je het toernooi wilt verlaten? Deze actie kan niet ongedaan worden gemaakt en kan resulteren in het afbreken van het toernooi.",
+        "stayButton": "Blijven",
+        "leaveButton": "Verlaat toernooi"
+      },
+      "InviteFriendsButton": {
+        "InviteFriends": "Vrienden uitnodigen",
+        "InviteButton": "Uitnodigen",
+        "toasts": {
+          "InviteSent": "Uitnodiging verzonden"
+        }
+      },
+      "sparkleEffect": {
+        "cancel": "Annuleren...",
+        "loading": "Laden...",
+        "ready": "KLAAR!",
+        "readyUp": "MAAK JE KLAAR"
+      }
+    },
+    "localTournament": {
+      "title": "Lokaal toernooi",
+      "description": "Lokaal toernooi",
+      "TournamentForm": {
+        "Title": "Toernooiregistratie",
+        "InputPlaceholder": "Voer spelernaam in",
+        "AddPlayerButton": "Voeg speler toe",
+        "ErrorMessages": {
+          "EmptyPlayer": "Spelernaam kan niet leeg zijn",
+          "DuplicatePlayer": "Spelernaam moet uniek zijn"
+        },
+        "StartTournamentButton": "Start toernooi"
+      },
+      "TournamentHeader": {
+        "Round1": "Ronde 1",
+        "Finals": "Finale"
+      },
+      "pong": {
+        "vs": "TEGEN",
+        "paused": "Gepauzeerd",
+        "ClickToStart": "Klik om te starten",
+        "start": "Start"
+      }
+    },
+    "multipleGame": {
+      "title": "Meervoudig spel",
+      "description": "Speel met vrienden",
+      "PlayerCard": {
+        "Score": "Score",
+        "Against": "Tegen"
+      },
+      "WaitingPJ": "Wachten op spelers om deel te nemen..."
+    },
+    "joinedTournaments": {
+      "title": "Deelgenomen toernooien",
+      "players": "Spelers:",
+      "status": "Status:",
+      "started": "Gestart:",
+      "noTournament": "Je hebt nog geen toernooien bijgewoond!",
+      "statusGame": {
+        "waiting": "wachtend",
+        "ongoing": "bezig",
+        "ended": "beëindigd",
+        "aborted": "afgebroken",
+        "unknown": "wachtend"
+      }
+    },
+    "openTournaments": {
+      "title": "Open toernooien",
+      "header": {
+        "id": "ID",
+        "name": "naam",
+        "creator": "Maker",
+        "creationDate": "Aanmaakdatum",
+        "players": "Spelers",
+        "action": "Actie"
+      },
+      "joinButton": "deelnemen",
+      "noTournaments": "Momenteel geen toernooien beschikbaar."
+    }
+  },
+  "Profile": {
+    "FriendsOther": {
+      "title": "Vrienden",
+      "mutualFriends": "Gemeenschappelijke Vrienden",
+      "allFriends": "Alle Vrienden",
+      "noMutualFriends": "Geen Gemeenschappelijke Vrienden",
+      "playerLonely": "Deze Speler is Eenzaam",
+      "Level": "Niveau:"
+    },
+    "informations": "Informatie",
+    "security": "Beveiliging",
+    "errors": {
+      "signup": {
+        "username": {
+          "required": "Gebruikersnaam is verplicht!",
+          "min": "Gebruikersnaam moet minimaal 4 tekens bevatten!",
+          "max": "Gebruikersnaam mag niet langer zijn dan 14 tekens!"
+        },
+        "email": {
+          "required": "E-mail is verplicht!",
+          "invalid": "Ongeldig e-mailformaat!"
+        },
+        "password": {
+          "required": "Wachtwoord is verplicht!",
+          "min": "Wachtwoord moet minimaal 8 tekens bevatten!",
+          "max": "Wachtwoord mag niet langer zijn dan 64 tekens!"
+        },
+        "confirmPassword": {
+          "required": "Wachtwoordbevestiging is verplicht!",
+          "match": "Wachtwoorden moeten overeenkomen!"
+        }
+      },
+      "login": {
+        "username": {
+          "required": "Gebruikersnaam is verplicht!",
+          "min": "Ongeldige gebruikersnaam!",
+          "max": "Ongeldige gebruikersnaam!"
+        },
+        "password": {
+          "required": "Wachtwoord is verplicht!",
+          "min": "Ongeldig wachtwoord!",
+          "max": "Ongeldig wachtwoord!"
+        }
+      },
+      "changePassword": {
+        "currentPassword": {
+          "required": "Huidig wachtwoord is verplicht!",
+          "min": "Wachtwoord moet minimaal 8 tekens bevatten!",
+          "max": "Wachtwoord mag niet langer zijn dan 64 tekens!"
+        },
+        "newPassword": {
+          "required": "Nieuw wachtwoord is verplicht!",
+          "min": "Wachtwoord moet minimaal 8 tekens bevatten!",
+          "max": "Wachtwoord mag niet langer zijn dan 64 tekens!"
+        },
+        "confirmPassword": {
+          "required": "Wachtwoordbevestiging is verplicht!",
+          "match": "Wachtwoorden moeten overeenkomen!"
+        }
+      },
+      "resetPassword": {
+        "newPassword": {
+          "required": "Nieuw wachtwoord is verplicht!",
+          "min": "Wachtwoord moet minimaal 8 tekens bevatten!",
+          "max": "Wachtwoord mag niet langer zijn dan 64 tekens!"
+        },
+        "confirmPassword": {
+          "required": "Wachtwoordbevestiging is verplicht!",
+          "match": "Wachtwoorden moeten overeenkomen!"
+        }
+      },
+      "setPassword": {
+        "password": {
+          "required": "Wachtwoord is verplicht!",
+          "min": "Wachtwoord moet minimaal 8 tekens bevatten!",
+          "max": "Wachtwoord mag niet langer zijn dan 64 tekens!"
+        },
+        "confirmPassword": {
+          "required": "Wachtwoordbevestiging is verplicht!",
+          "match": "Wachtwoorden moeten overeenkomen!"
+        }
+      },
+      "setUsername": {
+        "username": {
+          "required": "Gebruikersnaam is verplicht!",
+          "min": "Gebruikersnaam moet minimaal 4 tekens bevatten!",
+          "max": "Gebruikersnaam mag niet langer zijn dan 14 tekens!"
+        }
+      },
+      "otp": {
+        "otp": {
+          "required": "OTP is verplicht!",
+          "length": "OTP moet 6 cijfers zijn!",
+          "matches": "OTP moet een getal zijn!"
+        }
+      },
+      "editProfile": {
+        "username": {
+          "required": "Gebruikersnaam is verplicht!",
+          "min": "Gebruikersnaam moet minimaal 4 tekens bevatten!",
+          "max": "Gebruikersnaam mag niet langer zijn dan 14 tekens!"
+        },
+        "firstName": {
+          "min": "Voornaam moet minimaal 3 tekens bevatten!",
+          "max": "Voornaam mag niet langer zijn dan 20 tekens!"
+        },
+        "lastName": {
+          "min": "Achternaam moet minimaal 3 tekens bevatten!",
+          "max": "Achternaam mag niet langer zijn dan 20 tekens!"
+        },
+        "email": {
+          "invalid": "Ongeldig e-mailformaat!"
+        },
+        "password": {
+          "required": "Wachtwoord is verplicht!",
+          "min": "Wachtwoord moet minimaal 8 tekens bevatten!",
+          "max": "Wachtwoord mag niet langer zijn dan 64 tekens!"
+        },
+        "avatar": {
+          "fileSize": "Het bestand is te groot!",
+          "fileType": "Het bestandstype wordt niet ondersteund!"
+        },
+        "atLeastOneField": "Vul ten minste één veld in om de wijzigingen op te slaan"
+      }
+    },
+    "friends": {
+      "title": "Vrienden",
+      "viewMore": "Bekijk meer",
+      "buttons": {
+        "online": "Online",
+        "offline": "Offline"
+      },
+      "errors": {
+        "noFriends": "Je bent alleen",
+        "noOnlineFriends": "Geen online vrienden",
+        "noOfflineFriends": "Geen offline vrienden"
+      },
+      "addFriends": {
+        "button": "Vrienden toevoegen"
+      },
+      "profile": {
+        "level": "Niveau:",
+        "status": {
+          "online": "Online",
+          "offline": "Offline"
+        }
+      }
+    },
+    "gameHistory": {
+      "title": "Spelgeschiedenis",
+      "buttons": {
+        "game": "Spel",
+        "tournament": "Toernooi"
+      },
+      "noGames": {
+        "message": "Je hebt nog geen spellen gespeeld",
+        "playNow": "Speel nu"
+      },
+      "fields": {
+        "dateTime": "Datum & Tijd",
+        "name": "Naam",
+        "result": "Resultaat",
+        "score": "Score",
+        "duration": "Duur",
+        "XP": "XP"
+      },
+      "results": {
+        "win": "Gewonnen",
+        "lose": "Verloren"
+      },
+      "invite": "Uitnodigen"
+    },
+    "Achievements": {
+      "title": "Prestaties",
+      "NoAchievementsFound": "Geen prestaties gevonden!",
+      "locked": "Vergrendeld",
+      "achievements": {
+        "first_paddle_name": "Eerste Paddle",
+        "first_paddle_description": "Win je eerste wedstrijd.",
+        "persistent_player_name": "Vasthoudende Speler",
+        "persistent_player_description": "Log 7 dagen achter elkaar in!",
+        "bronze_champ_name": "Bronzen Kampioen",
+        "bronze_champ_description": "Win 5 wedstrijden.",
+        "silver_smash_name": "Zilveren Smash",
+        "silver_smash_description": "Win 10 wedstrijden.",
+        "gold_ace_name": "Gouden Ace",
+        "gold_ace_description": "Win 20 wedstrijden.",
+        "marathon_match_name": "Marathonwedstrijd",
+        "marathon_match_description": "Speel een wedstrijd die langer dan 5 minuten duurt.",
+        "ft_pong_legend_name": "FT-PONG Legende",
+        "ft_pong_legend_description": "Win 50 wedstrijden."
+      }
+    },
+    "profileHeader": {
+      "EditProfileButton": "Profiel bewerken",
+      "profileStats": {
+        "games": "SPELLEN",
+        "wins": "GEWONNEN",
+        "loses": "VERLOREN",
+        "score": "SCORE",
+        "rank": "RANG"
+      },
+      "badge": {
+        "Bronze": "Brons",
+        "Silver": "Zilver",
+        "Gold": "Goud",
+        "Platinum": "Platina",
+        "Diamond": "Diamant",
+        "Ft-Pong": "Ft-Pong"
+      },
+      "buttons": {
+        "friendsBtn": "Vrienden",
+        "cancelBtn": "Annuleren",
+        "acceptBtn": "Accepteren",
+        "addBtn": "Toevoegen",
+        "moreBtn": "Meer",
+        "messageBtn": "Bericht",
+        "blockBtn": "Blok",
+        "challengeBtn": "Uitdaging"
+      }
+    },
+    "setPassword": {
+      "title": "Wachtwoord instellen",
+      "description": "Je account heeft geen wachtwoord. Stel een wachtwoord in zodat je kunt inloggen en je profiel kunt bewerken.",
+      "fields": {
+        "newPassword": "Nieuw wachtwoord",
+        "confirmPassword": "Bevestig nieuw wachtwoord"
+      },
+      "buttons": {
+        "reset": "Herstellen",
+        "save": "Opslaan"
+      },
+      "successMessage": "Wachtwoord succesvol ingesteld."
+    },
+    "EditSecurity": {
+      "changePassword": {
+        "title": "Wachtwoord wijzigen",
+        "currentPassword": "Huidig wachtwoord",
+        "newPassword": "Nieuw wachtwoord",
+        "confirmPassword": "Bevestig nieuw wachtwoord",
+        "buttons": {
+          "reset": "Herstellen",
+          "save": "Opslaan"
+        }
+      },
+      "twoFactorAuth": {
+        "title": "Twee-factor-authenticatie (2FA)",
+        "description": "Ontvang verificatiecodes van een authenticator-app zoals Google Authenticator. Het werkt zelfs als je telefoon offline is. Scan de QR-code hieronder.",
+        "mobileMessageLabel": "Voer de 6-cijferige verificatiecode in die door je authenticator-app is gegenereerd.",
+        "otpPlaceholder": "Voer OTP in",
+        "buttons": {
+          "downloadApp": "App downloaden",
+          "getQrCode": "QR-code ophalen",
+          "enable2FA": "2FA inschakelen"
+        },
+        "enabled": {
+          "status": "Twee-factor-authenticatie is momenteel ingeschakeld",
+          "confirmPasswordLabel": "Bevestig je wachtwoord",
+          "buttons": {
+            "disable2FA": "2FA uitschakelen"
+          },
+          "ask_disable": "Weet je zeker dat je 2FA wilt uitschakelen?"
+        }
+      },
+      "downloadAppPopup": {
+        "title": "Selecteer je besturingssysteem",
+        "osButtons": {
+          "android": "Android",
+          "ios": "Apple"
+        },
+        "qrCodeInstructions": "Scan de QR-code om de app te downloaden.",
+        "buttons": {
+          "close": "Sluiten"
+        }
+      },
+      "errors": {
+        "defaultError": "Er is een fout opgetreden. Probeer het later opnieuw"
+      },
+      "toasts": {
+        "passwordChanged": "Wachtwoord succesvol gewijzigd",
+        "twoFactorEnabled": "Twee-factor-authenticatie ingeschakeld",
+        "twoFactorDisabled": "Twee-factor-authenticatie uitgeschakeld"
+      }
+    },
+    "EditInfosProfile": {
+      "title": "Bewerk je informatie",
+      "avatar": {
+        "changeButton": "Avatar wijzigen",
+        "removeButton": "Avatar verwijderen"
+      },
+      "fields": {
+        "firstName": {
+          "label": "Voornaam",
+          "placeholder": "Voer je voornaam in"
+        },
+        "lastName": {
+          "label": "Achternaam",
+          "placeholder": "Voer je achternaam in"
+        },
+        "username": {
+          "label": "Gebruikersnaam",
+          "placeholder": "Voer je gebruikersnaam in"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Voer nieuw e-mailadres in",
+          "verifyButton": "Verifiëren"
+        },
+        "password": {
+          "label": "Voer je wachtwoord in",
+          "placeholder": "Voer je wachtwoord in"
+        }
+      },
+      "saveButton": "Opslaan",
+      "confirmSave": {
+        "title": "Bevestig je wachtwoord",
+        "description": "Voer je wachtwoord in om de wijzigingen op te slaan. Bedankt voor je tijd, dit is allemaal om jou te beschermen!",
+        "buttons": {
+          "close": "Sluiten",
+          "confirm": "Bevestigen"
+        }
+      },
+      "errors": {
+        "emptyForm": "Vul ten minste één veld in om de wijzigingen op te slaan",
+        "defaultError": "Er is een fout opgetreden. Probeer het later opnieuw"
+      },
+      "toasts": {
+        "successUpdate": "Profiel succesvol bijgewerkt",
+        "emailVerificationSent": "Verificatie-e-mail succesvol verzonden"
+      }
+    }
+  },
+  "dashboard": {
+    "overview": {
+      "title": "Overzicht",
+      "buttons": {
+        "singleBtn": "Enkele Wedstrijd",
+        "tournamentsBtn": "Toernooien"
+      },
+      "fields": {
+        "games": "SPELLEN",
+        "score": "SCORE",
+        "highestScore": "Hoogste Score",
+        "longestStreak": "Langste Reeks",
+        "bestRank": "Beste Rang",
+        "winRate": "Winstpercentage",
+        "wins": "GEWONNEN",
+        "loses": "VERLOREN"
+      }
+    },
+    "LineChartComponent": {
+      "title": "Wekelijkse Speelduur",
+      "totalPlayTime": "Totale Speeltijd",
+      "avgDailyTime": "Gem. Dagelijkse Tijd",
+      "tooltipHours": "uur",
+      "yAxisLabel": "Uren",
+      "days": {
+        "Mon": "Ma",
+        "Tue": "Di",
+        "Wed": "Wo",
+        "Thu": "Do",
+        "Fri": "Vr",
+        "Sat": "Za",
+        "Sun": "Zo"
+      }
+    },
+    "Leaderboard": {
+      "headerTitle": "Ranglijst",
+      "viewAll": "Bekijk Alle Ranglijsten",
+      "tableHeaders": {
+        "rank": "Rang",
+        "name": "Naam",
+        "games": "Spellen",
+        "winRate": "Winstpercentage",
+        "loseRate": "Verliespercentage",
+        "score": "Score"
+      },
+      "noDataFound": "Geen gegevens gevonden"
+    },
+    "FriendsList": {
+      "headerTitle": "Je Vrienden",
+      "viewMore": "Bekijk Meer",
+      "noFriends": {
+        "message": "Je hebt nog geen vrienden.",
+        "addFriendsButton": "Vrienden Toevoegen"
+      },
+      "friendItem": {
+        "levelLabel": "Niveau:",
+        "status": {
+          "online": "Online",
+          "offline": "Offline"
+        }
+      }
+    },
+    "LastMatch": {
+      "pts": "pts",
+      "headerTitle": "Laatste Wedstrijden",
+      "viewMore": "Bekijk Meer",
+      "winMessage": "Goed gedaan, blijf spelen om je reeks vast te houden!",
+      "loseMessage": "Geen zorgen, probeer het opnieuw en verbeter je vaardigheden!",
+      "defaultMessage": "Speel om hoger op de ranglijst te komen!",
+      "noGames": {
+        "message": "Geen wedstrijden gevonden in je geschiedenis.",
+        "playNow": "Speel Nu"
+      },
+      "matchItem": {
+        "opponentLabel": "Tegenstander:",
+        "dateLabel": "Datum:",
+        "scoreLabel": "Score:",
+        "xpGainedLabel": "XP Verdiend:"
+      }
+    }
+  }
+}

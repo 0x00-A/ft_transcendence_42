@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--color-game-screen-bg);
+  height:  calc(100vh - var(--header-height) - var(--footer-height));
+  border-radius: 10px;
+  min-height: 600px;
+  min-width: 800px;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset;
+  padding: 30px;
+  position: relative;
+}
+
+.gameArea {
+    box-sizing: content-box;
+    /* position: relative; */
+    left: 20px;
+    background-color: var(--main-surface-tertiary);
+    width: 650px;
+    height: 480px;
+    color: var(--game-screen-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+    user-select: none;
+    touch-action: manipulation;
+    margin: 0 auto;
+    border: 6px solid var(--text-color);
+}
+
+#gameCanvas {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-surface-tertiary);
+
+    touch-action: manipulation;
+    cursor: none;
+    /* border: 3px solid lightgray; */
+
+}
+
+.gameArea * {
+    font-family: "Courier New",Courier,monospace
+}
+
+.score {
+  position: absolute;
+  top: 20px;       /* Position it relative to the canvas container */
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--game-screen-text-color);
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 5px 15px; /* Padding for better readability */
+  border-radius: 10px; /* Rounded corners */
+  z-index: 10;  /* Ensure it appears above the canvas */
+}
+
+
+.gameOverScreen {
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center';
+    justify-content: 'center';
+    color: 'white';
+    height: '100%';
+    font-size: '24px';
+}
+
+.gameScreenDiv {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid var(--game-screen-text-color); */
+}
+
+.gameScreenDiv>button {
+    margin-bottom: 14px
+}
+
+.scoreWrapper {
+    position: relative;
+    top: 20px;
+    display: flex;
+    height: 0;
+    justify-content: center;
+    cursor: none
+}
+
+.player1Score,.player2Score {
+    color: var(--game-screen-text-color);
+    font-size: 48px;
+    font-weight: 600;
+    width: 100px
+}
+
+.player1Score {
+    text-align: right;
+    margin-right: 80px
+}
+
+.player2Score {
+    text-align: left;
+    margin-left: 80px
+}
+
+
+.optionsPanel {
+    color: lightgray;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px
+}
+
+.matchmakingLoader {
+  width: 150px;
+  height: 140px;
+}
+.matchmakingLoaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:  calc(100vh - var(--header-height) - var(--footer-height));
+}

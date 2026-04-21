@@ -1,0 +1,271 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  color: #ffffff;
+  width: 100%;
+  max-width: 2000px;
+  min-width: 650px;
+  margin: 0 auto;
+  min-height: 900px;
+}
+
+.LineChart {
+  height: 50%;
+  background-color: #1e2533;
+  padding: 30px;
+  border-radius: 5rem;
+}
+
+.heroSection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.welcome {
+  height: 50%;
+  padding-right: 2.5rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  background-image: url('/welcome.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 1.5rem;
+}
+
+.other {
+  height: 20%;
+  background-color: #1e2533;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.leaderboard {
+  width: 100%;
+  height: 50%;
+  background-color: #1e2533;
+  padding: 30px;
+  border-radius: 5rem;
+  color: #ffffff;
+}
+
+.mainContent {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.competitiveOverview {
+  /* height: 50%; */
+  background-color: #1e2533;
+  padding: 30px;
+  border-radius: 5rem;
+  background-color: #1e2533;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* .achievements {
+  height: 50%;
+  background-color: #1E2533;
+  padding: 30px;
+  border-radius: 30px;
+} */
+
+.lastSection {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lastMatchContainer {
+  height: 50%;
+  background-color: #1e2533;
+  border-radius: 5rem;
+  padding: 30px;
+  color: #f8f3e3;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #283246;
+}
+
+.friendsContainer {
+  height: 50%;
+  background-color: #1e2533;
+  border-radius: 5rem;
+  padding: 30px;
+  color: #f8f3e3;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 2100px) {
+  .container {
+    padding: 2rem;
+
+  }
+  .friendsContainer {
+    border-radius: 0 0 5rem 5rem;
+  }
+  .lastMatchContainer {
+    border-radius: 5rem 5rem 0 0;
+  }
+
+  .heroSection,
+  .mainContent,
+  .lastSection {
+    flex-direction: column;
+  }
+
+  .heroSection {
+    width: 45%;
+  }
+
+  .mainContent {
+    width: 35%;
+  }
+
+  .lastSection {
+    width: 30%;
+    gap: 0;
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 2100px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .heroSection,
+  .mainContent,
+  .lastSection {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .welcome,
+  .other,
+  .leaderboard,
+  .competitiveOverview,
+  .LineChart,
+  .lastMatchContainer,
+  .friendsContainer {
+    height: auto;
+    width: 100%;
+    padding: 30px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1180px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .heroSection,
+  .mainContent,
+  .lastSection {
+    /* flex-direction: row; */
+    width: 90%;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  .welcome,
+  .other,
+  .leaderboard,
+  .competitiveOverview,
+  .LineChart,
+  .lastMatchContainer,
+  .friendsContainer {
+    height: auto;
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .heroSection,
+  .mainContent,
+  .lastSection {
+    width: 100%;
+  }
+
+  .welcome,
+  .other,
+  .leaderboard,
+  .competitiveOverview,
+  .LineChart,
+  .lastMatchContainer,
+  .friendsContainer {
+    padding: 15px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .heroSection,
+  .mainContent,
+  .lastSection {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .welcome,
+  .other,
+  .leaderboard,
+  .competitiveOverview,
+  .LineChart,
+  .lastMatchContainer,
+  .friendsContainer {
+    height: auto;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .heroSection,
+  .mainContent,
+  .lastSection {
+    width: 100%;
+  }
+
+  .welcome,
+  .other,
+  .leaderboard,
+  .competitiveOverview,
+  .LineChart,
+  .lastMatchContainer,
+  .friendsContainer {
+    padding: 30px;
+    height: auto;
+  }
+}

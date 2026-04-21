@@ -1,0 +1,40 @@
+.moreButton {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #283246;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.moreButton:hover img {
+  animation: zoomAndRotate 0.3s ease forwards;
+}
+/* .moreButton:not(:hover) {
+  animation: reverseZoomAndRotate 0.3s ease forwards;
+} */
+
+@keyframes zoomAndRotate {
+  0% {
+    transform: scale(0.5) rotate(0deg);
+  }
+  50% {
+    transform: scale(1) rotate(90deg);
+  }
+  100% {
+    transform: scale(1) rotate(180deg);
+  }
+}
+/* @keyframes reverseZoomAndRotate {
+  0% {
+    transform: scale(1) rotate(180deg);
+  }
+  50% {
+    transform: scale(1) rotate(90deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+} */

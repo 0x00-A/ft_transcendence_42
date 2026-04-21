@@ -1,0 +1,11 @@
+.logo {
+  /* border: 1px solid blue;
+  height: 5.2rem;
+  text-align: center;
+  width: 15%; */
+}
+
+.logo img {
+  transition-duration: 500ms;
+  /* width: 8rem; */
+}

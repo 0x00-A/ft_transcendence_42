@@ -1,0 +1,115 @@
+/* .otpContainer {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+
+} */
+
+.otpForm {
+    /* width: 350px; */
+    /* height: 500px; */
+    width: auto;
+    /* height: auto; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--main-surface-tertiary);
+    /* border: 1px solid white; */
+    padding: 2.3rem;
+}
+
+.logo {
+    width: 180px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otpForm h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: var(--main-text-primary);
+}
+
+.otpForm p {
+    width: 400px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--main-text-secondary);
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.label {
+    font-size: 1.5rem;
+    color: #D1D3D4;
+}
+
+.input {
+    width: 130px;
+    background-color: #1E2533;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.4rem;
+    color: #D1D3D4;
+}
+
+.otpButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.submitBtn, .cancelBtn {
+    background-color: #0E1725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 40px;
+    padding: 20px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #D1D3D4;
+}
+
+.submitBtn:hover, .cancelBtn:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.submitBtn {
+    border: 1px solid #F8C25C;
+}
+
+.cancelBtn {
+    border: 1px solid #AA2926;
+}
+
+.fieldError {
+    color: #AA2926;
+    font-size: 1.2rem;
+    font-weight: 800;
+}

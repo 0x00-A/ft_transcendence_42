@@ -1,0 +1,206 @@
+.profileAchievContainer {
+    height: 40%;
+    width: 100%;
+    background-color: #1e2533;
+    border-radius: 40px;
+}
+
+.achievHeader {
+
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 4px solid #283245;
+    font-size: 2.2rem;
+    color: #F8F3E3;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+.achievsContainer {
+    height: calc(100% - 65px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 15px;
+    position: relative;
+}
+
+.previousBtn, .nextBtn {
+    border: none;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: #283245;
+    color: #F8F3E3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.previousBtn:hover, .nextBtn:hover {
+    background-color: #3D4A68;
+    color: white;
+    transform: scale(1.1);
+}
+
+.achievCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #283245;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.06);
+    flex: 1;
+    color: var(--text-color);
+    position: relative;
+
+}
+
+.achievCard:hover {
+    transform: translateY(-5px);
+    background-color: #33425E;
+}
+
+.unlocked {
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.lockedAchievCard {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.achievTitle {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #3D4A68;
+    text-align: center;
+}
+.achievTitle h4 {
+    font-size: 10px;
+}
+
+.achievImg {
+    width: 35px;
+    height: 35px;
+}
+
+.achievDescription {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #B0B9D0;
+}
+
+
+
+.progress {
+    color: #ffb902;
+    font-weight: bold;
+}
+
+.achievProgress {
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #1e2533;
+    font-size: 1.5rem;
+    gap: 1rem;
+    color: #B0B9D0;
+}
+
+.achievProgress p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.skeletonCard {
+    background-color: #2e3a50;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeletonTitle,
+.skeletonDescription,
+.skeletonProgress {
+    background: linear-gradient(90deg, #2e3a50 25%, #3a4a68 50%, #2e3a50 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 5px;
+}
+
+.skeletonTitle {
+    height: 30%;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.skeletonDescription {
+    height: 50%;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.skeletonProgress {
+    height: 20%;
+    width: 70%;
+}
+
+/* Shimmer Effect */
+@keyframes shimmer {
+    from {
+        background-position: 200% 0;
+    }
+    to {
+        background-position: -200% 0;
+    }
+}
+
+/* Pulse Effect for Skeleton */
+@keyframes pulse {
+    0% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}

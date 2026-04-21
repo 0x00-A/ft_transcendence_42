@@ -1,0 +1,681 @@
+{
+  "editEmail": {
+      "btnEdit": "ⵥⵔⴻⴳ",
+      "editEmail": "ⴱⴻⴷⴷⴻⵍ ⵉⵎⴰⵢⵍⵉⴽ",
+      "description": "ⴰⴷ ⵏⴰⵣⵏⴻⵖ ⴰⵙⴻⵏⵇⴻⴷ ⵏ ⵓⵙⴽⴰⵙⵉ ⵖⴻⵔ ⵓⵎⴰⵢⵍⵉⴽ ⴰⵎⴰⵢⵏⵓⵜ. (ⴰⵙⴽⴰⵙⵉ ⵢⴻⵜⵜⵡⴰⵃⵡⴰⴵ ⴰⴽⴽⴻⵏ ⴰⴷ ⵜⴻⵙⵙⴻⵍⴽⴻⴹ ⵉⵎⴰⵢⵍ ⴰⵎⴰⵢⵏⵓⵜ).",
+      "label": "ⵉⵎⴰⵢⵍ ⴰⵎⴰⵢⵏⵓⵜ",
+      "btnCancel": "ⵢⴻⴽⴽⴻⵙ",
+      "btnSubmit": "ⴰⵙⴻⴱⵜⴻⵔ"
+  },
+  "deleteAccount": {
+      "btnDelete": "ⴽⴽⴻⵙ ⴰⵎⵉⴹⴰⵏ",
+      "title": "ⴰⵙⵓⵜⴻⵔ ⵏ ⵜⵓⴽⴽⵙⴰ ⵏ ⵓⵎⵉⴹⴰⵏ",
+      "description": "ⵙ ⵓⵙⵓⵜⴻⵔ ⵏ ⵜⵓⴽⴽⵙⴰ ⵏ ⵓⵎⵉⴹⴰⵏⵉⴽ, ⴰⴽⴽ ⵉⵙⴻⴼⴽⴰ ⵉⵛⵓⴷⴷⴻⵏ ⵖⴻⵔ ⵓⵎⵉⴹⴰⵏⵉⴽ ⴰⴷ ⵜⵜⵡⴰⴽⴽⵙⴻⵏ ⵙⴻⴳ ⵓⵏⴰⴳⵔⴰⵡⵏⵏⴻⵖ.",
+      "warning": "ⵜⴻⵜⵜⵡⴰⴽⴽⵙⴻⴹ, ⵜⴻⴱⵖⵉⴹ ⴰⴷ ⵜⴻⵙⴼⴻⴹ ⴰⵎⵉⴹⴰⵏⵉⴽ ?"
+  },
+  "ConfirmationModal": {
+      "message": "ⵙⵙⴻⴽⵏⴻⴹ Tuffɣa!",
+      "Confirm": "ⵙⵙⴻⴽⵏⴻⵖⵜ",
+      "Cancel": "ⵢⴻⴽⴽⴻⵙ"
+  },
+  "toast": {
+      "fromRequest": "ⴰⵙⵓⵜⴻⵔ ⵏ ⵓⵎⴻⴷⴷⴰⴽⴻⵍ ⵙⴻⴳ",
+      "requestAccepted": "ⵢⴻⵇⴱⴻⵍ ⴰⵙⵓⵜⴻⵔⵉⴽ ⵏ ⵓⵎⴻⴷⴷⴰⴽⴻⵍ!",
+      "newMessage": "ⵢⵓⵣⴻⵏⴰⴽⴷ ⵉⵣⴻⵏ.",
+      "gameInvite": "ⴰⵄⵔⴰⴹ ⵏ ⵡⵓⵔⴰⵔ ⵙⴻⴳ",
+      "inviteReject": "ⴰⵄⵔⴰⴹⵏⵏⵉ ⵢⴻⵄⴹⴻⵍ ⵏⴻⵖ ⵢⴻⵜⵜⵡⴰⵇⴱⴻⵍ.",
+      "gameAddress": "ⵢⴻⵜⵜⵡⴰⵅⵍⴻⵇⴷ ⵓⵔⴰⵔ ⵙ ⵔⵔⴱⴻⵃ"
+  },
+  "backend": {
+  },
+  "errorsFriends": {
+      "unblock": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴻⴼⵔⵓ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+      "block": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴻⵃⴱⴻⵙ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+      "request": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴻⵇⴱⴻⵍ ⴰⵙⵓⵜⴻⵔ ⵏ ⵓⵎⴻⴷⴷⴰⴽⴻⵍ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+      "remove": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴻⴽⴽⴻⵙ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+      "cancel": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴻⴱⵟⴻⵍ ⴰⵙⵓⵜⴻⵔ ⵏ ⵓⵎⴻⴷⴷⴰⴽⴻⵍ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+      "send": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴰⵣⴻⵏ ⴰⵙⵓⵜⴻⵔ ⵏ ⵓⵎⴻⴷⴷⴰⴽⴻⵍ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+      "reject": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⵓⴳⵉ ⴰⵙⵓⵜⴻⵔ ⵏ ⵓⵎⴻⴷⴷⴰⴽⴻⵍ, ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ.",
+      "action": "ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⴻⵅⴷⴻⵎ ⵜⵉⴳⴰⵡⵜ ⵄⵔⴻⴹ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ"
+  },
+  "lang": "tmazight",
+  "footer": "ft_transcendence. ⵉⵣⴻⵔⴼⴰⵏ ⴰⴽⴽ ⵜⵜⵡⴰⵃⴻⵔⵣⴻⵏ.",
+  "welcome": {
+      "title": "FT-PONG",
+      "description": "ⴰⴽⵍⴰⵎ ⴰⵎⵏⵓ ⴷ ⵉⴷⵍⴰⴽ ⴰⵎⴰⵢⵏⵉⵙ ⵏ ⵓⴷⴰⵢⵏ ⴷ ⵉⵍⴷⴰⵡⴰⵍⴻⵏ",
+      "playButton": "ⴽⵔⵎⴰⵏ ⵉⵎⵓⴽⵉ"
+  },
+  "noChatSelected": {
+      "title": "ⴰⵏⵙⵓⴼ ⴼⴻⵍⵍⴰⴽ ⴷⴻⴳ ⴰⵎⴻⵙⵍⴰⵢⵉⴽ!",
+      "description1": "ⵜⵜⵅⵉⵍⴽ ⴼⵔⴻⵏ ⴰⵎⴻⵙⵍⴰⵢ ⴰⴽⴽⴻⵏ ⴰⴷ ⵜⴻⴱⴷⵓⴹ ⴰⵎⴻⵙⵍⴰⵢ.",
+      "description2": "ⵎⴰ ⵢⴻⵍⵍⴰ ⵓⵔ ⵜⴻⵙⵄⵉⴹ ⴰⵔⴰ ⵉⵎⴷⵓⴽⴰⵍ",
+      "addFriendButton": "ⵔⵏⵓ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ"
+  },
+  "chatHeader": {
+      "typing": "ⵜⵉⵔⴰ...",
+      "activeNow": "ⵢⴻⵜⵜⵡⴰⵅⴷⴻⵎ ⵜⵓⵔⴰ",
+      "lastSeen": "ⴰⵏⴻⴳⴳⴰⵔⵓ ⵢⴻⵜⵜⵡⴰⵡⴰⵍⴰ ⴷⴻⴳ"
+  },
+  "messageInput": {
+      "placeholder": "ⴰⵔⵓⴷ ⵉⵣⴻⵏ",
+      "block": {
+          "unblockBtn": "ⵔⵥⴻⵎ",
+          "blocker": "ⵜⵃⴻⴱⵙⴻⴹ ⴰⵙⴻⵇⴷⴰⵛⴰ",
+          "blocked": "ⵜⴻⵜⵜⵡⴰⵃⴱⴻⵙ ⵙⵖⵓⵔ ⴰⵙⴻⵇⴷⴰⵛⴰ",
+          "description": "ⵓⵔ ⵜⴻⵙⵄⵉⴹ ⴰⵔⴰ ⴽⵔⴰ ⵏ ⵜⵎⴻⵙⵍⴰⵢⵉⵏ ⵜⵓⵔⴰ ⵙⵙⴻⵇⴷⴻⵛ ⴰⵏⴰⴷⵉ ⵙ ⵓⴼⴻⵍⵍⴰ ⵉ ⵓⵏⴰⴷⵉ ⴷ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ ⵓ ⵔⵏⵓⴷ ⴰⵎⴻⵙⵍⴰⵢ."
+      }
+  },
+  "messageArea": {
+      "showMoreButton": "ⵙⴽⴻⵏ ⵓⴳⴰⵔ"
+  },
+  "message": {
+      "sender": "ⴽⴻⵞⵞ"
+  },
+  "MessageList": {
+      "placeholder": "ⵏⴰⴷⵉ ⵖⴻⴼ ⵉⵎⴷⵓⴽⴰⵍ",
+      "noUserFound": "ⵓⵔ ⵓⴼⵉⵏ ⴰⵔⴰ ⵉⵙⴻⵇⴷⴰⵛⴻⵏ ⵢⴻⵜⵜⴻⵎⵛⴰⴱⵉⵏ",
+      "noConversationFound": "ⵓⵔ ⵜⴻⵙⵄⵉⴹ ⴰⵔⴰ ⴽⵔⴰ ⵏ ⵜⵎⴻⵙⵍⴰⵢⵉⵏ ⵜⵓⵔⴰ.",
+      "menu": {
+          "markAsRead": "ⵙⵙⴻⴽⵏⴻⴹ ⴰⴽⴽⴻⵏ ⵢⴻⵖⵔⴰ",
+          "closeChat": "ⵖⴻⵍⵇ ⴰⵎⴻⵙⵍⴰⵢ",
+          "viewProfile": "ⵡⴰⵍⵉ ⴰⴳⴱⵓⵔ",
+          "block": "ⵢⴻⵔⴳⴻⵍ",
+          "unblock": "ⵔⵥⴻⵎ"
+      }
+  },
+  "optionsButton": "ⴰⵎⴻⵙⵍⴰⵢ",
+  "settingsSection": {
+      "profileButton": "ⴰⵍⴻⴳⴷⵉⵙ",
+      "inviteButton": "ⵄⵔⴻⴹ",
+      "privacy": "ⵜⴰⴱⴰⴷⵏⵉⵜ",
+      "mutualFriends": "ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⵉⵛⵓⴷⴷⴻⵏ",
+      "block": "ⵢⴻⵔⴳⴻⵍ",
+      "unblock": "ⵔⵥⴻⵎ",
+      "noMutualFriends": "ⵓⵔ ⴷⵓⴼⵉⵏ ⴰⵔⴰ ⵉⵎⴷⵓⴽⴰⵍ ⵉⵛⵓⴷⴷⴻⵏ.",
+      "addUser": "ⵔⵏⵓ ⴰⵎⵙⴻⵇⴷⴰⵛ"
+  },
+  "timeDifference": {
+      "justNow": "ⵜⵓⵔⴰ ⴽⴰⵏ",
+      "minute": "1 ⵏ ⵜⴻⴷⵇⵉⵇⵜ ⴰⵢⴰ",
+      "minutes": "{{count}} ⵜⴻⴷⵇⵉⵇⵉⵏ ⴰⵢⴰ",
+      "hour": "ⵢⵉⵡⴻⵜ ⵏ ⵜⵙⴰⵄⴻⵜ ⴰⵢⴰ",
+      "hours": "{{count}} ⵜⵙⴰⵄⵜⵉⵏ ⴰⵢⴰ",
+      "day": "ⵢⵉⵡⴻⵏ ⵡⴰⵙⵙ ⴰⵢⴰ",
+      "days": "{{count}} ⵓⵙⵙⴰⵏ ⴰⵢⴰ",
+      "week": "ⵢⵉⵡⴻⵏ ⵏ ⴷⴷⵓⵔⵜ ⴰⵢⴰ",
+      "weeks": "{{count}} ⴷⴷⵓⵔⵜ ⴰⵢⴰ",
+      "year": "ⴰⵙⴻⴳⴳⴰⵙ ⴰⵢⴰ",
+      "years": "{{count}} ⵉⵙⴻⴳⴳⴰⵙⴻⵏ ⴰⵢⴰ"
+  },
+  "sidebar": {
+      "dashboard": "ⵜⴰⴼⴻⵍⵡⵉⵜ",
+      "game": "ⵜⵓⵔⴰⵔⴻⵜ",
+      "chat": "ⴰⵎⴻⵙⵍⴰⵢ",
+      "friends": "ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ",
+      "leaderboard": "ⵣⵏⵣⵎⵎⵉⵏ",
+      "profile": "ⴰⵍⴻⴳⴷⵉⵙ",
+      "logout": "ⵜⵓⴼⴼⵖⴰ",
+      "lightMode": "ⴰⴷⴻⴳ ⵏ ⵜⴰⴼⴰⵜ",
+      "darkMode": "ⵜⴰⵍⵖⴰ ⵜⴰⵣⴻⴳⵣⴰⵡⵜ"
+  },
+  "sidebarFriends": {
+      "allFriends": "ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⴰⴽⴽⵯ ",
+      "onlineFriends": "ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⵏ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+      "friendRequests": "ⵉⵙⵓⵜⴻⵔ ⵏ ⵉⵎⴷⵓⴽⴰⵍ",
+      "sentRequests": "ⵢⴻⵜⵜⵡⴰⵣⴻⵏ ⵉⵙⵓⵜⴻⵔ",
+      "blockedList": "ⵓⵎⵓⵖ ⵢⴻⵜⵜⵡⴰⵃⴻⴱⵙⴻⵏ",
+      "addFriend": "ⵔⵏⵓ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ"
+  },
+  "allFriends": {
+      "title": "ⴰⴽⴽ ⵉⵎⴷⵓⴽⴰⵍ",
+      "placeholder": "ⵏⴰⴷⵉ ⵖⴻⴼ ⵉⵎⴷⵓⴽⴰⵍ...",
+      "online": "Oⵏⵍⴰⵢⵏ",
+      "offline": "ⴱⴻⵕⵕⴰ ⵉ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+      "pupMessage": "ⴰⵡⴰⵍ",
+      "pupInvite": "ⵄⵔⴻⴹ",
+      "pupBlock": "ⵢⴻⵔⴳⴻⵍ",
+      "pupUnfriend": "ⵓⵔ ⴷ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ",
+      "noRequests": "ⵎⴰⵣⴰⵍ ⵓⵍⴰⵛ ⵉⵎⴷⵓⴽⴰⵍ",
+      "description": "ⴰⵎⵣⵓⵏ ⵍⵉⵙⵜⵉ ⵏ ⵉⵎⴷⵓⴽⴰⵍⵉⴽ ⴷ ⵉⵍⴻⵎ. ⴱⴷⵓ ⵜⵓⵇⵇⵏⴰ ⵙ ⵓⵏⴰⴷⵉ ⵏ ⵢⵉⵎⴻⴷⴷⵓⴽⴰⵍ ⵏⴻⵖ ⵙ ⵓⵙⵉⵡⴻⴹ ⵏ ⵜⵏⴻⵄⵔⴻⴹⵉⵏ!"
+  },
+  "onlineFriends": {
+      "title": "ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⵏ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+      "online": "Oⵏⵍⴰⵢⵏ",
+      "pupMessage": "ⴰⵡⴰⵍ",
+      "pupInvite": "ⵄⵔⴻⴹ",
+      "noRequests": "ⵓⵍⴰⵛ ⵉⵎⴷⵓⴽⴰⵍ ⴷⴻⴳ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+      "description": "ⴰⵎⵣⵓⵏ ⵓⵍⴰ ⴷ ⵢⵉⵡⴻⵏ ⵙⴻⴳ ⵢⵉⵎⴻⴷⴷⵓⴽⴰⵍⵉⴽ ⵓⵔ ⵢⴻⵍⵍⵉ ⴰⵔⴰ ⴷⴻⴳ Internet ⵜⵓⵔⴰ. ⵄⵔⴻⴹ ⴽⵔⴰ ⵏ ⵢⵉⵎⴻⴷⴷⵓⴽⴰⵍ ⵏⴻⵖ ⵥⴻⵔⴷ ⵙⴷⴻⴼⴼⵉⵔⵙ!"
+  },
+  "friendRequests": {
+      "title": "ⵉⵙⵓⵜⴻⵔ ⵏ ⵉⵎⴷⵓⴽⴰⵍ",
+      "pupAccept": "ⵢⴻⵇⴱⴻⵍ",
+      "pupReject": "ⵓⵔ ⵜⵜⵯⵢⴻⵇⴱⵉⵍ ⴰⵔⴰ",
+      "description": "ⵓⵔ ⵜⴻⵙⵄⵉⴹ ⴰⵔⴰ ⴽⵔⴰ ⵏ ⵓⵙⵓⵜⴻⵔ ⵏ ⵢⵉⵎⴻⴷⴷⵓⴽⴰⵍ ⵢⴻⵜⵜⵡⴰⵄⴻⵍⵇⴻⵏ ⵜⵓⵔⴰ. ⵇⵇⴻⵏ ⵖⴻⵔ ⵓⴳⴰⵔ ⵏ ⵢⵉⵎⴷⴰⵏⴻⵏ ⴰⴽⴽⴻⵏ ⴰⴷ ⵜⴻⵙⵏⴻⵔⵏⵉⴹ ⴰⵥⴻⴹⴹⴰⵉⵏⴻⴽ!",
+      "noRequests": "ⵓⵍⴰⵛ ⵉⵙⵓⵜⴻⵔ ⵏ ⵓⵎⴷⴷⴰⴽⴽⴻⵍ"
+  },
+  "sentRequests": {
+      "title": "ⵢⴻⵜⵜⵡⴰⵣⴻⵏ ⵉⵙⵓⵜⴻⵔ",
+      "pupCancel": "ⵢⴻⴽⴽⴻⵙ",
+      "description": "ⵓⵔ ⵜⴻⵙⵄⵉⴹ ⴰⵔⴰ ⴽⵔⴰ ⵏ ⵓⵙⵓⵜⴻⵔ ⵢⴻⵜⵜⵡⴰⵣⴻⵏ ⵜⵓⵔⴰ. ⵇⵇⴻⵏ ⵖⴻⵔ ⵓⴳⴰⵔ ⵏ ⵢⵉⵎⴷⴰⵏⴻⵏ ⴰⴽⴽⴻⵏ ⴰⴷ ⵜⴻⵙⵏⴻⵔⵏⵉⴹ ⴰⵥⴻⴹⴹⴰⵉⵏⴻⴽ!",
+      "noRequests": "ⵓⵍⴰⵛ ⴰⵙⵓⵜⴻⵔ ⵢⴻⵜⵜⵡⴰⵣⴻⵏ"
+  },
+  "blockedList": {
+      "title": "ⵓⵎⵓⵖ ⵢⴻⵜⵜⵡⴰⵃⴻⴱⵙⴻⵏ",
+      "placeholder": "ⵏⴰⴷⵉ ⵖⴻⴼ ⵉⵙⴻⵇⴷⴰⵛⴻⵏ ⵢⴻⵜⵜⵡⴰⵃⴻⴱⵙⴻⵏ...",
+      "pupUnblock": "ⵔⵥⴻⵎ",
+      "description": "ⵓⵔ ⵜⵃⴻⴱⵙⴻⴹ ⵓⵍⴰ ⴷ ⵢⵉⵡⴻⵏ ⵏ ⵓⵙⴻⵇⴷⴰⵛ. ⵉⵙⴻⵇⴷⴰⵛⴻⵏ ⵉ ⵜⵃⴻⴱⵙⴻⴹ ⴰⴷ ⴷⴱⴰⵏⴻⵏ ⴷⴰⴳⵉ.",
+      "noRequests": "ⵓⵍⴰⵛ ⵉⵙⴻⵇⴷⴰⵛⴻⵏ ⵢⴻⵜⵜⵡⴰⵃⴻⴱⵙⴻⵏ"
+  },
+  "addFriend": {
+      "title": "ⴰⵏⴰⴷⵉ & ⵔⵏⵓ ⵉⵎⴷⵓⴽⴰⵍ",
+      "placeholder": "ⴰⴼⴷ ⴰⵎⴻⴷⴷⴰⴽⵍ ⵏⵏⴻⴽ....",
+      "pupViewProfile": "ⵡⴰⵍⵉ ⴰⴳⴱⵓⵔ",
+      "pupFriend": "ⴰⵎⴻⴷⴷⴰⴽⵍ",
+      "pupAccept": "ⵢⴻⵇⴱⴻⵍ",
+      "pupReject": "Reject",
+      "pupCancel": "ⵓⵔ ⵜⵜⵯⵢⴻⵇⴱⵉⵍ ⴰⵔⴰ",
+      "pupPending": "ⴰⵔ ⵎⴰⵔⴰ",
+      "pupAddFriend": "ⵔⵏⵓ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ",
+      "notFound": "ⵓⵔ ⵢⴻⵜⵜⵡⴰⴼ ⴰⵔⴰ ⵓⵙⴻⵇⴷⴰⵛ",
+      "Suggested": "ⵜⵓⵇⵇⵏⵉⵡⵉⵏ ⵢⴻⵜⵜⵡⴰⵙⵙⵓⵎⵔⴻⵏ"
+  },
+  "SearchUsers": {
+      "placeholder": "ⴰⵏⴰⴷⵉ ...",
+      "pupViewProfile": "ⵡⴰⵍⵉ ⴰⴳⴱⵓⵔ",
+      "pupFriend": "ⴰⵎⴻⴷⴷⴰⴽⵍ",
+      "pupAccept": "ⵢⴻⵇⴱⴻⵍ",
+      "pupReject": "Reject",
+      "pupCancel": "ⵓⵔ ⵜⵜⵯⵢⴻⵇⴱⵉⵍ ⴰⵔⴰ",
+      "pupPending": "ⴰⵔ ⵎⴰⵔⴰ",
+      "pupAddFriend": "ⵔⵏⵓ ⴰⵎⴻⴷⴷⴰⴽⴻⵍ",
+      "pupMessage": "ⴰⵡⴰⵍ",
+      "notFound": "ⵓⵔ ⵢⴻⵜⵜⵡⴰⴼ ⴰⵔⴰ ⵓⵙⴻⵇⴷⴰⵛ",
+      "loadingUsers": "ⵓⵍⴰⵛ ⴰⵖⴻⵔⵙⵉⵡ ⵏ ⵜⴽⴻⵔⵔⵓⵙⵉⵏ ⵉⵅⵓⵚⵚⴻⵏ ⵏ ⵜⵎⴻⵚⴽⵉⵡⵜ. ⵙⵙⴻⵅⴷⴻⵎ ⵜⵓⵇⵇⵏⴰ ⵏ ⵉⵏⵜⴻⵔⵏⴻⵜ.",
+      "retry": "ⵄⵔⴻⴹ ⵄⴰⵡⴻⴷ"
+  },
+  "notifications": {
+      "title": "ⵉⴱⴻⴷⴷⵉⵍⴻⵏ",
+      "clearAll": "ⵙⴼⴻⴹ ⴰⴽⴽ"
+  },
+  "game": {
+      "gameArea": "ⵕⵓⵃ!",
+      "localGame": {
+          "title": "ⵓⵔⴰⵔ ⴰⴷⵉⴳⴰⵏ",
+          "description": "ⵓⵔⴰⵔ ⴷ ⵉⵎⴷⴷⵓⴽⴽⴰⵍ",
+          "onePlayer": "ⵢⵉⵡⴻⵏ ⵏ ⵓⵎⵢⵓⵔⴰⵔ",
+          "twoPlayer": "ⵙⵉⵏ ⵏ ⵢⵉⵎⵓⵔⴰⵔⴻⵏ",
+          "OptionsScreen": {
+              "Sound": "ⵜⴰⵖⴻⵛⵜ",
+              "SetWinningScore": "ⵙⴱⴻⴷⴷ ⵉⵙⵡⵉ ⵏ ⵍⴼⴰⵢⴷⴰ",
+              "SetControllerType": "ⵙⴱⴻⴷⴷ ⵚⵚⴻⵏⴼ ⵏ ⵓⵙⴻⵍⴽⵉⵎ",
+              "ControllerOptions": {
+                  "Mouse": "ⴰⵖⴻⵔⴷⴰⵢ",
+                  "Keyboard": "ⵜⴰⵙⴰⵔⵓⵜ"
+              }
+          },
+          "DifficultyScreen": {
+              "Title": "ⴼⵔⴻⵏ ⵓⴳⵓⵔⴻⵏ",
+              "DifficultyOptions": {
+                  "Easy": "ⴰⵙⵀⴻⵍ",
+                  "Normal": "ⴰⵢⴻⵏ ⵉⵍⵀⴰⵏ",
+                  "Hard": "ⵓⵎⵓⵄⴰⵕ"
+              }
+          },
+          "EndGameScreen": {
+              "Win": "ⵜⴻⵔⴱⴻⵃⴻⴹ!",
+              "Lose": "ⵜⴻⵅⵚⴻⵔⴹ!",
+              "PlayAgain": "ⵓⵔⴰⵔ ⵜⵉⴽⴽⴻⵍⵜ ⵏⵏⵉⴹⴻⵏ",
+              "GoBack": "ⵓⵖⴰⵍ"
+          },
+          "paused": "ⵢⴻⵃⴱⴻⵙ"
+      },
+      "remoteGame": {
+          "title": "ⵓⵔⴰⵔ ⵙ ⵍⴱⴻⵄⴷ",
+          "description": "ⴰⵖⴱⴻⵍ ⴷⴻⴳ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+          "matchmakingScreen": {
+              "matchmakingInProgress": "ⵜⵉⵎⵍⵉⵍⵉⵜ ⴷⴻⴳ ⵓⴽⴻⵎⵎⴻⵍ",
+              "searchingForOpponent": "ⴰⵏⴰⴷⵉ ⵖⴻⴼ ⵓⵅⵚⵉⵎ ⵢⵓⴽⵍⴰⵍⴻⵏ",
+              "playersOnline": "ⵉⵎⵢⵓⵔⴰⵔⴻⵏ ⴷⴻⴳ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+              "skillMatch": "ⵜⵉⵎⵍⵉⵍⵉⵜ ⵏ ⵜⴰⵎⵓⵙⵏⵉ",
+              "highSkillMatch": "ⵄⴻⵍⴰⵢ",
+              "cancelMatchmaking": "ⴱⵟⴻⵍ ⵜⵉⵎⵍⵉⵍⵉⵜ"
+          }
+      },
+      "remoteTournament": {
+          "title": "ⵜⴰⵍⵖⵓⵖⴰ ⵙ ⵓⴱⴻⵄⴷ",
+          "description": "ⵙⵏⵓⵍⴼⵓⴷ ⵜⵉⵎⵙⵉⵣⵣⴻⵍⵜ ⴷⴻⴳ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+          "CreateTournamentModal": {
+              "Label": "ⵙⵏⵓⵍⴼⵓⴷ ⵜⴰⵍⵖⵓⵖⴰ",
+              "InputPlaceholder": "ⵙⴽⴻⵛⵎ ⵉⵙⴻⵎ ⵏ ⵜⴻⵍⵖⵓⵖⴰ",
+              "SubmitButton": "ⴰⵙⴻⴱⵜⴻⵔ",
+              "CancelButton": "ⵢⴻⴽⴽⴻⵙ",
+              "AlertMessage": "ⵜⵜⵅⵉⵍⴽ ⵙⵙⴻⴽⵛⴻⵎ ⵉⵙⴻⵎ ⵏ ⵜⴻⵎⵙⵉⵣⵣⴻⵍⵜ."
+          },
+          "playerReady": {
+              "Players": "ⵉⵎⵢⵓⵔⴰⵔⴻⵏ",
+              "Format": "ⵜⴰⵍⵖⴰ",
+              "SingleElimination": "ⵜⵓⴽⴽⵙⴰ ⵜⴰⵢⵉⵡⴻⵏⵜ",
+              "Status": "ⵜⴰⵍⵖⴰ",
+              "Created": "ⵢⴻⵜⵜⵡⴰⵅⵍⴻⵇⴷ "
+          },
+          "leaveTournamentButton": {
+              "leaveTournament": "ⴵⴵ ⵜⴰⵍⵖⵓⵖⴰ",
+              "leaveConfirmationTitle": "ⴵⴵ ⵜⴰⵍⵖⵓⵖⴰ?",
+              "leaveConfirmationDescription": "ⵜⴻⵜⵜⵡⴰⵍⵉⴹ ⴱⴻⵍⵍⵉ ⵜⴻⴱⵖⵉⴹ ⴰⴷ ⵜⴻⴼⴼⵖⴻⴹ ⵙⴻⴳ ⵜⴻⵍⵖⵓⵖⴰ? ⵜⵉⴳⴰⵡⵜⴰ ⵓⵔ ⵜⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵜⴻⵜⵜⵡⴰⴽⴽⴻⵙ ⵢⴻⵔⵏⴰ ⵜⴻⵣⵎⴻⵔ ⴰⴷ ⴷⵜⴻⵙⵙⵉⵡⴻⴹ ⵖⴻⵔ ⵓⵃⴱⴰⵙ ⵏ ⵜⴻⵍⵖⵓⵖⴰ.",
+              "stayButton": "ⵇⵇⵉⵎ",
+              "leaveButton": "ⴵⴵ ⵜⴰⵍⵖⵓⵖⴰ"
+          },
+          "sparkleEffect": {
+              "cancel": "ⵢⴻⴽⴽⴻⵙ...",
+              "loading": "ⴰⵄⴻⴱⴱⵉ...",
+              "ready": "ⵉⵀⴻⴳⴳⴰ!",
+              "readyUp": "ⵉⵀⴻⴳⴳⴰ"
+          }
+      },
+      "localTournament": {
+          "title": "ⵜⴰⵍⵖⵓⵖⴰ ⵜⴰⴷⵉⴳⴰⵏⵜ",
+          "description": "ⵜⴰⵥⵔⵉⴳⵜ ⵜⴰⴷⵉⴳⴰⵏⵜ",
+          "TournamentForm": {
+              "Title": "ⴰⵙⴻⴽⵍⴻⵙ ⵏ ⵜⴻⵍⵖⵓⵖⴰ",
+              "InputPlaceholder": "ⵙⴽⴻⵛⵎ ⵉⵙⴻⵎ ⵏ ⵓⵎⵢⵓⵔⴰⵔ",
+              "AddPlayerButton": "ⵔⵏⵓ Amyurar",
+              "ErrorMessages": {
+                  "EmptyPlayer": "ⵉⵙⴻⵎ ⵏ ⵓⵎⵢⵓⵔⴰⵔ ⵓⵔ ⵢⴻⵣⵎⵉⵔ ⴰⵔⴰ ⴰⴷ ⵢⵉⵍⵉ ⴷ ⵉⵍⴻⵎ",
+                  "DuplicatePlayer": "ⵉⵙⴻⵎ ⵏ ⵓⵎⵢⵓⵔⴰⵔ ⵢⴻⵙⵙⴻⴼⴽ ⴰⴷ ⵢⵉⵍⵉ ⴷ ⵓⵏⵏⵉⴳ"
+              },
+              "StartTournamentButton": "ⴱⴷⵓ ⵜⴰⵍⵖⵓⵖⴰ"
+          },
+          "TournamentHeader": {
+              "Round1": "ⵜⵓⵣⵣⵢⴰ1",
+              "Finals": "ⵜⵉⵏⴻⴳⴳⵓⵔⴰ"
+          },
+          "pong": {
+              "vs": "ⵎⴳⴰⵍ",
+              "paused": "ⵢⴻⵃⴱⴻⵙ",
+              "ClickToStart": "ⴽⵏⴻⴷ ⵉⵡⴰⴽⴽⴻⵏ ⴰⴷ ⵜⴻⴱⴷⵓⴹ",
+              "start": "ⴱⴷⵓ"
+          }
+      },
+      "multipleGame": {
+          "title": "ⴰⵟⴰⵙ ⵏ ⵓⵔⴰⵔ",
+          "description": "ⵓⵔⴰⵔ ⴷ ⵉⵎⴷⴷⵓⴽⴽⴰⵍ",
+          "PlayerCard": {
+              "Score": "ⵜⴰⵢⴰⴼⵓⵜ",
+              "Against": "ⵎⴳⴰⵍ"
+          },
+          "WaitingPJ": "ⵜⵜⵕⴰⴵⵓⵖ ⴰⴷ ⴽⴻⵛⵎⴻⵏ ⵉⵎⵢⵓⵔⴰⵔⴻⵏ..."
+      },
+      "joinedTournaments": {
+          "title": "ⵢⴻⴽⵛⴻⵎ ⵖⴻⵔ ⵜⴻⵎⵙⵉⵣⵣⴻⵍⵜ",
+          "players": "ⵉⵎⵢⵓⵔⴰⵔⴻⵏ:",
+          "status": "ⵜⴰⵍⵖⴰ:",
+          "started": "ⵢⴻⴱⴷⴰ:",
+          "noTournament": "ⵓⵔ ⵜⴻⴽⵛⴻⵎ ⴰⵔⴰ ⴷⴻⴳ ⴽⵔⴰ ⵏ ⵜⵛⵉⵔⴹⴰⵔⵜ!",
+          "statusGame": {
+              "waiting": "ⵢⴻⵜⵜⵔⴰⵊⵓ",
+              "ongoing": "ⵢⴻⵜⵜⴽⴻⵎⵎⵉⵍ",
+              "ended": "ⵢⴻⴽⴼⴰ",
+              "aborted": "ⵢⴻⵖⵍⵉⴷ",
+              "unknown": "ⵢⴻⵜⵜⵔⴰⵊⵓ"
+          }
+      },
+      "openTournaments": {
+          "title": "ⵜⵉⵎⵙⵉⵣⵣⴻⵍⵜ ⵢⴻⵍⴷⵉⵏ",
+          "header": {
+              "id": "ⵉⴷ",
+              "name": "ⵉⵙⴻⵎ",
+              "creator": "ⴰⵅⵍⴰⵇ",
+              "creationDate": "ⴰⵣⴻⵎⵣ ⵏ ⵓⵙⵏⵓⵍⴼⵓ",
+              "players": "ⵉⵎⵢⵓⵔⴰⵔⴻⵏ",
+              "action": "ⵜⵉⴳⴰⵡⵜ"
+          },
+          "joinButton": "ⵔⵏⵓ ⵖⴻⵔ",
+          "noTournaments": "ⵓⵍⴰⵛ ⵜⵉⵎⵙⵉⵣⵣⴻⵍⵜ ⵢⴻⵍⵍⴰⵏ ⵉⵎⵉⵔⴰ."
+      }
+  },
+  "Profile": {
+      "FriendsOther": {
+          "title": "ⵉⵎⴷⵓⴽⴰⵍ",
+          "mutualFriends": "ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⵉⵛⵓⴷⴷⴻⵏ",
+          "allFriends": "ⴰⴽⴽ ⵉⵎⴷⵓⴽⴰⵍ",
+          "noMutualFriends": "ⵓⵍⴰⵛ ⵉⵎⴷⴷⵓⴽⴽⴰⵍ ⵉⵛⵓⴷⴷⴻⵏ.",
+          "playerLonely": "ⴰⵎⵢⵓⵔⴰⵔⴰ ⴷ ⴰⵡⵃⵉⴷ",
+          "Level": "ⴰⵙⵡⵉⵔ:"
+      },
+      "informations": "ⵉⵙⴰⵍⵍⴻⵏ",
+      "security": "ⵍⴰⵎⴰⵏ",
+      "errors": {
+          "signup": {
+              "username": {
+                  "required": "ⵉⵙⵎ ⵏ ⵓⵙⵇⴰⴷ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⵉⵙⵎ ⵏ ⵓⵙⵇⴰⴷ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ ⵙ 4 ⵏ ⵉⵙⴽⴽⵉⵍⵏ ⵖⴰⵔ ⴷⴼⴼⵉⵔ!",
+                  "max": "ⵉⵙⵎ ⵏ ⵓⵙⵇⴰⴷ ⵓⵔ ⵉⵍⴰⵇ ⴰⵔⴰ ⴰⴷ ⵢⴻⵣⵣⵉ 14 ⵏ ⵉⵙⴽⴽⵉⵍⵏ!"
+              },
+              "email": {
+                  "required": "ⵉⵎⴰⵢⵍ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "invalid": "ⵜⴰⵍⵖⴰ ⵏ ⵉⵎⴰⵢⵍ ⵓⵔ ⵜⴻⵣⴳⵉ ⴰⵔⴰ!"
+              },
+              "password": {
+                  "required": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ ⵙ 8 ⵏ ⵉⵙⴽⴽⵉⵍⵏ ⵖⴰⵔ ⴷⴼⴼⵉⵔ!",
+                  "max": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵓⵔ ⵉⵍⴰⵇ ⴰⵔⴰ ⴰⴷ ⵢⴻⵣⵣⵉ 64 ⵏ ⵉⵙⴽⴽⵉⵍⵏ!"
+              },
+              "confirmPassword": {
+                  "required": "ⴰⵙⴻⵏⵜⴻⵎ ⵏ ⵓⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "match": "ⴰⵡⴰⵍⵏ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵎⵎⴻⵙⵍⴰⵢⴻⵏⵜ!"
+              }
+          },
+          "login": {
+              "username": {
+                  "required": "ⵉⵙⵎ ⵏ ⵓⵙⵇⴰⴷ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⵉⵙⵎ ⵏ ⵓⵙⵇⴰⴷ ⵓⵔ ⵢⴻⵣⴳⵉ ⴰⵔⴰ!",
+                  "max": "ⵉⵙⵎ ⵏ ⵓⵙⵇⴰⴷ ⵓⵔ ⵢⴻⵣⴳⵉ ⴰⵔⴰ!"
+              },
+              "password": {
+                  "required": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵓⵔ ⵢⴻⵣⴳⵉ ⴰⵔⴰ!",
+                  "max": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵓⵔ ⵢⴻⵣⴳⵉ ⴰⵔⴰ!"
+              }
+          },
+          "changePassword": {
+              "currentPassword": {
+                  "required": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵏ ⵏⵖⵡⵉ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ ⵙ 8 ⵏ ⵉⵙⴽⴽⵉⵍⵏ ⵖⴰⵔ ⴷⴼⴼⵉⵔ!",
+                  "max": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵓⵔ ⵉⵍⴰⵇ ⴰⵔⴰ ⴰⴷ ⵢⴻⵣⵣⵉ 64 ⵏ ⵉⵙⴽⴽⵉⵍⵏ!"
+              },
+              "newPassword": {
+                  "required": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⴰⵎⴰⵢⵏⵓⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ ⵙ 8 ⵏ ⵉⵙⴽⴽⵉⵍⵏ ⵖⴰⵔ ⴷⴼⴼⵉⵔ!",
+                  "max": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵓⵔ ⵉⵍⴰⵇ ⴰⵔⴰ ⴰⴷ ⵢⴻⵣⵣⵉ 64 ⵏ ⵉⵙⴽⴽⵉⵍⵏ!"
+              },
+              "confirmPassword": {
+                  "required": "ⴰⵙⴻⵏⵜⴻⵎ ⵏ ⵓⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "match": "ⴰⵡⴰⵍⵏ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵎⵎⴻⵙⵍⴰⵢⴻⵏⵜ!"
+              }
+          },
+          "resetPassword": {
+              "newPassword": {
+                  "required": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⴰⵎⴰⵢⵏⵓⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "min": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ ⵙ 8 ⵏ ⵉⵙⴽⴽⵉⵍⵏ ⵖⴰⵔ ⴷⴼⴼⵉⵔ!",
+                  "max": "ⴰⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵓⵔ ⵉⵍⴰⵇ ⴰⵔⴰ ⴰⴷ ⵢⴻⵣⵣⵉ 64 ⵏ ⵉⵙⴽⴽⵉⵍⵏ!"
+              },
+              "confirmPassword": {
+                  "required": "ⴰⵙⴻⵏⵜⴻⵎ ⵏ ⵓⵡⴰⵍ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵢⵉⵍⵉ!",
+                  "match": "ⴰⵡⴰⵍⵏ ⵏ ⵜⴱⴰⴹⵏⵉⵜ ⵉⵍⴰⵇ ⴰⴷ ⵎⵎⴻⵙⵍⴰⵢⴻⵏⵜ!"
+              }
+          },
+          "setPassword": {
+              "password": {
+                  "required": "ⴰⵎⴰⴳⴰⵏ ⵉⴷⵔⵎⴷ!",
+                  "min": "ⴰⵎⴰⴳⴰⵏ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 8 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "max": "ⴰⵎⴰⴳⴰⵏ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ ⴰⵎⵉⵣⵣⵓ 64 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!"
+              },
+              "confirmPassword": {
+                  "required": "ⴰⵎⴰⴳⴰⵏ ⴰⵎⵓⴷⵉ ⵉⴷⵔⵎⴷ!",
+                  "match": "ⴰⵎⴰⴳⴰⵏⵏ ⵉⵎⴹⴹⵉ ⵉⵍⴹⵍⵉⵖ!"
+              }
+          },
+          "setUsername": {
+              "username": {
+                  "required": "ⵓⵙⵏⴰ ⵉⴷⵔⵎⴷ!",
+                  "min": "ⵓⵙⵏⴰ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 4 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "max": "ⵓⵙⵏⴰ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ ⴰⵎⵉⵣⵣⵓ 14 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!"
+              }
+          },
+          "otp": {
+              "otp": {
+                  "required": "ⴰⴳⴷⵉⵔ ⵉⴷⵔⵎⴷ!",
+                  "length": "ⴰⴳⴷⵉⵔ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 6 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "matches": "ⴰⴳⴷⵉⵔ ⵉⵎⵖⵓⵔⵔ ⵉⵍⵎⵎⵓⵔⵓ!"
+              }
+          },
+          "editProfile": {
+              "username": {
+                  "min": "ⵓⵙⵏⴰ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 4 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "max": "ⵓⵙⵏⴰ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ ⴰⵎⵉⵣⵣⵓ 14 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!"
+              },
+              "firstName": {
+                  "min": "ⴰⵎⵓⵣⵓ ⵏ ⵜⴰⵎⵔⵔⵓⴳⴳⵓⵜ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 3 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "max": "ⴰⵎⵓⵣⵓ ⵏ ⵜⴰⵎⵔⵔⵓⴳⴳⵓⵜ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ ⴰⵎⵉⵣⵣⵓ 20 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!"
+              },
+              "lastName": {
+                  "min": "ⵜⴰⵎⴰⴷⴰⵏⵜ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 3 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "max": "ⵜⴰⵎⴰⴷⴰⵏⵜ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ ⴰⵎⵉⵣⵣⵓ 20 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!"
+              },
+              "email": {
+                  "invalid": "ⵜⵉⵍⵍⴰⴹⵜ ⵉⵏⵖ ⴰⵎⴰⵍⵓⵎⴹ ⵉⵏⴽⵍⵉⴽⵉ!"
+              },
+              "password": {
+                  "required": "ⴰⵎⴰⴳⴰⵏ ⵉⴷⵔⵎⴷ!",
+                  "min": "ⴰⵎⴰⴳⴰⵏ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ 8 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!",
+                  "max": "ⴰⵎⴰⴳⴰⵏ ⵉⵎⵉⵏⵓ ⵉⵎⴽⵉ ⴰⵎⵉⵣⵣⵓ 64 ⴰⵎⵉⵙⵉⴹⴹⵓⵏ!"
+              },
+              "avatar": {
+                  "fileSize": "ⵓⵔⴽⴰⵔ ⵉⵎⵖⵔⵔ ⵉⵎⵎⵍⴰⴹⵓ!",
+                  "fileType": "ⵓⵔⴽⴰⵔ ⵉⵎⵖⵔⵔ ⵉⵎⵔⵏⵉⵖⵉ!"
+              }
+          }
+      },
+      "friends": {
+          "title": "ⵉⵎⴷⵓⴽⴰⵍ",
+          "viewMore": "ⵡⴰⵍⵉ ⵓⴳⴰⵔ",
+          "buttons": {
+              "online": "Oⵏⵍⴰⵢⵏ",
+              "offline": "ⴱⴻⵕⵕⴰ ⵉ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ"
+          },
+          "errors": {
+              "noFriends": "ⴽⴻⵞⵞ ⴷ ⴰⵡⵃⵉⴷ",
+              "noOnlineFriends": "ⵓⵍⴰⵛ ⵉⵎⴷⵓⴽⴰⵍ ⵏ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ",
+              "noOfflineFriends": "ⵓⵍⴰⵛ ⵉⵎⴷⵓⴽⴰⵍ ⵓⵔ ⵏⴻⵍⵍⵉ ⴰⵔⴰ ⴷⴻⴳ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ"
+          },
+          "addFriends": {
+              "button": "ⵔⵏⵓ ⵉⵎⴷⵓⴽⴰⵍ"
+          },
+          "profile": {
+              "level": "ⴰⵙⵡⵉⵔ:",
+              "status": {
+              "online": "Oⵏⵍⴰⵢⵏ",
+              "offline": "ⴱⴻⵕⵕⴰ ⵉ ⵍⴰⵏⵜⵉⵔⵏⴰⵜ"
+              }
+          }
+      },
+      "gameHistory": {
+          "title": "ⴰⵎⴻⵣⵔⵓⵢ ⵏ ⵡⵓⵔⴰⵔ",
+          "buttons": {
+              "game": "ⵜⵓⵔⴰⵔⴻⵜ",
+              "tournament": "ⵜⴰⵍⵖⵓⵖⴰ"
+          },
+          "noGames": {
+              "message": "ⵎⴰⵣⴰⵍ ⵓⵔ ⵜⴻⵜⵜⵓⵔⴰⵔⴻⴹ ⴽⵔⴰ ⵏ ⵡⵓⵔⴰⵔⴻⵏ.",
+              "playNow": "ⵓⵔⴰⵔ ⵜⵓⵔⴰ"
+          },
+          "fields": {
+              "dateTime": "ⵍⴰⵡⴰⵏ",
+              "name": "ⵉⵙⴻⵎ",
+              "result": "ⴰⴳⵎⵓⴹ",
+              "score": "ⵓⴳⵎⵓⴹ",
+              "duration": "ⵜⴰⵍⵍⵉⵜ",
+              "rematch": "ⴰⵄⴰⵡⵣⴷ"
+          },
+          "results": {
+              "win": "ⴰⴼⵔⴰⵏ",
+              "lose": "ⵢⴻⵙⵔⵓⵃ"
+          },
+          "invite": "ⵄⵔⴻⴹ"
+      },
+      "Achievements": {
+          "title": "ⵉⴳⵎⴰⴹ",
+          "locked": "ⵢⴻⵜⵜⵡⴰⵇⵇⴻⵏ",
+          "NoAchievementsFound": "ⵓⵔ ⴷⵓⴼⵉⵏ ⴰⵔⴰ ⵉⴳⵎⴰⴹ!",
+          "achievements": {
+              "first_paddle_name": "ⵜⴰⵖⴻⵔⵖⴻⵔⵜ ⵜⴰⵎⴻⵣⵡⴰⵔⵓⵜ",
+              "first_paddle_description": "ⵔⴱⴻⵃ ⵜⵉⵎⵍⵉⵍⵉⵜⵉⴽ ⵜⴰⵎⴻⵣⵡⴰⵔⵓⵜ.",
+              "persistent_player_name": "ⴰⵎⵢⵓⵔⴰⵔ ⵉⵎⴻⵣⵡⵓⵔⴰ",
+              "persistent_player_description": "ⴽⴻⵛⵎ 7 ⵡⵓⵙⵙⴰⵏ ⵙ ⵜⵎⴻⵔⵏⴰ!",
+              "bronze_champ_name": "ⴰⵙⴻⵍⵡⴰⵢ ⵏ ⵓⴱⵕⵓⵏⵣ",
+              "bronze_champ_description": "ⵔⴻⴱⵃ 5 ⵏ ⵜⴻⵎⵍⵉⵍⵉⵢⵉⵏ.",
+              "silver_smash_name": "ⵙⵎⴰⵙⵀ ⵏ ⵍⴼⴻⵟⵟⴰ",
+              "silver_smash_description": "ⵔⴻⴱⵃ 10 ⵏ ⵜⴻⵎⵍⵉⵍⵉⵢⵉⵏ.",
+              "gold_ace_name": "ⴰⵙ ⵏ ⵡⵓⵔⴻⵖ",
+              "gold_ace_description": "ⵔⴻⴱⵃ 20 ⵏ ⵜⴻⵎⵍⵉⵍⵉⵢⵉⵏ.",
+              "marathon_match_name": "ⵜⵉⵎⵍⵉⵍⵉⵜ ⵏ ⵓⵎⴰⵔⴰⵟⵓⵏ",
+              "marathon_match_description": "ⵓⵔⴰⵔ ⵜⵉⵎⵍⵉⵍⵉⵜ ⴰⵔⴰ ⵢⴻⵇⵇⵉⵎⴻⵏ ⵓⴳⴰⵔ ⵏ 5 ⵏ ⵜⴻⴷⵇⵉⵇⵉⵏ.",
+              "ft_pong_legend_name": "ⴰⵏⴻⴳⴳⴰⵔⵓ ⵏ FT-PONG",
+              "ft_pong_legend_description": "ⵔⴻⴱⵃ 50 ⵏ ⵜⴻⵎⵍⵉⵍⵉⵢⵉⵏ."
+          }
+      },
+      "profileHeader": {
+          "EditProfileButton": "ⴱⴻⴷⴷⴻⵍ ⴰⴳⴱⵓⵔ",
+          "profileStats": {
+              "games": "ⵓⵔⴰⵔⴻⵏ",
+              "wins": "ⵉⵔⴻⴱⵃ",
+              "loses": "ⵢⴻⵅⵚⴻⵔ",
+              "score": "ⵓⴳⵎⵓⴹ",
+              "rank": "ⴰⵙⵡⵉⵔ"
+          },
+          "badge": {
+              "Bronze": "ⵏⵏⵃⴰⵙ",
+              "Silver": "ⴰⵥⵔⴻⴼ",
+              "Gold": "ⵓⵔⴻⵖ",
+              "Platinum": "ⴰⴱⵍⴰⵟⵉⵏ",
+              "Diamond": "ⴰⵍⵎⴰⵣ",
+              "Ft-Pong": "FT-PONG"
+          },
+          "buttons": {
+              "friendsBtn": "ⵉⵎⴷⵓⴽⴰⵍ",
+              "cancelBtn": "ⵢⴻⴽⴽⴻⵙ",
+              "acceptBtn": "ⵢⴻⵇⴱⴻⵍ",
+              "addBtn": "ⵔⵏⵓ"
+          }
+      },
+      "setPassword": {
+          "title": "ⴰⴷⵣⴰⵔ ⵏ ⵜⴰⴼⵓⴷⵍⵉⵜ",
+          "description": "ⴰⴷⵔⴰⵔⴽⴰⵏ ⴰⴽ ⵉⵏⵓⵡⴰⵢⵏ ⵜⴰⴼⵓⴷⵍⵉⵜ. ⵓⵎⴳⵎⴰⴹ ⵉⵙⴼⴰⵙ ⵜⴰⴼⵓⴷⵍⵉⵜ ⴽ ⴷⵉⵍⴰ ⴰⵔⵔⴰⴳ ⴷ ⴽⵕⵡⴰⵔ ⵜⵉⵣⵣⵍⵉⵏⵏⵓⵏⴻⵏ.",
+          "fields": {
+              "newPassword": "ⵜⴰⴼⵓⴷⵍⵉⵜ ⴰⵎⵢⴰⵡⵏⵉⵜ",
+              "confirmPassword": "ⵉⴼⵔⵉⵏ ⵜⴰⴼⵓⴷⵍⵉⵜ"
+          },
+          "buttons": {
+              "reset": "ⵙⵏⵏⵉⵍ",
+              "save": "ⵙⵎⵓⵔ"
+          },
+          "successMessage": "ⵜⴰⴼⵓⴷⵍⵉⵜ ⴽⵎⵏⵙ ⵉⵎⴹⴰⵏⴻⵍ."
+      },
+      "EditSecurity": {
+          "changePassword": {
+              "title": "ⴰⴷ ⵉⵙⵙⵏⴼⵍ ⴰⵏⴼⵍⵏ",
+              "currentPassword": "ⴰⵏⴼⵍⵏ ⵏ ⵙⵙ ⴰⵎⴰⵍⵍⴰ",
+              "newPassword": "ⴰⵏⴼⵍⵏ ⴰⴷⵓⵙⵏ",
+              "confirmPassword": "ⵙⵙⵏⵣⵣⴻⵔ ⴰⵏⴼⵍⵏ ⴰⴷⵓⵙⵏ",
+              "buttons": {
+                  "reset": "ⵜⵓⴼⵍ ⴰⵏⵓⵙⵏ",
+                  "save": "ⵙⵙⵏⵣⵣⴻⵔ"
+              }
+          },
+          "twoFactorAuth": {
+              "title": "ⴰⵔⴰⵔⵉ ⵏ ⵜⵙⵏⵓⴱⵜ ⵙ ⵜⵎⴻⴷ (2FA)",
+              "description": "ⵣⵣⵓ ⵏ ⵓⴹⵔⵉⵙ ⵏ ⵜⵙⵏⵓⴱⵜ ⴳ ⵓⴼⵙⵉ ⵏ ⵜⵎⵏⴰⴹⵜ ⵏ ⵓⴼⵓⵙ. ⵉⴼⴻⵔ ⵎⴰⴷ ⴰⴷ ⵉⵜⵜⵓⴼⵓⵍ ⴰⴷ ⵓⴼⵓⵙ ⵏ ⵓⴼⵙⵉ. ⵙⵙⵉⴼⵍ ⴰⵙⴽⵓⴷ ⵏ QR ⴳ ⴷⴰⵔ.",
+              "mobileMessageLabel": "ⵙⵙⵏⴼⵍ ⴰⵏⴼⵍⵏ ⵏ 6 ⵏ ⵜⵎⵏⴰⴹⵜ ⵉⵙⵓⴼⵍⵏ ⴳ ⵓⴼⵙⵉ ⵏ ⵜⵎⵏⴰⴹⵜ",
+              "otpPlaceholder": "ⵙⵙⵏⴼⵍ ⵜⵎⵏⴰⴹⵜ",
+              "buttons": {
+                  "downloadApp": "ⴰⴷ ⵉⵙⵙⴻⴷⵓ ⴰⴼⵙⵉ",
+                  "getQrCode": "ⵣⵣⵓ ⴰⵙⴽⵓⴷ QR",
+                  "enable2FA": "ⴰⴷ ⵉⵙⵙⵏⵣⵣⴻⵔ 2FA"
+              },
+              "enabled": {
+                  "status": "ⴰⵔⴰⵔⵉ ⵏ ⵜⵙⵏⵓⴱⵜ ⵙ ⵜⵎⴻⴷ ⴰⴷ ⵉⵜⵜⵓⵙⵏⵣⵣⴻⵔ",
+                  "confirmPasswordLabel": "ⵙⵙⵏⵣⵣⴻⵔ ⴰⵏⴼⵍⵏ ⵏⵏⴽ",
+                  "buttons": {
+                      "disable2FA": "ⴰⴷ ⵉⵙⵙⵏⴼⵍ 2FA"
+                  }
+              }
+          },
+          "downloadAppPopup": {
+              "title": "ⵙⵙⵏⴼⵍ ⴰⵏⴼⵍⵏ ⵏⵏⴽ",
+              "osButtons": {
+                  "android": "ⴰⵏⴷⵔⵓⵉⴷ",
+                  "ios": "ⴰⵡⵙⵉ"
+              },
+              "qrCodeInstructions": "ⵙⵙⵉⴼⵍ ⴰⵙⴽⵓⴷ QR ⴰⴷ ⵜⵙⵙⴻⴷⵓ ⴰⴼⵙⵉ",
+              "buttons": {
+                  "close": "ⵉⵍⵍⵉ"
+              }
+          },
+          "errors": {
+              "defaultError": "ⵜⵓⴳⴰ ⵜⵎⵏⴰⴹⵜ. ⵙⵙⵏⴼⵍ ⴷⴰⵔ"
+          },
+          "toasts": {
+              "passwordChanged": "ⴰⵏⴼⵍⵏ ⵉⵜⵜⵓⵙⵙⵏⴼⵍ ⵙ ⵜⵎⴻⴷ",
+              "twoFactorEnabled": "ⴰⵔⴰⵔⵉ ⵏ ⵜⵙⵏⵓⴱⵜ ⵙ ⵜⵎⴻⴷ ⵉⵜⵜⵓⵙⵏⵣⵣⴻⵔ",
+              "twoFactorDisabled": "ⴰⵔⴰⵔⵉ ⵏ ⵜⵙⵏⵓⴱⵜ ⵙ ⵜⵎⴻⴷ ⵉⵜⵜⵓⵙⵏⴼⵍ"
+          }
+      },
+      "EditInfosProfile": {
+          "title": "ⵙⵙⵏⴼⵍ ⵜⵉⵏⵙⵓⵜ ⵏⵏⴽ",
+          "avatar": {
+              "changeButton": "ⴰⴷ ⵉⵙⵙⵏⴼⵍ ⴰⴼⴰⵜⴰⵔ",
+              "removeButton": "ⴰⴷ ⵉⴼⵍ ⴰⴰⴰⵔ"
+          },
+          "fields": {
+              "firstName": {
+                  "label": "ⵉⵙⵎ",
+                  "placeholder": "ⵙⵙⵏⴼⵍ ⵉⵙⵎ ⵏⵏⴽ"
+              },
+              "lastName": {
+                  "label": "ⵉⵙⵎ ⵏ ⵜⴰⵡⴷⴰ",
+                  "placeholder": "ⵙⵙⵏⴼⵍ ⵉⵙⵎ ⵏ ⵜⴰⵡⴷⴰ ⵏⵏⴽ"
+              },
+              "username": {
+                  "label": "ⵉⵙⵎ ⵏ ⵓⵎⵙⵙⴰⴷⴰⴼ ",
+                  "placeholder": "ⵙⵙⵏⴼⵍ ⵉⵙⵎ ⵏ ⵓⵎⵙⵙⴰⴷⴰⴼ ⵏⵏⴽ"
+              },
+              "email": {
+                  "label": "ⵜⵎⵏⴰⴹⵜ ⵏ ⵓⵎⵓⵍ",
+                  "placeholder": "ⵙⵙⵏⴼⵍ ⵜⵎⵏⴰⴹⵜ ⵏ ⵓⵎⵓⵍ ⴰⴷⵓⵙⵏ",
+                  "verifyButton": "ⵜⴰⵎⵖⵓⵏⵜ"
+              },
+              "password": {
+                  "label": "ⵙⵙⵏⴼⵍ ⴰⵏⴼⵍⵏ ⵏⵏⴽ",
+                  "placeholder": "ⵙⵙⵏⴼⵍ ⴰⵏⴼⵍⵏ ⵏⵏⴽ"
+              }
+          },
+          "saveButton": "ⵙⴻⵍⴽⴻⵜ",
+          "confirmSave": {
+              "title": "ⵙⵙⵏⵣⵣⴻⵔ ⴰⵏⴼⵍⵏ ⵏⵏⴽ",
+              "description": "ⵙⵙⵏⴼⵍ ⴰⵏⴼⵍⵏ ⵏⵏⴽ ⴰⴷ ⵜⵙⵙⵏⵣⵣⴻⵔ ⵜⵉⵙⵓⵜⵉ. ⵜⵏⵎⵎⵍⵎ ⵜⵉⵎⴻⴷⵜ ⵏⵏⴽ ⴰⴷ ⴰⵔ ⵉⵜⵜⵓⵏⵣⵣⴻⵔ!",
+              "buttons": {
+                  "close": "ⵉⵍⵍⵉ",
+                  "confirm": "ⵙⵙⵏⵣⵣⴻⵔ"
+              }
+          },
+          "errors": {
+              "emptyForm": "ⵙⵙⵏⴼⵍ ⴰⴷ ⵙⴻⴷ ⴰⵔ ⵎⴰ ⴰⴷ ⵜⵙⵙⵏⵣⵣⴻⵔ ⵜⵉⵙⵓⵜⵉ",
+              "defaultError": "ⵜⵓⴳⴰ ⵜⵎⵏⴰⴹⵜ. ⵙⵙⵏⴼⵍ ⴷⴰⵔ ⵎⴰ ⵉⴷ ⵉⵜⵜⵓⵏⵣⵣⴻⵔ"
+          },
+          "toasts": {
+              "successUpdate": "ⵜⵉⵏⵙⵓⵜ ⵉⵜⵜⵓⵙⵏⴼⵍ ⵙ ⵜⵎⴻⴷ",
+              "emailVerificationSent": "ⵜⵎⵏⴰⴹⵜ ⵏ ⵜⵙⵏⵣⵣⴻⵔ ⵉⵜⵜⵓⵙⵉⴼⵍ ⵙ ⵜⵎⴻⴷ"
+          }
+      }
+  },
+  "dashboard": {
+      "overview": {
+          "title": "ⴰⵥⴰⵔ",
+          "buttons": {
+              "singleBtn": "ⵓⵔⴰⵔ ⵢⵉⵡⴻⵏ",
+              "tournamentsBtn": "ⵜⵉⵎⵙⵉⵣⵣⴻⵍⵜ"
+          },
+          "fields": {
+              "games": "ⵓⵔⴰⵔⴻⵏ",
+              "score": "ⵓⴳⵎⵓⴹ",
+              "highestScore": "ⴰⵙⵡⵉⵔ ⵢⵓⴳⴰⵔ ⴰⴽⴽ",
+              "longestStreak": "ⵜⴰⵖⴻⵣⴼⴰⵏⵜ ⴰⴽⴽ",
+              "bestRank": "ⴰⵎⴹⵉⵇ ⵉⴳⴻⵔⵔⵣⴻⵏ",
+              "winRate": "ⴰⵣⴰⵍ ⵏ ⵔⵔⴱⴻⵃ",
+              "wins": "ⵉⵔⴻⴱⵃ",
+              "loses": "ⵢⴻⵅⵚⴻⵔ"
+          }
+      }
+  }
+
+}

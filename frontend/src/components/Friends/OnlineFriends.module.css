@@ -1,0 +1,122 @@
+.onlineFriends {
+  padding: 20px;
+  height: 100%;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #6c757d #394056;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #d0d8e7;
+}
+
+.friendList {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.friendCard {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  background-color: #394056;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.friendCard:hover {
+  transform: scale(1.01);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  border: 2px solid #f8c25c;
+}
+
+.userInfo {
+  flex-grow: 1;
+  font-size: 16px;
+}
+.username {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.username:hover {
+  color: #f8c25c;
+  scale: 1;
+}
+
+.online {
+  display: block;
+  font-size: 13px;
+  color: #b9bbbe;
+  position: relative;
+  margin-left: 15px;
+}
+.online::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: -15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.actionButton {
+  padding: 8px 10px;
+  background-color: #1e2533;
+  color: #f8f3e3;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  position: relative;
+}
+
+.actionButton:hover {
+  background-color: #7892b8;
+  color: var(--text-color);
+}
+
+
+.actionButton.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+.cooldownTimer {
+  opacity: 1;
+  position: absolute;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  top: -15px;
+  left: 10px;
+}

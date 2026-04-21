@@ -1,0 +1,48 @@
+.oauth2Container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    overflow: visible;
+    /* position: relative; */
+}
+
+.or {
+    display: flex;
+    place-items: center;
+    margin-bottom: 10px;
+}
+
+.or div {
+    border-bottom: 1px solid wheat;
+    width: 100px;
+    margin: 0 12px;
+}
+
+.or p {
+    font-size: small;
+    color: aliceblue;
+}
+
+.oauth2Buttons {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.oauthBtn {
+    border-radius: 50%;
+    padding: 0.7rem;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.oauth2Icon {
+    height: 40px;
+    width: 40px;
+}

@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "public"],
+  "ext": "js,jsx,json,css,html",
+  "exec": "react-scripts start",
+  "ignore": ["node_modules"]
+}

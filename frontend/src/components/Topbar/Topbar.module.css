@@ -1,0 +1,68 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  /* padding: 10px 20px; */
+  margin: 20px 0 35px 0;
+  height: 40px;
+}
+
+.topbarInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.iconButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.counter {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transform: translate(15px, -10px);
+  border-radius: 50%;
+  background-color: var(--color-brand--1);
+  border: 1px solid var(--text-color);
+}
+
+.userAccount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.userAccount:hover {
+  text-decoration: underline var(--text-color) 2px;
+}
+
+.userName {
+  color: var(--text-color);
+}
+
+.userIcon {
+  width: 40px;
+  object-fit: cover;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--text-color);
+}

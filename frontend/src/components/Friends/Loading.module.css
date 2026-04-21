@@ -1,0 +1,32 @@
+/* Loading.module.css */
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px; /* Adjust as necessary */
+}
+
+.bouncingBall {
+  width: 30px; /* Size of the ball */
+  height: 30px; /* Size of the ball */
+  background-color: #4CAF50; /* Color of the ping pong ball */
+  border-radius: 50%; /* Makes the ball round */
+  animation: bounce 0.6s infinite alternate; /* Animation for bouncing effect */
+  margin-bottom: 10px; /* Space between ball and text */
+}
+
+.loadingText {
+  color: #72767d; /* Change to fit your theme */
+  font-size: 16px;
+}
+
+/* Animation for the bouncing ball */
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Start at original position */
+  }
+  100% {
+    transform: translateY(-20px); /* Move up 20px */
+  }
+}

@@ -1,0 +1,28 @@
+.button {
+    margin: 0 6px;
+    background-color: var(--color-game-screen-bg);
+    border: 3px var(--game-screen-text-color) solid;
+    border-radius: 10px;
+    color: var(--game-screen-text-color);
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    min-width: 250px;
+    width: auto;
+    outline: 0
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 3px #3b3b3b solid;
+    background-color: var(--game-screen-text-color);
+    color: #3b3b3b
+}
+/*
+    .button {
+        margin-top: '20px';
+        padding: '10px 20px';
+        font-size: '18px';
+        cursor: 'pointer';
+    } */

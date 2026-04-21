@@ -1,0 +1,250 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      args:
+        DEV: "false"
+      dockerfile: Dockerfile.prod
+    container_name: backend
+    # ports:
+    #   - "8000:8000"
+    volumes:
+      # - ./backend:/app/backend
+      - static_data:/app/backend/static
+      - django-logs:/app/backend/logs
+    env_file:
+      - .env
+    networks:
+      - default_network-deploy
+    depends_on:
+      db:
+        condition: service_started
+      # redis:
+      #   condition: service_started
+    restart: on-failure
+    healthcheck:
+      test: ["CMD", "python", "manage.py", "check"]
+      interval: 10s
+      timeout: 10s
+      retries: 15
+      start_period: 10s
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile.prod
+    container_name: frontend
+    # ports:
+    #   - "3000:3000"
+    volumes:
+      - react_build:/app/dist
+    networks:
+      - default_network-deploy
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  db:
+    image: postgres:13-alpine
+    container_name: postgres
+    restart: on-failure
+    # ports:
+    #   - '5432:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=$DB_NAME
+      - POSTGRES_USER=$DB_USER
+      - POSTGRES_PASSWORD=$DB_PASS
+    networks:
+      - default_network-deploy
+
+  # redis:
+  #   image: "redis:latest"
+  #   container_name: redis
+  #   restart: on-failure
+  #   # ports:
+  #   #   - "6379:6379"
+  #   volumes:
+  #     - redis_data:/data
+  #   networks:
+  #     - default_network-deploy
+
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: nginx
+    restart: on-failure
+    volumes:
+      - ./certs/letsencrypt:/etc/letsencrypt ###
+      - static_data:/web
+      - react_build:/usr/share/nginx/html
+      - nginx-logs:/var/log/nginx/
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - default_network-deploy
+    depends_on:
+      backend:
+        condition: service_healthy
+      frontend:
+        condition: service_started
+      # kibana:
+      #   condition: service_started
+
+  # setup:
+  #   # image: docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
+  #   build:
+  #     context: ./elk/setup/
+  #     args:
+  #       ELASTIC_VERSION: ${ELASTIC_VERSION}
+  #   container_name: elk-setup
+  #   volumes:
+  #     - certs:/usr/share/elasticsearch/config/certs
+  #   user: "0"
+  #   environment:
+  #     - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+  #     - KIBANA_PASSWORD=${KIBANA_PASSWORD}
+  #   networks:
+  #     - default_network-deploy
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "[ -f config/certs/es/es.crt ]"]
+  #     interval: 1s
+  #     timeout: 5s
+  #     retries: 120
+
+  # es:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
+  #   container_name: elasticsearch
+  #   volumes:
+  #     - certs:/usr/share/elasticsearch/config/certs
+  #     - es-data:/usr/share/elasticsearch/data
+  #   ports:
+  #     - 9200:9200
+  #     - 9300:9300
+  #   environment:
+  #     # - node.name=es
+  #     # - cluster.name=${CLUSTER_NAME}
+  #     - discovery.type=single-node
+  #     # - index.number_of_replicas=0
+  #     - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+  #     # - bootstrap.memory_lock=true
+  #     - xpack.security.enabled=true
+  #     - xpack.security.http.ssl.enabled=true
+  #     - xpack.security.http.ssl.key=certs/es/es.key
+  #     - xpack.security.http.ssl.certificate=certs/es/es.crt
+  #     - xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
+  #     - logger.level=error
+  #     - xpack.security.transport.ssl.enabled=true
+  #     - xpack.security.transport.ssl.key=certs/es/es.key
+  #     - xpack.security.transport.ssl.certificate=certs/es/es.crt
+  #     - xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
+  #     - xpack.security.transport.ssl.verification_mode=certificate
+  #     # - xpack.license.self_generated.type=${LICENSE}
+  #     # - ES_JAVA_OPTS=-Xms512m -Xmx512m
+  #   mem_limit: ${ES_MEM_LIMIT}
+  #   ulimits:
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #   networks:
+  #     - default_network-deploy
+  #   depends_on:
+  #     setup:
+  #       condition: service_healthy
+  #   restart: unless-stopped
+  #   healthcheck:
+  #     test:
+  #       [
+  #         "CMD-SHELL",
+  #         "curl -s --cacert config/certs/ca/ca.crt https://localhost:9200 | grep -q 'missing authentication credentials'",
+  #       ]
+  #     interval: 10s
+  #     retries: 120
+
+  # logstash:
+  #   # image: docker.elastic.co/logstash/logstash:8.12.2
+  #   build:
+  #     context: ./elk/logstash/
+  #     args:
+  #       ELASTIC_VERSION: ${ELASTIC_VERSION}
+  #   container_name: logstash
+  #   user: root
+  #   volumes:
+  #     - certs:/usr/share/logstash/config/certs
+  #     # - ./elk/logstash/pipeline:/usr/share/logstash/pipeline
+  #     # - ./elk/logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+  #     - django-logs:/var/log/django
+  #     - nginx-logs:/var/log/nginx
+  #     - ls-data:/usr/share/logstash/data
+
+  #   ports:
+  #     - "5044:5044"
+  #   environment:
+  #     # - LS_JAVA_OPTS=-Xms256m -Xmx256m
+  #     # - node.name=logstash
+  #     # LOGSTASH_INTERNAL_PASSWORD: ${LOGSTASH_INTERNAL_PASSWORD:-}
+  #     # http.host: 0.0.0.0
+  #     - xpack.monitoring.enabled=false
+  #     - ELASTIC_USER=elastic
+  #     - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+  #     - ELASTIC_HOSTS=https://es:9200
+  #   mem_limit: ${LS_MEM_LIMIT}
+  #   depends_on:
+  #     es:
+  #       condition: service_healthy
+  #   networks:
+  #     - default_network-deploy
+  #   restart: unless-stopped
+
+  # kibana:
+  #   image: docker.elastic.co/kibana/kibana:${ELASTIC_VERSION}
+  #   container_name: kibana
+  #   volumes:
+  #     - certs:/usr/share/kibana/config/certs
+  #     - kb-data:/usr/share/kibana/data
+  #   # ports:
+  #   #   - 5601:5601
+  #   environment:
+  #     - SERVERNAME=kibana
+  #     - ELASTICSEARCH_HOSTS=https://es:9200
+  #     - ELASTICSEARCH_USERNAME=kibana_system
+  #     - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
+  #     - ELASTICSEARCH_SSL_CERTIFICATEAUTHORITIES=/usr/share/kibana/config/certs/ca/ca.crt
+  #     # - xpack.security.audit.enabled=true
+  #     - XPACK_SECURITY_ENCRYPTIONKEY=${ENCRYPTION_KEY}
+  #     - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=${ENCRYPTION_KEY}
+  #     - XPACK_REPORTING_ENCRYPTIONKEY=${ENCRYPTION_KEY}
+  #     - SERVER_BASEPATH="/kibana"
+  #     # - SERVER_PUBLICBASEURL=https://example.com/kibana
+  #     - SERVER_REWRITEBASEPATH="true"
+  #     # - SERVER_SSL_ENABLED=true
+  #     # - SERVER_SSL_CERTIFICATE=/usr/share/kibana/config/certs/kibana/kibana.crt
+  #     # - SERVER_SSL_KEY=/usr/share/kibana/config/certs/kibana/kibana.key
+  #     # - LOGGING_ROOT_LEVEL=error
+  #     # - KIBANA_SYSTEM_PASSWORD=${KIBANA_PASSWORD:-}
+  #   mem_limit: ${KB_MEM_LIMIT}
+  #   networks:
+  #     - default_network-deploy
+  #   depends_on:
+  #     es:
+  #       condition: service_healthy
+  #   restart: unless-stopped
+
+volumes:
+  db-data:
+  redis_data:
+  static_data:
+  react_build:
+  django-logs:
+  nginx-logs:
+  # es-data:
+  # ls-data:
+  # kb-data:
+  certs:
+
+networks:
+  default_network-deploy:
+    driver: bridge

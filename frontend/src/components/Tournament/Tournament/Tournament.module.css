@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-game-screen-bg);
+  height:  calc(100vh - var(--header-height) - var(--footer-height));
+  border-radius: 10px;
+  min-height: 600px;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset;
+  padding: 30px;
+}
+
+.bracket {
+  left: 50%;
+  top: 50%;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.round {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.round .winners > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.round .winners > div.matchups .matchup:last-child {
+  margin-bottom: 0 !important;
+}
+
+.round .winners > div.matchups .matchup .participants {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.round .winners > div.matchups .matchup .participants .participant {
+  box-sizing: border-box;
+  color: var(--text-color);
+  border-left: 0.5rem solid #858585;
+  /* background: white; */
+  /* background: #D8D8D8; */
+  background: var(--tournament-form-bg);
+  width: 22rem;
+  height: 5rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 1px;
+}
+
+.round .winners > div.matchups .matchup .participants .participant.winner {
+  color: var(--color-brand--1);
+  border-color: var(--color-brand--1);
+}
+
+.round .winners > div.matchups .matchup .participants .participant.loser {
+  color: #dc563f;
+  border-color: #dc563f;
+}
+
+.round .winners > div.matchups .matchup .participants .participant span {
+  margin: 0 1.25rem;
+  line-height: 4;
+  font-size: 1.4rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.round .winners > div.connector.filled .line,
+.round .winners > div.connector.filled.bottom .merger:after,
+.round .winners > div.connector.filled.top .merger:before {
+  border-color: var(--color-brand--1);
+}
+
+.round .winners > div.connector .line,
+.round .winners > div.connector .merger {
+  box-sizing: border-box;
+  width: 2rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.round .winners > div.connector .line {
+  border-bottom: thin solid #c0c0c8;
+  height: 6rem;
+}
+
+.round .winners > div.connector .merger {
+  position: relative;
+  height: 12rem;
+}
+
+.round .winners > div.connector .merger:before,
+.round .winners > div.connector .merger:after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  border: 0 solid;
+  border-color: #c0c0c8;
+}
+
+.round .winners > div.connector .merger:before {
+  border-right-width: thin;
+  border-top-width: thin;
+}
+
+.round .winners > div.connector .merger:after {
+  border-right-width: thin;
+  border-bottom-width: thin;
+}
+
+/* Quarterfinals-specific styling */
+.round.quarterfinals .winners:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.round.quarterfinals .winners .matchups .matchup:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* Finals-specific styling */
+.round.finals .winners .matchups .matchup:not(:last-child) {
+  margin-bottom: 14rem;
+}
+
+.matchup {
+  position: relative;
+}
+
+.playButton {
+  position: absolute;
+  top: 0;
+  left:  calc(100% - 30px);
+  height: 100%;
+  z-index: 1;
+  background: #ff7f5096;
+  border: none;
+ padding: 4px;
+  border-radius:  0 8px   8px 0;
+  width: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.playButton:hover {
+  cursor: pointer;
+  background: rgb(228, 94, 46);
+}
+
+.playButton > .button {
+  width: 30px;
+  min-width: 30px;
+  color: var(--color-brand--1);
+  border: var(--color-brand--1);
+}
+
+.verticalText {
+}
+
+.tournamentBody {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+
+/*****************************************************/
+/****************** Pong style ***********************/
+/*****************************************************/
+
+
+#gameCanvas {
+    /* width: 100%;
+    height: 100%; */
+    background-color: var(--tournament-form-bg);
+    touch-action: manipulation;
+    /* cursor: none; */
+    border: 6px solid var(--text-color);
+}
+
+.canvasDiv {
+  position: relative;
+
+  width: 654px;
+  height: 484px;
+}
+.score {
+  position: absolute;
+  top: 20px;       /* Position it relative to the canvas container */
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--game-screen-text-color);
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding: 5px 15px; /* Padding for better readability */
+  border-radius: 10px; /* Rounded corners */
+  z-index: 10;  /* Ensure it appears above the canvas */
+}
+
+.gameScreenDiv {
+  position: relative;
+    /* width: 100%;
+    height: 100%; */
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid var(--game-screen-text-color); */
+}
+
+.gameScreenDiv>button {
+    margin-bottom: 14px
+}
+
+.scoreWrapper {
+    position: relative;
+    top: 20px;
+    display: flex;
+    height: 0;
+    justify-content: center;
+    cursor: none
+}
+
+.player1Score,.player2Score {
+    color: var(--game-screen-text-color);
+    font-size: 48px;
+    font-weight: 600;
+    width: 100px
+}
+
+.player1Score {
+    text-align: right;
+    margin-right: 80px
+}
+
+.player2Score {
+    text-align: left;
+    margin-left: 80px
+}
+
+
+/* PlayerForm.module.css */
+.form {
+  box-sizing: content-box;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--tournament-form-bg); /* dark #323232*/
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #333; */
+}
+
+.inputContainer {
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  /* color: #555; */
+  font-size: 1.2rem;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 40px;
+  color: var(--text-color);
+
+  background-color: var(--tournament-input-bg); /* dark #626262*/
+}
+.input:focus {
+  background-color: #497285;
+  color: var(--text-color)
+}
+
+.form > .button {
+box-sizing: border-box;
+
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: #b81b37;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--sidebar-tab-hover);
+}
+
+
+.playerNamesWrapper {
+  width: 650px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 100%; */
+  /* border: 1px solid red; */
+    box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.6),
+    0 2px 5px rgba(0, 0, 0, 0.4) inset;
+    margin-bottom: 20px;;
+}
+.player1, .player2 {
+    padding: 5px 0;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.vsDiv {
+      color: var(--text-color);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pauseDiv {
+    position: absolute;
+    /* bottom: 30px; */
+    font-size: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+}
+
+.pauseButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    /* left: 50%; */
+    bottom: -60px;
+    border-radius: 10px;
+    background-color: var(--text-color);
+}
+
+
+/* Click to start overlay */
+.gameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.8); */
+    backdrop-filter: blur(4px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.gameOverlayContent h2 {
+  /* font-size: 2rem; */
+  text-align: center;
+}
+
+.gameOverlayContent {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.gameOverlay:hover {
+  /* background: rgba(0, 0, 0, 0.9); */
+    backdrop-filter: blur(5px);
+
+}

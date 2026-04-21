@@ -1,0 +1,370 @@
+.securityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.UpdatePassContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #1E2533;
+    padding: 2.5rem;
+    gap: 1rem;
+}
+
+.title {
+    align-self: self-start;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.changePassForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.entryArea {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2533;
+    gap: 0.7rem;
+}
+
+.containerFiled {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    position: relative;
+}
+
+.label {
+    font-size: 1.5rem;
+    color: #D1D3D4;
+}
+
+.passContainer {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input {
+    background-color: #0E1725;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    padding-right: 50px;
+    font-size: 1.4rem;
+    color: #D1D3D4;
+}
+
+.showPassIcon {
+    position: absolute;
+    left: calc(280px - 40px);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.ConfirmButtons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: end */
+    gap: 3rem;
+}
+
+.confirmBtn, .closeBtn {
+    background-color: #0E1725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #D1D3D4;
+}
+
+.confirmBtn:hover, .closeBtn:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.confirmBtn {
+    border: 1px solid #F8C25C;
+}
+
+.closeBtn {
+    border: 1px solid #AA2926;
+}
+
+.twoFacForm {
+    /* border: 1px solid #F8C25C; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 45%;
+    border-radius: 25px;
+    background-color: #1E2533;
+    padding: 2rem;
+    position: relative;
+}
+
+.twoFacContainer {
+    /* border: 1px solid #F8C25C; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.inputContainer {
+    /* border: 1px solid #F8C25C; */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 70%;
+    height: 100%;
+}
+
+.otpAndInput {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.labelIcon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.labelIcon label {
+    font-size: 1rem;
+    color: #D1D3D4;
+}
+
+.mobileMsgIcon {
+    font-size: 4rem;
+    color: #D1D3D4;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #72767d;
+}
+
+.inputBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap : 1rem;
+}
+
+.verifCode {
+    background-color: #0E1725;
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #D1D3D4;
+}
+
+.enableBtn {
+    border: 1px solid #F8C25C;
+    padding: 8px;
+    background-color: #0E1725;
+    border-radius: 8px;
+    color: #D1D3D4;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.enableBtn:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.qrCodeContainer {
+    /* border: 1px solid #F8C25C; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 8rem; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.qrCodeContainer button {
+    background-color: #0E1725;
+    border: 1px solid #F8C25C;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #D1D3D4;
+}
+
+.qrCodeContainer button:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.qrCodeContainerApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.qrCodeContainerApp p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+
+}
+.qrCodeContainerApp img {
+    border-radius: 10px;
+    border: 2px solid #f8c25c;
+    width: 200px;
+    height: 200px;
+}
+.fieldError {
+    color: #AA2926;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.disable2faContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.disableBtn {
+    border: 1px solid #AA2926;
+    padding: 8px;
+    background-color: #0E1725;
+    border-radius: 8px;
+}
+
+.disableBtn:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+
+.downloadBtn {
+    border: 1px solid #4CAF50;
+    padding: 8px;
+    background-color: #0E1725;
+    border-radius: 8px;
+    color: #D1D3D4;
+    cursor: pointer;
+}
+
+.downloadBtn:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup {
+    background-color: #1E2533;
+    border: 1px solid #f8c25c;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    max-width: 400px;
+}
+
+.popup h2 {
+    color: #ffffff;
+}
+
+.osButtons button {
+    border: 1px solid #F8C25C;
+    padding: 10px 20px;
+    background-color: #0E1725;
+    border-radius: 8px;
+    color: var(--text-color);
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+.osButtons button:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.closePopup {
+    background-color: #AA2926;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.closePopup:hover {
+    background-color: #5874a2;
+    color: red;
+}
+
+.qrCode {
+    border-radius: 10px;
+    border: 2px solid #f8c25c;
+    width: 120px;
+    height: 120px;
+}
+
+.osButtons .selected {
+    background-color: #5774a1;
+}
+
+.appLink {
+    color: #f8c25c;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.appLink:hover {
+    text-decoration: underline;
+}

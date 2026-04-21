@@ -1,0 +1,141 @@
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  background-color: var(--chat-body);
+  padding: 50px 20px;
+  padding-bottom: 10px;
+  border-radius: 0 20px 20px 0;
+  margin-left: 20px;
+  transition:
+    width 0.3s ease,
+    padding 0.3s ease;
+  position: relative;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+  padding: 50px 10px;
+  padding-bottom: 10px;
+}
+
+.sidebarContent {
+  flex-grow: 1;
+}
+
+.navButton,
+.addFriendButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  background-color: transparent;
+  border: none;
+  color: #f8f3e3;
+  text-align: left;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 15px;
+  box-shadow: inset 0 0 0 0 var(--selected-color);
+  transition:
+    color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out,
+    padding 0.3s ease;
+  overflow: hidden;
+}
+
+.navButton:hover,
+.addFriendButton:hover {
+  box-shadow: inset 375px 0 0 0 var(--selected-color);
+  color: #f8f3e3;
+}
+
+.navButton.active,
+.addFriendButton.active {
+  background-color: var(--selected-color);
+  color: #f8f3e3;
+}
+
+.navButton .icon,
+.addFriendButton .icon {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.buttonText {
+  font-size: 2.5rem;
+  white-space: nowrap;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.collapsed .navButton,
+.collapsed .addFriendButton {
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.collapsed .navButton .icon,
+.collapsed .addFriendButton .icon {
+  margin-right: 0;
+}
+
+.collapsed .buttonText {
+  opacity: 0;
+  transform: translateX(-20px);
+  width: 0;
+  margin-left: 0;
+}
+
+.collapseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  right: -20px; 
+  background-color: #f8f3e3;
+  cursor: pointer;
+  color: var(--primary-, #333);
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.3s ease;
+}
+
+.collapseButton:hover {
+  background-color: var(--selected-color); 
+  color: #fff;
+}
+
+.collapsed .collapseButton {
+  right: -20px;  
+}
+
+
+
+.iconContainer {
+  position: relative; 
+  display: inline-flex;
+}
+
+.notificationBadge {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 15px; 
+  height: 15px;
+  background-color: red; 
+  border-radius: 50%; 
+  border: 2px solid white;
+}

@@ -1,0 +1,251 @@
+.messageInputWrapper {
+  background-color: #1f2533;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 0 0 20px 0;
+  gap: 12px;
+  position: relative;
+}
+
+.buttonAndSend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+
+.EmojiAndInvite {
+  display: flex;
+  align-items: center;
+}
+.invite {
+  width: 22px;
+  height: 22px;
+}
+.messageBlock {
+  color: var(--text-color);
+  background-color: var(--selected-color);
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 0 0 20px 0;
+  align-items: center;
+  gap: 12px;
+}
+
+.messageBlock h2 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.messageBlock p {
+  color: var(--text-color);
+  font-size: 0.8em;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.buttonUnblock {
+  border: none;
+  padding: 5px 18px;
+  background-color: #ff4c4b;
+  color: var(--text-color);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buttonUnblock:hover {
+  background-color: #ff3333;
+}
+
+.textarea {
+  background-color: transparent;
+  color: #1e2533;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  min-width: 0;
+  resize: none;
+  max-height: 150px;
+  overflow-y: auto;
+  line-height: 1.5;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.textarea:-moz-focusring {
+  outline: none;
+}
+
+.textarea {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #d1d8e7; 
+}
+
+.textarea:focus {
+  background-color: transparent;
+}
+
+.messageInputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  background-color: #d0d8e7;
+  border-radius: 24px;
+  flex: 1;
+  transition: box-shadow 0.2s ease;
+  max-height: 150px;
+  position: relative;
+  gap: 0.5rem
+}
+
+.inputActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+.messageInputContainer:focus-within {
+  box-shadow: 0 0 0 2px rgba(208, 216, 231, 0.3);
+}
+
+.input:focus {
+  background-color: transparent;
+}
+
+.buttonEmoji,
+.buttonClip {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1e2533;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.buttonEmoji:hover,
+.buttonClip:hover {
+  background-color: rgba(30, 37, 51, 0.1);
+  transform: scale(1.1);
+}
+
+.buttonClip.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+
+.buttonClip img {
+  width: 23px;
+  height: 23px;
+}
+.sendButton {
+  background-color: #d0d8e7;
+  color: #1e2533;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sendButton:hover:not(.disabled) {
+  background-color: #c1cce0;
+  transform: scale(1.05);
+}
+
+.sendButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sendButton.animateIcon {
+  animation: sendAnimation 0.3s ease forwards;
+}
+
+.emojiPicker {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 80px;
+  transform: scale(0.9);
+  transform-origin: bottom right;
+  z-index: 10;
+}
+
+
+.stickerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+.stickerContainer img{
+  display: flex;
+  width: 90%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.stickerContainer:hover {
+  transform: scale(1.1);
+}
+
+@keyframes sendAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 480px) {
+  .messageInputWrapper {
+    padding: 8px 12px;
+  }
+  
+  .messageInputContainer {
+    padding: 6px 12px;
+  }
+  
+  .textarea {
+    font-size: 14px;
+  }
+}
+
+.characterCounter {
+  margin-top: -8px;
+  margin-right: 5px;
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+}
+

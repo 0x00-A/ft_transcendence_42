@@ -1,0 +1,348 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #ffffff;
+    width: 100%;
+    height:  calc(100vh - var(--header-height) - var(--footer-height));
+    min-height: 1024px;
+    /* min-width: 900px; */
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.bluredBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.editProfileContainer {
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0E1725;
+    border-radius: 25px;
+    width: 600px;
+    /* height: 850px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.setPassContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: #1E2533;
+    border-radius: 25px;
+    width: 450px;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.formHeader h1 {
+    font-size: 3rem;
+    color: #F8F3E3;
+}
+
+.formHeader p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #D1D3D4;
+}
+
+.exitBtn {
+    height: 40px;
+    align-self: self-end;
+    border: none;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    color: #F8C25C;
+}
+
+.editProfileForm {
+    padding: 3rem;
+    padding-top: 0;
+    align-self: center;
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.buttonsGrp {
+    width: 80%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384B6C;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+
+.button {
+  padding: 20px;
+  width: 40%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  color: #9699b0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.3rem;
+}
+
+.button:hover {
+  color: #ffffff;
+}
+
+.buttonActive {
+    height: 30px;
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.loader {
+  width: 150px;
+  height: 140px;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.profileBodyConatiner {
+    width: 100%;
+    height: 70%;
+    gap: 1rem;
+    display: flex
+}
+.profileBodyConatiner h3 {
+    font-size: 2rem;
+}
+
+.rightBodyContainer {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.friendsTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    width: 40%;
+    height: 100%;
+    font-size: 2.2rem;
+    color: #F8F3E3;
+}
+
+.inputFields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.containerFiled {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.label {
+    font-size: 1.5rem;
+    color: #D1D3D4;
+}
+
+.input {
+    width: 100%;
+    background-color: #0E1725;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 50px;
+    font-size: 1.4rem;
+    color: #D1D3D4;
+}
+
+.showPassIcon {
+    position: absolute;
+    /* top: 50%; */
+    left: calc(100% - 40px);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.fieldError {
+    color: #AA2926;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.ConfirmButtons {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.confirmBtn, .closeBtn {
+    background-color: #0E1725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 70px;
+    height: 40px; */
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #D1D3D4;
+}
+
+.confirmBtn:hover, .closeBtn:hover {
+    background-color: #1E2533;
+    color: #ffffff;
+}
+
+.confirmBtn {
+    border: 1px solid #F8C25C;
+}
+
+.closeBtn {
+    border: 1px solid #AA2926;
+}
+
+.deleteAccBtn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #AA2926;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+
+.bluredBgConfirm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.confirmDelAccContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1E2533;
+    border-radius: 25px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 2.5rem;
+}
+
+.confirmDelAccContainer h1{
+    font-size: 2.2rem;
+    color: #AA2926;
+}
+
+.confirmDelAccContainer p{
+    color: #D1D3D4;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.confirmDelAccContainer label{
+    font-size: 1.4rem;
+    color: #D1D3D4;
+}
+
+.confirmDelAccContainer input {
+    width: 100%;
+    height: 45px;
+    background-color: #0E1725;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #D1D3D4;
+}
+
+.fieldError {
+    color: #AA2926;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+/* .ConfirmButtons {
+    display: flex;
+    gap: 4rem;
+} */
+
+/* .confirmBtn, .closeBtn {
+    background-color: #0E1725;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #D1D3D4;
+} */

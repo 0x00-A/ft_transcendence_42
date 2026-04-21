@@ -1,0 +1,277 @@
+.profileHeaderContainer {
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+  
+.profileBackground {
+    background-image: url('/welcome.png');
+    width: 95%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.friendState {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    color: #f8f3e3;
+    transition: background-color 0.2s, transform 0.2s;
+    font-size: 2rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.friendStatBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #283245;
+    color: var(--text-color);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17px;
+}
+.moreBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #283245;
+    color: var(--text-color);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17px;
+}
+  
+  .btnLabelMore {
+    position: absolute;
+    top: -28px;
+    right: -15px;
+    transform: translateX(-50%);
+    background-color: #0e1725;
+    color: var(--text-color);
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  .btnLabel {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    transform: translateX(-50%);
+    background-color: #0e1725;
+    color: var(--text-color);
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+.friendStatBtn:hover .btnLabel {
+    opacity: 1;
+    visibility: visible;
+}
+.moreBtn:hover .btnLabelMore {
+    opacity: 1;
+    visibility: visible;
+}
+
+.editProfileBtn {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #283245;
+    color: var(--text-color);
+    border: none;
+    gap: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    gap: 1rem;
+}
+
+.addFriendBtn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    background-color: #1e2533;
+    color: #f8f3e3;
+}
+
+.profileCard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 130px;
+    height: 178px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.avatarContainer {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    display: inline-block;
+}
+
+.profileAvatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 5px solid #f0a500;
+}
+
+.profileLevel {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0a500;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profileCard h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.profileStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 40%;
+    background-color: #1e2533;
+    border-radius: 20px;
+    border-top: 5px solid #5774a0;
+}
+
+.leftStats {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.rightStats {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.statValue {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.badgeIcon {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.statLabel {
+  color: #9699b0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.totalGames, .wins, .loses, .score, .rank, .badge {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 16px;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.badge {
+    padding: 1rem;
+}
+
+.totalGames:hover, .wins:hover, .loses:hover, .score:hover, .rank:hover, .badge:hover {
+    transform: translateY(-2px);
+}
+
+.totalGames {
+    background: linear-gradient(180deg, #384B6C 0%, #2B374D 63%, #1E2533 100%);
+    border-top: 4px solid #517abc;
+}
+
+.wins {
+    background: linear-gradient(180deg, rgba(245, 158, 11, 0.1) 0%, rgba(42, 43, 54, 0.5) 100%);
+    border-top: 4px solid #f59e0b;
+}
+
+.loses {
+    background: linear-gradient(180deg, rgba(239, 68, 68, 0.1) 0%, rgba(42, 43, 54, 0.5) 100%);
+    border-top: 4px solid #ef4444;
+}
+
+.score {
+    background: linear-gradient(180deg, #384B6C 0%, #2B374D 63%, #1E2533 100%);
+    border-top: 4px solid #517abc;
+}
+
+.rank {
+    background: linear-gradient(180deg, #384B6C 0%, #2B374D 63%, #1E2533 100%);
+    border-top: 4px solid #517abc;
+}
+
+.badge {
+    background: linear-gradient(180deg, #384B6C 0%, #2B374D 63%, #1E2533 100%);
+    border-top: 4px solid #517abc;
+}

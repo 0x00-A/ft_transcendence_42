@@ -1,0 +1,13 @@
+.returnIcon {
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+  size: 50px;
+}
+
+.returnIcon:hover {
+  cursor: pointer;
+}
+.returnIcon:active {
+  scale: 1.2;
+}

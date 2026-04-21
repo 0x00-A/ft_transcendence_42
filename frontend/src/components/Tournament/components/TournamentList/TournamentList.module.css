@@ -1,0 +1,244 @@
+/* TournamentList.module.css */
+
+.container {
+  /* width: 90%; */
+  height: 100% !important;
+  min-width: 600px;
+  margin: 0 auto;
+  /* margin-bottom: 30px; */
+  /* background-color: #2d2d2d; */
+  border-radius: 10px;
+  /* overflow: hidden; */
+  font-family: Arial, sans-serif;
+  /* box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.6),
+        0 2px 5px rgba(0, 0, 0, 0.4) inset; */
+  /* border-radius: 30px 30px 0 0; */
+  overflow: auto;
+}
+
+.tournamentList {
+  height: calc(100% - 50px);
+  overflow: auto;
+  border-radius: 0 0 10px 10px;
+  padding: 0;
+}
+
+.loaderWrapper,
+.errorWrapper {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noTournaments {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999999;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  /* border: 2px dashed #ddd; */
+  /* border-radius: 8px; */
+}
+
+.header,
+.row {
+  display: flex;
+  padding: 15px 15px;
+  color: var(--text-color);
+  align-items: center;
+}
+
+.header {
+  /* background-color: #1a1a1a; */
+  background-color: var(--tournament-header);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  /* min-height: 30px; */
+  /* border-radius: 10px 10px 0 0; */
+}
+
+.row {
+  /* background-color: #333333; */
+  background-color: var(--tournament-row);
+  border-top: 1px solid #444444;
+}
+
+.row:nth-child(odd) {
+  /* background-color: #2a2a2a; */
+  background-color: var(--tournament-row);
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+}
+
+.id {
+  flex: 0.5;
+}
+
+.name {
+  flex: 2;
+  text-transform: capitalize;
+}
+.creator {
+  text-transform: capitalize;
+}
+.creator,
+.date,
+.players {
+  flex: 1;
+}
+
+.action {
+  flex: 0.75;
+}
+
+.action button {
+  padding: 8px 32px;
+  background-color: #ffc107;
+  color: #000000;
+  font-weight: bold;
+  border: 1px solid #ffc107;
+  border-radius: 3px;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease-in-out,
+    background-color 0.2s ease;
+}
+
+.action button:hover {
+  background-color: #ffca2c;
+  transform: scale(1.05);
+}
+
+.action button:active {
+  background-color: #ffb300;
+  transform: scale(0.95);
+  border-radius: 0;
+  border: 1px solid #ffb300;
+}
+
+.action button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+}
+
+
+/* Media Query for Laptop Screens */
+@media screen and (max-width: 1366px) {
+  .container {
+    min-width: 500px;
+  }
+
+  .header,
+  .row {
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 12px;
+    height: 40px;
+  }
+
+  .tournamentList {
+    height: calc(100% - 40px);
+  }
+
+  .noTournaments {
+    font-size: 1em;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .action button {
+    padding: 6px 24px;
+    font-size: 0.9em;
+  }
+}
+
+/* Media Query for Smaller Laptops */
+@media screen and (max-width: 1024px) {
+  .container {
+    min-width: 400px;
+  }
+
+  .header,
+  .row {
+    padding: 8px;
+  }
+
+  .header {
+    font-size: 11px;
+    height: 35px;
+  }
+
+  .tournamentList {
+    height: calc(100% - 35px);
+  }
+
+  /* Adjust column sizes for smaller screens */
+  .id {
+    flex: 0.3;
+  }
+
+  .name {
+    flex: 1.5;
+  }
+
+  .creator,
+  .date,
+  .players {
+    flex: 0.8;
+  }
+
+  .action {
+    flex: 0.6;
+  }
+
+  .action button {
+    padding: 5px 20px;
+    font-size: 0.85em;
+  }
+
+  .noTournaments {
+    font-size: 0.9em;
+    padding: 12px;
+    gap: 12px;
+  }
+}
+
+/* Additional Media Query for Very Small Screens */
+@media screen and (max-width: 768px) {
+  .container {
+    min-width: 350px;
+  }
+
+  .header,
+  .row {
+    font-size: 0.9em;
+  }
+
+  .date {
+    display: none; /* Hide date on very small screens if needed */
+  }
+
+  .action button {
+    padding: 4px 16px;
+    font-size: 0.8em;
+  }
+}

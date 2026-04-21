@@ -1,0 +1,118 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      args:
+        DEV: "true"
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app/backend
+    command: >
+      sh -c "python manage.py wait_for_db &&
+              python manage.py makemigrations &&
+              python manage.py migrate &&
+              python manage.py create_badges &&
+              python manage.py create_achievements &&
+              python manage.py createsuperuser_auto &&
+              python manage.py load_initial_data &&
+              python manage.py runserver 0.0.0.0:8000"
+    environment:
+      # - ALLOWED_HOSTS=0.0.0.0,localhost,127.0.0.1,10.11.6.14
+      - ALLOWED_HOSTS=*
+      - DEBUG=1
+      - DB_HOST=$DB_HOST
+      - DB_NAME=$DB_NAME
+      - DB_USER=$DB_USER
+      - DB_PASS=$DB_PASS
+      - REDIS_HOST=$REDIS_HOST
+      - REDIS_PORT=$REDIS_PORT
+    env_file:
+      - .env
+    networks:
+      - default_network
+    depends_on:
+      db:
+        condition: service_started
+      # redis:
+      #   condition: service_started
+    restart: on-failure
+    # develop:
+    #   watch:
+    #     - action: sync
+    #       path: ./backend
+    #       target: /app/backend
+    #       # ignore:
+    #       # -
+    #     - action: rebuild
+    #       path: requirements.txt
+    healthcheck:
+      test: ["CMD", "python", "manage.py", "check"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 10s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/src:/app/frontend/src
+      - ./frontend/package.json:/app/frontend/package.json
+      - ./frontend/public:/app/frontend/public
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    # volumes:
+    #   - ./frontend:/app/frontend
+
+    depends_on:
+      backend:
+        condition: service_healthy
+    # develop:
+    #   watch:
+    #     - action: sync
+    #       path: ./frontend
+    #       target: /app/frontend
+    #       ignore:
+    #         - node_modules/
+    #     - action: rebuild
+    #       path: package.json
+
+  db:
+    image: postgres:13-alpine
+    # build:
+    #   context: ./db
+    #   dockerfile: Dockerfile
+
+    # ports:
+    #   - "5432:5432"
+    volumes:
+      - dev-db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=$DB_NAME
+      - POSTGRES_USER=$DB_USER
+      - POSTGRES_PASSWORD=$DB_PASS
+    networks:
+      - default_network
+
+  redis:
+    image: "redis:latest"
+    # ports:
+    #   - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - default_network
+
+volumes:
+  dev-db-data:
+  redis_data:
+
+networks:
+  default_network:
+    driver: bridge

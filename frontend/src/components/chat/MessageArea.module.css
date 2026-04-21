@@ -1,0 +1,161 @@
+.sideMessage {
+  display: flex;
+  flex-direction: column;
+  max-width: 75%;
+}
+.messageWrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.sender {
+  justify-content: flex-end;
+}
+
+.receiver {
+  justify-content: flex-start;
+}
+
+.messageBubble {
+  padding: 10px;
+  color: var(--text-color);
+  position: relative;
+  word-break: break-all;
+}
+
+
+.sender .messageBubble {
+  background-color: #5774a0;
+  border-radius: 15px 0 15px 15px;
+}
+
+.receiver .messageBubble {
+  border-radius: 0 15px 15px 15px;
+  background-color: #31405b;
+}
+.sender .sideMessage {
+  align-items: end;
+}
+
+.receiver .sideMessage {
+  align-items: start;
+}
+
+.sender .time {
+  text-align: right;
+  margin-right: 5px;
+}
+.receiver .time {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sender .nameAndTime {
+  justify-content: end;
+}
+.receiver .nameAndTime {
+  justify-content: start;
+}
+
+.nameAndTime {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.receiverInfo,
+.senderInfo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.receiverInfo p {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.receiverInfo span {
+  font-size: 10px;
+  margin-left: 5px;
+  color: #dcdee2;
+}
+.senderInfo p {
+  font-size: 13px;
+  margin-left: 5px;
+}
+.senderInfo span {
+  font-size: 10px;
+  margin-right: 5px;
+  color: #dcdee2;
+}
+
+.stickerContainer {
+  display: inline-block;
+}
+
+.stickerContainer img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.typingIndicator {
+  background-color: #31405b;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.typingDot {
+  width: 8px;
+  height: 8px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: #ccc;
+  animation: typing 1.5s infinite ease-in-out;
+}
+
+.typingDot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typingDot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.typingDot:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes typing {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.loadMoreButton {
+  position: absolute;
+  left: 50%;
+  background-color: #5774a1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.loadMoreButton:hover {
+  background-color: #60789c;
+}

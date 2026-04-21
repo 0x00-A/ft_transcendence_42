@@ -1,0 +1,105 @@
+.content {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 40px 40px;
+  text-align: center;
+}
+
+.title {
+  color: #F8F3E3;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.description span {
+  color: #FF2047;
+  font-weight: bold;
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.playButton {
+  margin: 20px auto;
+  background-color: #f59e0c;
+  color: #1e2533;
+  border: none;
+  padding: 12px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.playButton:hover {
+  background-color: #f5a00cc9;
+  transform: scale(1.05);
+}
+
+@media (min-width: 1440px) {
+  .content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .content {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    width: 70%;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
+  }
+
+  .description span {
+    font-size: 2.2rem;
+  }
+
+  .playButton {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+  .description span {
+    font-size: 2rem;
+  }
+
+  .playButton {
+    font-size: 1.6rem;
+    padding: 10px;
+  }
+}
